@@ -1,0 +1,98 @@
+{
+ "IMBITUBA_SC": {
+  "nome": "Imbituba (SC)",
+  "vu_gnss": -0.405,
+  "inc_gnss": 0.71,
+  "vu_ar6": -0.231,
+  "vu_ar6_faixa": [
+   -0.846,
+   0.392
+  ],
+  "diferenca": -0.174,
+  "n_gnss": 3,
+  "duracao_efetiva": 14.4,
+  "dif_projecao_2100_ssp245": -5.3,
+  "dif_explicada_por_vlm": 13.9,
+  "fracao_explicada_pct": -262.6
+ },
+ "RECIFE_PE": {
+  "nome": "Recife (PE)",
+  "vu_gnss": -3.054,
+  "inc_gnss": 0.868,
+  "vu_ar6": 0.492,
+  "vu_ar6_faixa": [
+   -0.154,
+   1.154
+  ],
+  "diferenca": -3.546,
+  "n_gnss": 2,
+  "duracao_efetiva": 17.2,
+  "dif_projecao_2100_ssp245": 275.7,
+  "dif_explicada_por_vlm": 283.7,
+  "fracao_explicada_pct": 102.9
+ },
+ "SALVADOR_BA": {
+  "nome": "Salvador (BA)",
+  "vu_gnss": 0.094,
+  "inc_gnss": 0.473,
+  "vu_ar6": 0.115,
+  "vu_ar6_faixa": [
+   -0.531,
+   0.762
+  ],
+  "diferenca": -0.021,
+  "n_gnss": 3,
+  "duracao_efetiva": 16.8,
+  "dif_projecao_2100_ssp245": -19.2,
+  "dif_explicada_por_vlm": 1.7,
+  "fracao_explicada_pct": -8.8
+ },
+ "BELEM_PA": {
+  "nome": "Belem (PA)",
+  "vu_gnss": -0.981,
+  "inc_gnss": 0.95,
+  "vu_ar6": 0.515,
+  "vu_ar6_faixa": [
+   -0.138,
+   1.177
+  ],
+  "diferenca": -1.496,
+  "n_gnss": 2,
+  "duracao_efetiva": 19.2,
+  "dif_projecao_2100_ssp245": 123.4,
+  "dif_explicada_por_vlm": 119.7,
+  "fracao_explicada_pct": 97.0
+ },
+ "CANANEIA_SP": {
+  "nome": "Cananeia (SP)",
+  "vu_gnss": -0.043,
+  "inc_gnss": 0.935,
+  "vu_ar6": -1.292,
+  "vu_ar6_faixa": [
+   -1.762,
+   -0.838
+  ],
+  "diferenca": 1.249,
+  "n_gnss": 1,
+  "duracao_efetiva": 21.4,
+  "dif_projecao_2100_ssp245": -117.4,
+  "dif_explicada_por_vlm": -99.9,
+  "fracao_explicada_pct": 85.1
+ },
+ "ILHA_FISCAL_RJ": {
+  "nome": "Ilha Fiscal (RJ)",
+  "vu_gnss": -0.117,
+  "inc_gnss": 0.533,
+  "vu_ar6": 0.069,
+  "vu_ar6_faixa": [
+   -0.4,
+   0.538
+  ],
+  "diferenca": -0.186,
+  "n_gnss": 4,
+  "duracao_efetiva": 16.1,
+  "dif_projecao_2100_ssp245": -13.6,
+  "dif_explicada_por_vlm": 14.9,
+  "fracao_explicada_pct": -109.4
+ }
+}

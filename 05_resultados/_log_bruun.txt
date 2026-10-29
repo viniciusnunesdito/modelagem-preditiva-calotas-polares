@@ -1,0 +1,149 @@
+========================================================================================================
+RECUO POTENCIAL DA LINHA DE COSTA PELA REGRA DE BRUUN
+========================================================================================================
+Fator de amplificacao geometrica: recuo por metro de elevacao do nivel do mar
+
+   declividade do perfil ativo         1/tan(beta)    recuo por metro de elevacao
+   ------------------------------------------------------------------------------
+   1:20   praia reflectiva, perfil ingreme           20                         20 m
+   1:50   praia intermediaria                    50                         50 m
+   1:100  praia dissipativa, perfil suave          100                        100 m
+   1:200  planicie costeira muito suave          200                        200 m
+
+
+========================================================================================================
+RECUO PROJETADO POR ESTACAO (via B, projecoes do IPCC AR6)
+========================================================================================================
+
+SSP1-2.6
+   Estacao                    S (m)       1:20       1:50      1:100      1:200
+
+   recuo em 2050 (m), por declividade:
+   Santana (AP), foz do Ama   0.149        3.0        7.5       14.9       29.9
+   Belem (PA)                 0.185        3.7        9.3       18.5       37.0
+   Ponta da Madeira (MA)      0.160        3.2        8.0       16.0       32.0
+   Fortaleza (CE)             0.155        3.1        7.8       15.5       31.0
+   Recife (PE)                0.243        4.9       12.2       24.3       48.7
+   Salvador (BA)              0.140        2.8        7.0       14.0       28.0
+   Ilha Fiscal, Rio de Jane   0.141        2.8        7.0       14.1       28.2
+   Santos (SP)                0.122        2.4        6.1       12.2       24.4
+   Cananeia (SP)              0.139        2.8        6.9       13.9       27.7
+   Imbituba (SC)              0.150        3.0        7.5       15.0       29.9
+   Rio Grande (RS)            0.103        2.1        5.2       10.3       20.7
+
+   recuo em 2100 (m), por declividade:
+   Santana (AP), foz do Ama   0.415        8.3       20.8       41.5       83.0
+   Belem (PA)                 0.506       10.1       25.3       50.6      101.3
+   Ponta da Madeira (MA)      0.442        8.8       22.1       44.1       88.3
+   Fortaleza (CE)             0.429        8.6       21.5       43.0       85.9
+   Recife (PE)                0.662       13.2       33.1       66.2      132.5
+   Salvador (BA)              0.383        7.7       19.2       38.3       76.7
+   Ilha Fiscal, Rio de Jane   0.382        7.6       19.1       38.2       76.5
+   Santos (SP)                0.332        6.6       16.6       33.2       66.3
+   Cananeia (SP)              0.380        7.6       19.0       38.0       76.0
+   Imbituba (SC)              0.408        8.2       20.4       40.8       81.6
+   Rio Grande (RS)            0.278        5.6       13.9       27.8       55.5
+
+SSP2-4.5
+   Estacao                    S (m)       1:20       1:50      1:100      1:200
+
+   recuo em 2050 (m), por declividade:
+   Santana (AP), foz do Ama   0.165        3.3        8.2       16.5       33.0
+   Belem (PA)                 0.202        4.0       10.1       20.2       40.4
+   Ponta da Madeira (MA)      0.175        3.5        8.8       17.5       35.1
+   Fortaleza (CE)             0.171        3.4        8.5       17.1       34.1
+   Recife (PE)                0.260        5.2       13.0       26.0       52.0
+   Salvador (BA)              0.156        3.1        7.8       15.6       31.2
+   Ilha Fiscal, Rio de Jane   0.156        3.1        7.8       15.6       31.3
+   Santos (SP)                0.138        2.8        6.9       13.8       27.5
+   Cananeia (SP)              0.153        3.1        7.7       15.3       30.7
+   Imbituba (SC)              0.165        3.3        8.2       16.5       32.9
+   Rio Grande (RS)            0.119        2.4        6.0       11.9       23.9
+
+   recuo em 2100 (m), por declividade:
+   Santana (AP), foz do Ama   0.536       10.7       26.8       53.6      107.1
+   Belem (PA)                 0.640       12.8       32.0       64.0      128.1
+   Ponta da Madeira (MA)      0.564       11.3       28.2       56.4      112.7
+   Fortaleza (CE)             0.554       11.1       27.7       55.4      110.7
+   Recife (PE)                0.794       15.9       39.7       79.4      158.7
+   Salvador (BA)              0.509       10.2       25.4       50.9      101.8
+   Ilha Fiscal, Rio de Jane   0.505       10.1       25.3       50.5      101.1
+   Santos (SP)                0.458        9.2       22.9       45.8       91.7
+   Cananeia (SP)              0.500       10.0       25.0       50.0       99.9
+   Imbituba (SC)              0.529       10.6       26.4       52.9      105.7
+   Rio Grande (RS)            0.404        8.1       20.2       40.4       80.8
+
+SSP5-8.5
+   Estacao                    S (m)       1:20       1:50      1:100      1:200
+
+   recuo em 2050 (m), por declividade:
+   Santana (AP), foz do Ama   0.194        3.9        9.7       19.4       38.7
+   Belem (PA)                 0.234        4.7       11.7       23.4       46.7
+   Ponta da Madeira (MA)      0.204        4.1       10.2       20.4       40.9
+   Fortaleza (CE)             0.200        4.0       10.0       20.0       40.0
+   Recife (PE)                0.291        5.8       14.5       29.1       58.2
+   Salvador (BA)              0.185        3.7        9.3       18.5       37.0
+   Ilha Fiscal, Rio de Jane   0.185        3.7        9.2       18.5       37.0
+   Santos (SP)                0.167        3.3        8.3       16.7       33.4
+   Cananeia (SP)              0.181        3.6        9.1       18.1       36.2
+   Imbituba (SC)              0.193        3.9        9.6       19.3       38.5
+   Rio Grande (RS)            0.148        3.0        7.4       14.8       29.6
+
+   recuo em 2100 (m), por declividade:
+   Santana (AP), foz do Ama   0.745       14.9       37.3       74.5      149.1
+   Belem (PA)                 0.874       17.5       43.7       87.4      174.7
+   Ponta da Madeira (MA)      0.776       15.5       38.8       77.6      155.2
+   Fortaleza (CE)             0.769       15.4       38.5       76.9      153.8
+   Recife (PE)                1.022       20.4       51.1      102.2      204.3
+   Salvador (BA)              0.727       14.5       36.3       72.7      145.3
+   Ilha Fiscal, Rio de Jane   0.718       14.4       35.9       71.8      143.7
+   Santos (SP)                0.678       13.6       33.9       67.8      135.6
+   Cananeia (SP)              0.706       14.1       35.3       70.6      141.3
+   Imbituba (SC)              0.738       14.8       36.9       73.8      147.5
+   Rio Grande (RS)            0.623       12.5       31.2       62.3      124.7
+
+
+========================================================================================================
+PARCELA DO RECUO ATRIBUIVEL AO DEGELO DAS CALOTAS POLARES
+========================================================================================================
+Aplicando a mesma regra apenas a componente de elevacao causada pelos mantos de gelo
+da Groenlandia e da Antartica (impressao digital ja incluida).
+
+SSP2-4.5, horizonte 2100
+   Estacao                   S total (m)  S calotas (m)      %  recuo cal. 1:20  recuo cal. 1:50 recuo cal. 1:100
+   Santana (AP), foz do Ama        0.536          0.193   36.1             3.9 m             9.7 m            19.3 m
+   Belem (PA)                      0.640          0.194   30.3             3.9 m             9.7 m            19.4 m
+   Ponta da Madeira (MA)           0.564          0.196   34.8             3.9 m             9.8 m            19.6 m
+   Fortaleza (CE)                  0.554          0.202   36.5             4.0 m            10.1 m            20.2 m
+   Recife (PE)                     0.794          0.206   25.9             4.1 m            10.3 m            20.6 m
+   Salvador (BA)                   0.509          0.201   39.5             4.0 m            10.0 m            20.1 m
+   Ilha Fiscal, Rio de Jane        0.505          0.197   39.0             3.9 m             9.9 m            19.7 m
+   Santos (SP)                     0.458          0.192   42.0             3.8 m             9.6 m            19.2 m
+   Cananeia (SP)                   0.500          0.190   38.0             3.8 m             9.5 m            19.0 m
+   Imbituba (SC)                   0.529          0.189   35.7             3.8 m             9.4 m            18.9 m
+   Rio Grande (RS)                 0.404          0.179   44.4             3.6 m             9.0 m            17.9 m
+
+SSP5-8.5, horizonte 2100
+   Estacao                   S total (m)  S calotas (m)      %  recuo cal. 1:20  recuo cal. 1:50 recuo cal. 1:100
+   Santana (AP), foz do Ama        0.745          0.246   33.0             4.9 m            12.3 m            24.6 m
+   Belem (PA)                      0.874          0.247   28.3             4.9 m            12.4 m            24.7 m
+   Ponta da Madeira (MA)           0.776          0.251   32.3             5.0 m            12.5 m            25.1 m
+   Fortaleza (CE)                  0.769          0.259   33.6             5.2 m            12.9 m            25.9 m
+   Recife (PE)                     1.022          0.265   26.0             5.3 m            13.3 m            26.5 m
+   Salvador (BA)                   0.727          0.261   35.9             5.2 m            13.1 m            26.1 m
+   Ilha Fiscal, Rio de Jane        0.718          0.262   36.4             5.2 m            13.1 m            26.2 m
+   Santos (SP)                     0.678          0.256   37.8             5.1 m            12.8 m            25.6 m
+   Cananeia (SP)                   0.706          0.253   35.8             5.1 m            12.7 m            25.3 m
+   Imbituba (SC)                   0.738          0.254   34.4             5.1 m            12.7 m            25.4 m
+   Rio Grande (RS)                 0.623          0.245   39.2             4.9 m            12.2 m            24.5 m
+
+
+SINTESE
+--------------------------------------------------------------------------------------------------------
+No cenario intermediario SSP2-4.5 em 2100, a elevacao projetada no litoral brasileiro
+fica entre 0.40 e 0.79 m, dos quais entre 0.18 e 0.21 m
+vem do degelo das calotas polares. Em praias de declividade 1:50 a 1:100, isso
+corresponde a um recuo potencial de 20 a 79 m no total, dos quais
+9 a 21 m atribuiveis especificamente as calotas.
+
+gravado 05_resultados/recuo_linha_costa.json

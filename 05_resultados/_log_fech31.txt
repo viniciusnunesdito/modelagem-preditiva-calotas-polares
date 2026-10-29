@@ -1,0 +1,92 @@
+========================================================================================================
+Ilha Fiscal (RJ)   lat -22.897  lon -43.167   registro maregrafico 1963-2022 (55 anos validos)
+========================================================================================================
+
+--------------------------------------------------------------------------------------------------------
+PERIODO 1963-2018  (51 anos de maregrafo)
+--------------------------------------------------------------------------------------------------------
+
+[1] Tendencia observada:
+   OLS          : +2.421 mm/ano  (IC95 classico +1.167 a +3.674)
+   OLS + HAC    : +2.421 mm/ano  (IC95 HAC      +0.361 a +4.480)  [L=3, inflacao do EP = 1.68x]
+   Theil-Sen    : +2.125 mm/ano  (IC95 +0.515 a +3.624)
+   Bootstrap    : +2.421 mm/ano  (IC95 +0.458 a +4.351)  [blocos de 4 anos]
+   n = 51 anos | R2 = 0.235 | autocorrelacao dos residuos (defasagem 1) = +0.676
+
+[2] Decomposicao fisica, com impressao digital recalculada em 1963-2018:
+Processo                      global     local      FP    inc.
+----------------------------------------------------------------
+Groenlandia                   +0.289    +0.365   1.261   0.041
+Antartica                     +0.137    +0.130   0.951   0.024
+Geleiras de montanha          +0.522    +0.528   1.013   0.094
+Agua continental              -0.068    +0.061  -0.899   0.045
+Esterico/dinamico local                 +0.115           0.013
+Movimento do terreno                    +0.117           0.533
+----------------------------------------------------------------
+SOMA PREVISTA                           +1.317           0.545  (+/- 1 sigma)
+OBSERVADO                               +2.421        IC95 HAC +0.36 a +4.48
+RESIDUO                                 +1.104        z = +0.93 -> FECHA (compativel)
+
+   Calotas polares: +0.495 mm/ano  =  20.5% do observado  e  37.6% da soma prevista
+
+--------------------------------------------------------------------------------------------------------
+PERIODO 1993-2018  (25 anos de maregrafo)
+--------------------------------------------------------------------------------------------------------
+
+[1] Tendencia observada:
+   OLS          : +2.879 mm/ano  (IC95 classico -0.624 a +6.381)
+   OLS + HAC    : +2.879 mm/ano  (IC95 HAC      -2.751 a +8.509)  [L=2, inflacao do EP = 1.70x]
+   Theil-Sen    : +3.378 mm/ano  (IC95 -0.864 a +7.900)
+   Bootstrap    : +2.879 mm/ano  (IC95 -1.370 a +6.999)  [blocos de 3 anos]
+   n = 25 anos | R2 = 0.112 | autocorrelacao dos residuos (defasagem 1) = +0.712
+
+[2] Decomposicao fisica, com impressao digital recalculada em 1993-2018:
+Processo                      global     local      FP    inc.
+----------------------------------------------------------------
+Groenlandia                   +0.626    +0.791   1.263   0.033
+Antartica                     +0.302    +0.287   0.950   0.032
+Geleiras de montanha          +0.646    +0.667   1.032   0.071
+Agua continental              +0.312    +0.232   0.743   0.045
+Esterico/dinamico local                 -0.578           0.079
+Movimento do terreno                    +0.117           0.533
+----------------------------------------------------------------
+SOMA PREVISTA                           +1.516           0.547  (+/- 1 sigma)
+OBSERVADO                               +2.879        IC95 HAC -2.75 a +8.51
+RESIDUO                                 +1.362        z = +0.47 -> FECHA (compativel)
+
+   Calotas polares: +1.078 mm/ano  =  37.5% do observado  e  71.1% da soma prevista
+
+========================================================================================================
+Cananeia (SP)   lat -25.017  lon -47.933   registro maregrafico 1954-2004 (51 anos validos)
+========================================================================================================
+
+--------------------------------------------------------------------------------------------------------
+PERIODO 1957-2004  (48 anos de maregrafo)
+--------------------------------------------------------------------------------------------------------
+
+[1] Tendencia observada:
+   OLS          : +4.099 mm/ano  (IC95 classico +3.367 a +4.832)
+   OLS + HAC    : +4.099 mm/ano  (IC95 HAC      +3.130 a +5.068)  [L=3, inflacao do EP = 1.36x]
+   Theil-Sen    : +4.030 mm/ano  (IC95 +3.272 a +4.800)
+   Bootstrap    : +4.099 mm/ano  (IC95 +2.968 a +5.181)  [blocos de 4 anos]
+   n = 48 anos | R2 = 0.734 | autocorrelacao dos residuos (defasagem 1) = +0.580
+
+[2] Decomposicao fisica, com impressao digital recalculada em 1957-2004:
+Processo                      global     local      FP    inc.
+----------------------------------------------------------------
+Groenlandia                   +0.184    +0.232   1.258   0.041
+Antartica                     +0.069    +0.061   0.894   0.019
+Geleiras de montanha          +0.442    +0.428   0.969   0.099
+Agua continental              -0.322    +0.018  -0.055   0.032
+Esterico/dinamico local                 +0.012           0.024
+Movimento do terreno                    +0.043           0.935
+----------------------------------------------------------------
+SOMA PREVISTA                           +0.794           0.942  (+/- 1 sigma)
+OBSERVADO                               +4.099        IC95 HAC +3.13 a +5.07
+RESIDUO                                 +3.306        z = +3.11 -> NAO FECHA (discrepancia significativa)
+
+   Calotas polares: +0.293 mm/ano  =  7.2% do observado  e  37.0% da soma prevista
+
+--- 1993-2018: apenas 12 anos de maregrafo, periodo descartado ---
+
+gravado 05_resultados/fechamento_local_refinado.json

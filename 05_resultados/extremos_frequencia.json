@@ -1,0 +1,938 @@
+{
+ "ILHA_FISCAL_RJ": {
+  "nome": "Ilha Fiscal, Rio de Janeiro (RJ)",
+  "uhslc_id": 280,
+  "periodo": [
+   1963,
+   2014
+  ],
+  "registro_longo": true,
+  "largura_da_cauda_mm": 333.7,
+  "n_horas": 424716,
+  "anos": 50.9,
+  "tendencia_removida_mm_ano": 2.087,
+  "amplitude_sazonal_mm": 124.0,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 736.3127,
+   "xi": -0.0384,
+   "sigma": 93.8667,
+   "n_exc": 4248,
+   "taxa_exc_por_ano": 87.6773
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 553.1697,
+    "xi": -0.1037,
+    "sigma": 125.5449,
+    "n_exc": 21236,
+    "taxa_exc_por_ano": 438.3041
+   },
+   "0.98": {
+    "u": 666.0634,
+    "xi": -0.061,
+    "sigma": 102.2828,
+    "n_exc": 8495,
+    "taxa_exc_por_ano": 175.334
+   },
+   "0.99": {
+    "u": 736.3127,
+    "xi": -0.0384,
+    "sigma": 93.8667,
+    "n_exc": 4248,
+    "taxa_exc_por_ano": 87.6773
+   },
+   "0.995": {
+    "u": 802.4967,
+    "xi": -0.0036,
+    "sigma": 85.2397,
+    "n_exc": 2124,
+    "taxa_exc_por_ano": 43.8387
+   },
+   "0.998": {
+    "u": 878.9398,
+    "xi": 0.0102,
+    "sigma": 84.1183,
+    "n_exc": 850,
+    "taxa_exc_por_ano": 17.5437
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1122.2,
+   "10_anos": 1296.4,
+   "100_anos": 1455.8
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 141.0,
+     "freq_nivel_1ano_por_ano": 5.614,
+     "freq_nivel_10anos_por_ano": 0.6548,
+     "freq_nivel_100anos_por_ano": 0.07738,
+     "amplificacao_1ano": 5.6,
+     "amplificacao_10anos": 6.5,
+     "amplificacao_100anos": 7.7,
+     "novo_TR_do_nivel_100anos_anos": 12.923,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.01,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.22,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.06
+    },
+    "2100": {
+     "S_mm": 382.4,
+     "freq_nivel_1ano_por_ano": 84.521,
+     "freq_nivel_10anos_por_ano": 12.2907,
+     "freq_nivel_100anos_por_ano": 1.83903,
+     "amplificacao_1ano": 84.5,
+     "amplificacao_10anos": 122.9,
+     "amplificacao_100anos": 183.9,
+     "novo_TR_do_nivel_100anos_anos": 0.544,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.07,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.02,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 3.52,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.96
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 156.4,
+     "freq_nivel_1ano_por_ano": 6.732,
+     "freq_nivel_10anos_por_ano": 0.7975,
+     "freq_nivel_100anos_por_ano": 0.09585,
+     "amplificacao_1ano": 6.7,
+     "amplificacao_10anos": 8.0,
+     "amplificacao_100anos": 9.6,
+     "novo_TR_do_nivel_100anos_anos": 10.433,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.01,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.25,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.07
+    },
+    "2100": {
+     "S_mm": 505.4,
+     "freq_nivel_1ano_por_ano": 271.185,
+     "freq_nivel_10anos_por_ano": 48.6619,
+     "freq_nivel_100anos_por_ano": 8.05679,
+     "amplificacao_1ano": 271.2,
+     "amplificacao_10anos": 486.6,
+     "amplificacao_100anos": 805.7,
+     "novo_TR_do_nivel_100anos_anos": 0.124,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.31,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.08,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 11.3,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 3.09
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 184.9,
+     "freq_nivel_1ano_por_ano": 9.392,
+     "freq_nivel_10anos_por_ano": 1.1444,
+     "freq_nivel_100anos_por_ano": 0.14179,
+     "amplificacao_1ano": 9.4,
+     "amplificacao_10anos": 11.4,
+     "amplificacao_100anos": 14.2,
+     "novo_TR_do_nivel_100anos_anos": 7.053,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.01,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.38,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.1
+    },
+    "2100": {
+     "S_mm": 718.4,
+     "freq_nivel_1ano_por_ano": 1088.351,
+     "freq_nivel_10anos_por_ano": 364.4141,
+     "freq_nivel_100anos_por_ano": 86.64578,
+     "amplificacao_1ano": 1088.4,
+     "amplificacao_10anos": 3644.1,
+     "amplificacao_100anos": 8664.6,
+     "novo_TR_do_nivel_100anos_anos": 0.012,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 3.6,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.99,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 45.35,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 12.42
+    }
+   }
+  }
+ },
+ "CANANEIA_SP": {
+  "nome": "Cananeia (SP)",
+  "uhslc_id": 281,
+  "periodo": [
+   1954,
+   2007
+  ],
+  "registro_longo": true,
+  "largura_da_cauda_mm": 438.7,
+  "n_horas": 457699,
+  "anos": 52.8,
+  "tendencia_removida_mm_ano": 4.228,
+  "amplitude_sazonal_mm": 114.3,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 872.4361,
+   "xi": -0.0189,
+   "sigma": 108.2253,
+   "n_exc": 4577,
+   "taxa_exc_por_ano": 87.6602
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 652.978,
+    "xi": -0.0507,
+    "sigma": 141.2387,
+    "n_exc": 22885,
+    "taxa_exc_por_ano": 438.301
+   },
+   "0.98": {
+    "u": 785.499,
+    "xi": -0.0349,
+    "sigma": 120.1609,
+    "n_exc": 9154,
+    "taxa_exc_por_ano": 175.3204
+   },
+   "0.99": {
+    "u": 872.4361,
+    "xi": -0.0189,
+    "sigma": 108.2253,
+    "n_exc": 4577,
+    "taxa_exc_por_ano": 87.6602
+   },
+   "0.995": {
+    "u": 952.1794,
+    "xi": -0.0015,
+    "sigma": 98.5073,
+    "n_exc": 2289,
+    "taxa_exc_por_ano": 43.8397
+   },
+   "0.998": {
+    "u": 1047.9728,
+    "xi": 0.0289,
+    "sigma": 86.8148,
+    "n_exc": 916,
+    "taxa_exc_por_ano": 17.5435
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1336.7,
+   "10_anos": 1560.8,
+   "100_anos": 1775.4
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 138.5,
+     "freq_nivel_1ano_por_ano": 3.953,
+     "freq_nivel_10anos_por_ano": 0.4198,
+     "freq_nivel_100anos_por_ano": 0.04471,
+     "amplificacao_1ano": 4.0,
+     "amplificacao_10anos": 4.2,
+     "amplificacao_100anos": 4.5,
+     "novo_TR_do_nivel_100anos_anos": 22.369,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.13,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.04
+    },
+    "2100": {
+     "S_mm": 380.0,
+     "freq_nivel_1ano_por_ano": 40.005,
+     "freq_nivel_10anos_por_ano": 4.6853,
+     "freq_nivel_100anos_por_ano": 0.55232,
+     "amplificacao_1ano": 40.0,
+     "amplificacao_10anos": 46.9,
+     "amplificacao_100anos": 55.2,
+     "novo_TR_do_nivel_100anos_anos": 1.811,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.01,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 1.74,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.48
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 153.5,
+     "freq_nivel_1ano_por_ano": 4.578,
+     "freq_nivel_10anos_por_ano": 0.4893,
+     "freq_nivel_100anos_por_ano": 0.05244,
+     "amplificacao_1ano": 4.6,
+     "amplificacao_10anos": 4.9,
+     "amplificacao_100anos": 5.2,
+     "novo_TR_do_nivel_100anos_anos": 19.068,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.16,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.04
+    },
+    "2100": {
+     "S_mm": 499.6,
+     "freq_nivel_1ano_por_ano": 117.365,
+     "freq_nivel_10anos_por_ano": 14.8745,
+     "freq_nivel_100anos_por_ano": 1.83786,
+     "amplificacao_1ano": 117.4,
+     "amplificacao_10anos": 148.7,
+     "amplificacao_100anos": 183.8,
+     "novo_TR_do_nivel_100anos_anos": 0.544,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.05,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.01,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 4.89,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 1.34
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 181.1,
+     "freq_nivel_1ano_por_ano": 5.99,
+     "freq_nivel_10anos_por_ano": 0.6477,
+     "freq_nivel_100anos_por_ano": 0.07027,
+     "amplificacao_1ano": 6.0,
+     "amplificacao_10anos": 6.5,
+     "amplificacao_100anos": 7.0,
+     "novo_TR_do_nivel_100anos_anos": 14.231,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.22,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.06
+    },
+    "2100": {
+     "S_mm": 706.4,
+     "freq_nivel_1ano_por_ano": 500.316,
+     "freq_nivel_10anos_por_ano": 101.7946,
+     "freq_nivel_100anos_por_ano": 13.8064,
+     "amplificacao_1ano": 500.3,
+     "amplificacao_10anos": 1017.9,
+     "amplificacao_100anos": 1380.6,
+     "novo_TR_do_nivel_100anos_anos": 0.072,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.6,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.16,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 20.85,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 5.71
+    }
+   }
+  }
+ },
+ "FORTALEZA_CE": {
+  "nome": "Fortaleza (CE)",
+  "uhslc_id": 283,
+  "periodo": [
+   1955,
+   1969
+  ],
+  "registro_longo": false,
+  "largura_da_cauda_mm": 87.9,
+  "n_horas": 116506,
+  "anos": 14.0,
+  "tendencia_removida_mm_ano": 1.259,
+  "amplitude_sazonal_mm": 44.3,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 1390.0455,
+   "xi": -0.3094,
+   "sigma": 142.9809,
+   "n_exc": 1166,
+   "taxa_exc_por_ano": 87.7307
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 1104.7317,
+    "xi": -0.2929,
+    "sigma": 222.7185,
+    "n_exc": 5826,
+    "taxa_exc_por_ano": 438.3527
+   },
+   "0.98": {
+    "u": 1281.8193,
+    "xi": -0.2994,
+    "sigma": 173.1153,
+    "n_exc": 2331,
+    "taxa_exc_por_ano": 175.3862
+   },
+   "0.99": {
+    "u": 1390.0455,
+    "xi": -0.3094,
+    "sigma": 142.9809,
+    "n_exc": 1166,
+    "taxa_exc_por_ano": 87.7307
+   },
+   "0.995": {
+    "u": 1481.1412,
+    "xi": -0.2844,
+    "sigma": 109.9598,
+    "n_exc": 583,
+    "taxa_exc_por_ano": 43.8654
+   },
+   "0.998": {
+    "u": 1568.4563,
+    "xi": -0.2773,
+    "sigma": 84.6118,
+    "n_exc": 234,
+    "taxa_exc_por_ano": 17.6063
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1736.4,
+   "10_anos": 1795.4,
+   "100_anos": 1824.3
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 155.1,
+     "freq_nivel_1ano_por_ano": 15.605,
+     "freq_nivel_10anos_por_ano": 7.0551,
+     "freq_nivel_100anos_por_ano": 4.38973,
+     "amplificacao_1ano": 15.6,
+     "amplificacao_10anos": 70.6,
+     "amplificacao_100anos": 439.0,
+     "novo_TR_do_nivel_100anos_anos": 0.228,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.17,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.05,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.66,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.18
+    },
+    "2100": {
+     "S_mm": 429.5,
+     "freq_nivel_1ano_por_ano": 151.234,
+     "freq_nivel_10anos_por_ano": 103.6818,
+     "freq_nivel_100anos_por_ano": 84.83121,
+     "amplificacao_1ano": 151.2,
+     "amplificacao_10anos": 1036.8,
+     "amplificacao_100anos": 8483.1,
+     "novo_TR_do_nivel_100anos_anos": 0.012,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 3.58,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.98,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 6.3,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 1.73
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 170.7,
+     "freq_nivel_1ano_por_ano": 18.7,
+     "freq_nivel_10anos_por_ano": 8.8762,
+     "freq_nivel_100anos_por_ano": 5.71874,
+     "amplificacao_1ano": 18.7,
+     "amplificacao_10anos": 88.8,
+     "amplificacao_100anos": 571.9,
+     "novo_TR_do_nivel_100anos_anos": 0.175,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.23,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.06,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.76,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.21
+    },
+    "2100": {
+     "S_mm": 553.6,
+     "freq_nivel_1ano_por_ano": 304.8,
+     "freq_nivel_10anos_por_ano": 221.2831,
+     "freq_nivel_100anos_por_ano": 187.87618,
+     "amplificacao_1ano": 304.8,
+     "amplificacao_10anos": 2212.8,
+     "amplificacao_100anos": 18787.6,
+     "novo_TR_do_nivel_100anos_anos": 0.005,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 7.83,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 2.14,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 12.7,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 3.48
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 200.1,
+     "freq_nivel_1ano_por_ano": 25.644,
+     "freq_nivel_10anos_por_ano": 13.1475,
+     "freq_nivel_100anos_por_ano": 8.93575,
+     "amplificacao_1ano": 25.6,
+     "amplificacao_10anos": 131.5,
+     "amplificacao_100anos": 893.6,
+     "novo_TR_do_nivel_100anos_anos": 0.112,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.34,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.09,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 1.06,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.29
+    },
+    "2100": {
+     "S_mm": 769.2,
+     "freq_nivel_1ano_por_ano": 761.813,
+     "freq_nivel_10anos_por_ano": 608.0206,
+     "freq_nivel_100anos_por_ano": 541.13155,
+     "amplificacao_1ano": 761.8,
+     "amplificacao_10anos": 6080.2,
+     "amplificacao_100anos": 54113.2,
+     "novo_TR_do_nivel_100anos_anos": 0.002,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 22.55,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 6.17,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 31.74,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 8.69
+    }
+   }
+  }
+ },
+ "SALVADOR_BA": {
+  "nome": "Salvador (BA)",
+  "uhslc_id": 708,
+  "periodo": [
+   1955,
+   1965
+  ],
+  "registro_longo": false,
+  "largura_da_cauda_mm": 83.3,
+  "n_horas": 81055,
+  "anos": 10.0,
+  "tendencia_removida_mm_ano": 5.193,
+  "amplitude_sazonal_mm": 91.7,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 1191.3979,
+   "xi": -0.2744,
+   "sigma": 108.7166,
+   "n_exc": 811,
+   "taxa_exc_por_ano": 87.7087
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 981.8723,
+    "xi": -0.2796,
+    "sigma": 166.2404,
+    "n_exc": 4053,
+    "taxa_exc_por_ano": 438.327
+   },
+   "0.98": {
+    "u": 1117.0009,
+    "xi": -0.2439,
+    "sigma": 121.0906,
+    "n_exc": 1622,
+    "taxa_exc_por_ano": 175.4173
+   },
+   "0.99": {
+    "u": 1191.3979,
+    "xi": -0.2744,
+    "sigma": 108.7166,
+    "n_exc": 811,
+    "taxa_exc_por_ano": 87.7087
+   },
+   "0.995": {
+    "u": 1259.7931,
+    "xi": -0.2623,
+    "sigma": 88.3565,
+    "n_exc": 406,
+    "taxa_exc_por_ano": 43.9084
+   },
+   "0.998": {
+    "u": 1329.9792,
+    "xi": -0.3146,
+    "sigma": 76.2153,
+    "n_exc": 163,
+    "taxa_exc_por_ano": 17.6283
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1471.5,
+   "10_anos": 1525.9,
+   "100_anos": 1554.8
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 140.1,
+     "freq_nivel_1ano_por_ano": 17.9,
+     "freq_nivel_10anos_por_ano": 7.5038,
+     "freq_nivel_100anos_por_ano": 4.27172,
+     "amplificacao_1ano": 17.9,
+     "amplificacao_10anos": 75.0,
+     "amplificacao_100anos": 427.2,
+     "novo_TR_do_nivel_100anos_anos": 0.234,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.19,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.05,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.73,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.2
+    },
+    "2100": {
+     "S_mm": 383.3,
+     "freq_nivel_1ano_por_ano": 221.272,
+     "freq_nivel_10anos_por_ano": 141.4586,
+     "freq_nivel_100anos_por_ano": 108.47323,
+     "amplificacao_1ano": 221.3,
+     "amplificacao_10anos": 1414.6,
+     "amplificacao_100anos": 10847.3,
+     "novo_TR_do_nivel_100anos_anos": 0.009,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 4.52,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 1.24,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 9.22,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 2.52
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 155.9,
+     "freq_nivel_1ano_por_ano": 22.263,
+     "freq_nivel_10anos_por_ano": 9.8761,
+     "freq_nivel_100anos_por_ano": 5.87492,
+     "amplificacao_1ano": 22.3,
+     "amplificacao_10anos": 98.8,
+     "amplificacao_100anos": 587.5,
+     "novo_TR_do_nivel_100anos_anos": 0.17,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.24,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.07,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.86,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.24
+    },
+    "2100": {
+     "S_mm": 508.8,
+     "freq_nivel_1ano_por_ano": 490.022,
+     "freq_nivel_10anos_por_ano": 356.6747,
+     "freq_nivel_100anos_por_ano": 300.00474,
+     "amplificacao_1ano": 490.0,
+     "amplificacao_10anos": 3566.7,
+     "amplificacao_100anos": 30000.5,
+     "novo_TR_do_nivel_100anos_anos": 0.003,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 12.5,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 3.42,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 20.42,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 5.59
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 185.2,
+     "freq_nivel_1ano_por_ano": 32.324,
+     "freq_nivel_10anos_por_ano": 15.65,
+     "freq_nivel_100anos_por_ano": 9.94132,
+     "amplificacao_1ano": 32.3,
+     "amplificacao_10anos": 156.5,
+     "amplificacao_100anos": 994.1,
+     "novo_TR_do_nivel_100anos_anos": 0.101,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.41,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.11,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 1.31,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.36
+    },
+    "2100": {
+     "S_mm": 726.6,
+     "freq_nivel_1ano_por_ano": 1192.232,
+     "freq_nivel_10anos_por_ano": 985.9925,
+     "freq_nivel_100anos_por_ano": 894.49862,
+     "amplificacao_1ano": 1192.2,
+     "amplificacao_10anos": 9859.9,
+     "amplificacao_100anos": 89449.9,
+     "novo_TR_do_nivel_100anos_anos": 0.001,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 37.27,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 10.2,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 49.68,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 13.6
+    }
+   }
+  }
+ },
+ "RECIFE_PE": {
+  "nome": "Recife (PE)",
+  "uhslc_id": 712,
+  "periodo": [
+   1955,
+   1968
+  ],
+  "registro_longo": false,
+  "largura_da_cauda_mm": 77.5,
+  "n_horas": 108261,
+  "anos": 13.3,
+  "tendencia_removida_mm_ano": 3.523,
+  "amplitude_sazonal_mm": 94.1,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 1157.9777,
+   "xi": -0.2767,
+   "sigma": 102.5983,
+   "n_exc": 1083,
+   "taxa_exc_por_ano": 87.6916
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 943.0371,
+    "xi": -0.2943,
+    "sigma": 168.5777,
+    "n_exc": 5413,
+    "taxa_exc_por_ano": 438.296
+   },
+   "0.98": {
+    "u": 1080.6969,
+    "xi": -0.2785,
+    "sigma": 124.1707,
+    "n_exc": 2166,
+    "taxa_exc_por_ano": 175.3832
+   },
+   "0.99": {
+    "u": 1157.9777,
+    "xi": -0.2767,
+    "sigma": 102.5983,
+    "n_exc": 1083,
+    "taxa_exc_por_ano": 87.6916
+   },
+   "0.995": {
+    "u": 1222.7961,
+    "xi": -0.273,
+    "sigma": 84.1399,
+    "n_exc": 542,
+    "taxa_exc_por_ano": 43.8863
+   },
+   "0.998": {
+    "u": 1289.6951,
+    "xi": -0.2681,
+    "sigma": 65.7643,
+    "n_exc": 217,
+    "taxa_exc_por_ano": 17.5707
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1421.3,
+   "10_anos": 1471.9,
+   "100_anos": 1498.7
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 243.5,
+     "freq_nivel_1ano_por_ano": 71.925,
+     "freq_nivel_10anos_por_ano": 40.9403,
+     "freq_nivel_100anos_por_ano": 29.2039,
+     "amplificacao_1ano": 71.9,
+     "amplificacao_10anos": 409.4,
+     "amplificacao_100anos": 2920.4,
+     "novo_TR_do_nivel_100anos_anos": 0.034,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 1.25,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.34,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 3.0,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.82
+    },
+    "2100": {
+     "S_mm": 662.5,
+     "freq_nivel_1ano_por_ano": 1006.631,
+     "freq_nivel_10anos_por_ano": 827.8474,
+     "freq_nivel_100anos_por_ano": 733.67811,
+     "amplificacao_1ano": 1006.6,
+     "amplificacao_10anos": 8278.5,
+     "amplificacao_100anos": 73367.8,
+     "novo_TR_do_nivel_100anos_anos": 0.001,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 30.57,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 8.37,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 41.94,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 11.48
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 260.0,
+     "freq_nivel_1ano_por_ano": 84.914,
+     "freq_nivel_10anos_por_ano": 49.67,
+     "freq_nivel_100anos_por_ano": 36.08867,
+     "amplificacao_1ano": 84.9,
+     "amplificacao_10anos": 496.7,
+     "amplificacao_100anos": 3608.9,
+     "novo_TR_do_nivel_100anos_anos": 0.028,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 1.51,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.41,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 3.58,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.98
+    },
+    "2100": {
+     "S_mm": 793.7,
+     "freq_nivel_1ano_por_ano": 1547.275,
+     "freq_nivel_10anos_por_ano": 1321.0416,
+     "freq_nivel_100anos_por_ano": 1213.75509,
+     "amplificacao_1ano": 1547.3,
+     "amplificacao_10anos": 13210.4,
+     "amplificacao_100anos": 121375.5,
+     "novo_TR_do_nivel_100anos_anos": 0.001,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 50.57,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 13.85,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 64.47,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 17.65
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 290.9,
+     "freq_nivel_1ano_por_ano": 116.598,
+     "freq_nivel_10anos_por_ano": 69.5275,
+     "freq_nivel_100anos_por_ano": 52.03152,
+     "amplificacao_1ano": 116.6,
+     "amplificacao_10anos": 695.3,
+     "amplificacao_100anos": 5203.2,
+     "novo_TR_do_nivel_100anos_anos": 0.019,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 2.21,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.6,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 4.86,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 1.33
+    },
+    "2100": {
+     "S_mm": 1021.6,
+     "freq_nivel_1ano_por_ano": 2655.686,
+     "freq_nivel_10anos_por_ano": 2413.5832,
+     "freq_nivel_100anos_por_ano": 2276.01347,
+     "amplificacao_1ano": 2655.7,
+     "amplificacao_10anos": 24135.8,
+     "amplificacao_100anos": 227601.3,
+     "novo_TR_do_nivel_100anos_anos": 0.0,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 94.83,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 25.96,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 110.65,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 30.3
+    }
+   }
+  }
+ },
+ "IMBITUBA_SC": {
+  "nome": "Imbituba (SC)",
+  "uhslc_id": 718,
+  "periodo": [
+   2001,
+   2011
+  ],
+  "registro_longo": false,
+  "largura_da_cauda_mm": 929.4,
+  "n_horas": 74623,
+  "anos": 9.4,
+  "tendencia_removida_mm_ano": 4.429,
+  "amplitude_sazonal_mm": 177.1,
+  "quantil_adotado": 0.99,
+  "gpd": {
+   "u": 568.6836,
+   "xi": 0.1418,
+   "sigma": 75.8178,
+   "n_exc": 747,
+   "taxa_exc_por_ano": 87.7505
+  },
+  "ajustes_por_limiar": {
+   "0.95": {
+    "u": 401.0767,
+    "xi": 0.0112,
+    "sigma": 103.4445,
+    "n_exc": 3732,
+    "taxa_exc_por_ano": 438.3998
+   },
+   "0.98": {
+    "u": 502.9991,
+    "xi": 0.0646,
+    "sigma": 86.6036,
+    "n_exc": 1493,
+    "taxa_exc_por_ano": 175.3834
+   },
+   "0.99": {
+    "u": 568.6836,
+    "xi": 0.1418,
+    "sigma": 75.8178,
+    "n_exc": 747,
+    "taxa_exc_por_ano": 87.7505
+   },
+   "0.995": {
+    "u": 625.441,
+    "xi": 0.1872,
+    "sigma": 76.5807,
+    "n_exc": 374,
+    "taxa_exc_por_ano": 43.934
+   },
+   "0.998": {
+    "u": 704.5285,
+    "xi": 0.3636,
+    "sigma": 67.9275,
+    "n_exc": 150,
+    "taxa_exc_por_ano": 17.6206
+   }
+  },
+  "niveis_retorno_mm": {
+   "1_ano": 1042.5,
+   "10_anos": 1432.0,
+   "100_anos": 1971.9
+  },
+  "amplificacao": {
+   "ssp126": {
+    "2050": {
+     "S_mm": 149.6,
+     "freq_nivel_1ano_por_ano": 3.102,
+     "freq_nivel_10anos_por_ano": 0.2221,
+     "freq_nivel_100anos_por_ano": 0.01762,
+     "amplificacao_1ano": 3.1,
+     "amplificacao_10anos": 2.2,
+     "amplificacao_100anos": 1.8,
+     "novo_TR_do_nivel_100anos_anos": 56.754,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.12,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.03
+    },
+    "2100": {
+     "S_mm": 407.8,
+     "freq_nivel_1ano_por_ano": 38.613,
+     "freq_nivel_10anos_por_ano": 1.138,
+     "freq_nivel_100anos_por_ano": 0.0529,
+     "amplificacao_1ano": 38.6,
+     "amplificacao_10anos": 11.4,
+     "amplificacao_100anos": 5.3,
+     "novo_TR_do_nivel_100anos_anos": 18.903,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 1.63,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.45
+    }
+   },
+   "ssp245": {
+    "2050": {
+     "S_mm": 164.7,
+     "freq_nivel_1ano_por_ano": 3.516,
+     "freq_nivel_10anos_por_ano": 0.242,
+     "freq_nivel_100anos_por_ano": 0.01871,
+     "amplificacao_1ano": 3.5,
+     "amplificacao_10anos": 2.4,
+     "amplificacao_100anos": 1.9,
+     "novo_TR_do_nivel_100anos_anos": 53.461,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.14,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.04
+    },
+    "2100": {
+     "S_mm": 528.7,
+     "freq_nivel_1ano_por_ano": 159.173,
+     "freq_nivel_10anos_por_ano": 2.8505,
+     "freq_nivel_100anos_por_ano": 0.09452,
+     "amplificacao_1ano": 159.2,
+     "amplificacao_10anos": 28.5,
+     "amplificacao_100anos": 9.5,
+     "novo_TR_do_nivel_100anos_anos": 10.58,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 6.63,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 1.82
+    }
+   },
+   "ssp585": {
+    "2050": {
+     "S_mm": 192.6,
+     "freq_nivel_1ano_por_ano": 4.456,
+     "freq_nivel_10anos_por_ano": 0.2844,
+     "freq_nivel_100anos_por_ano": 0.02092,
+     "amplificacao_1ano": 4.5,
+     "amplificacao_10anos": 2.8,
+     "amplificacao_100anos": 2.1,
+     "novo_TR_do_nivel_100anos_anos": 47.805,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 0.18,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 0.05
+    },
+    "2100": {
+     "S_mm": 737.6,
+     "freq_nivel_1ano_por_ano": 929.192,
+     "freq_nivel_10anos_por_ano": 19.7989,
+     "freq_nivel_100anos_por_ano": 0.29298,
+     "amplificacao_1ano": 929.2,
+     "amplificacao_10anos": 198.0,
+     "amplificacao_100anos": 29.3,
+     "novo_TR_do_nivel_100anos_anos": 3.413,
+     "dias_por_ano_acima_do_nivel_100anos_hoje": 0.0,
+     "fracao_do_tempo_acima_do_nivel_100anos_pct": 0.0,
+     "dias_por_ano_acima_do_nivel_1ano_hoje": 38.72,
+     "fracao_do_tempo_acima_do_nivel_1ano_pct": 10.6
+    }
+   }
+  }
+ }
+}

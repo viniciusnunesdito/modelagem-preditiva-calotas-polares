@@ -1,0 +1,297 @@
+
+========================================================================================================
+Ilha Fiscal, Rio de Janeiro (RJ)   |   UHSLC 280   |   1963-2014   |   424,716 horas validas em 51 anos
+========================================================================================================
+tendencia removida: +2.09 mm/ano | amplitude do ciclo sazonal: 124 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950          553   -0.104    125.5   21236      1119       1256        1364
+       0.980          666   -0.061    102.3    8495      1119       1280        1419
+       0.990          736   -0.038     93.9    4248      1122       1296        1456
+       0.995          802   -0.004     85.2    2124      1123       1315        1507
+       0.998          879    0.010     84.1     850      1123       1325        1532
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (-0.104 a +0.010) indica boa estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1122 mm, 10 anos = 1296 mm, 100 anos = 1456 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1456 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     141              12.92              0.0        0.0%
+    SSP1-2.6    2100     382               0.54              0.1        0.0%
+    SSP2-4.5    2050     156              10.43              0.0        0.0%
+    SSP2-4.5    2100     505               0.12              0.3        0.1%
+    SSP5-8.5    2050     185               7.05              0.0        0.0%
+    SSP5-8.5    2100     718               0.01              3.6        1.0%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050                6x             6x              8x
+    SSP1-2.6    2100               84x           123x            184x
+    SSP2-4.5    2050                7x             8x             10x
+    SSP2-4.5    2100              271x           487x            806x
+    SSP5-8.5    2050                9x            11x             14x
+    SSP5-8.5    2100             1088x          3644x           8665x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+========================================================================================================
+Cananeia (SP)   |   UHSLC 281   |   1954-2007   |   457,699 horas validas em 53 anos
+========================================================================================================
+tendencia removida: +4.23 mm/ano | amplitude do ciclo sazonal: 114 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950          653   -0.051    141.2   22885      1392       1618        1819
+       0.980          785   -0.035    120.2    9154      1354       1575        1780
+       0.990          872   -0.019    108.2    4577      1337       1561        1775
+       0.995          952   -0.002     98.5    2289      1324       1549        1773
+       0.998         1048    0.029     86.8     916      1307       1532        1772
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (-0.051 a +0.029) indica boa estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1337 mm, 10 anos = 1561 mm, 100 anos = 1775 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1775 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     138              22.37              0.0        0.0%
+    SSP1-2.6    2100     380               1.81              0.0        0.0%
+    SSP2-4.5    2050     154              19.07              0.0        0.0%
+    SSP2-4.5    2100     500               0.54              0.1        0.0%
+    SSP5-8.5    2050     181              14.23              0.0        0.0%
+    SSP5-8.5    2100     706               0.07              0.6        0.2%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050                4x             4x              4x
+    SSP1-2.6    2100               40x            47x             55x
+    SSP2-4.5    2050                5x             5x              5x
+    SSP2-4.5    2100              117x           149x            184x
+    SSP5-8.5    2050                6x             6x              7x
+    SSP5-8.5    2100              500x          1018x           1381x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+========================================================================================================
+Fortaleza (CE)   |   UHSLC 283   |   1955-1969   |   116,506 horas validas em 14 anos
+========================================================================================================
+tendencia removida: +1.26 mm/ano | amplitude do ciclo sazonal: 44 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950         1105   -0.293    222.7    5826      1737       1800        1832
+       0.980         1282   -0.299    173.1    2331      1737       1798        1829
+       0.990         1390   -0.309    143.0    1166      1736       1795        1824
+       0.995         1481   -0.284    110.0     583      1736       1799        1832
+       0.998         1568   -0.277     84.6     234      1736       1801        1835
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (-0.309 a -0.277) indica boa estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1736 mm, 10 anos = 1795 mm, 100 anos = 1824 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1824 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     155               0.23              0.2        0.0%
+    SSP1-2.6    2100     430               0.01              3.6        1.0%
+    SSP2-4.5    2050     171               0.17              0.2        0.1%
+    SSP2-4.5    2100     554               0.01              7.8        2.1%
+    SSP5-8.5    2050     200               0.11              0.3        0.1%
+    SSP5-8.5    2100     769               0.00             22.5        6.2%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050               16x            71x            439x
+    SSP1-2.6    2100              151x          1037x           8483x
+    SSP2-4.5    2050               19x            89x            572x
+    SSP2-4.5    2100              305x          2213x          18788x
+    SSP5-8.5    2050               26x           132x            894x
+    SSP5-8.5    2100              762x          6080x          54113x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+    ATENCAO: o registro horario desta estacao tem apenas 14 anos. O nivel
+    de periodo de retorno de 100 anos e, aqui, extrapolacao da cauda ajustada e
+    nao frequencia observada; os valores devem ser lidos como indicativos.
+    Somente Ilha Fiscal e Cananeia tem registro longo o bastante (mais de 50
+    anos) para sustentar diretamente esse nivel de retorno.
+
+========================================================================================================
+Salvador (BA)   |   UHSLC 708   |   1955-1965   |   81,055 horas validas em 10 anos
+========================================================================================================
+tendencia removida: +5.19 mm/ano | amplitude do ciclo sazonal: 92 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950          982   -0.280    166.2    4053      1468       1519        1547
+       0.980         1117   -0.244    121.1    1622      1473       1533        1568
+       0.990         1191   -0.274    108.7     811      1472       1526        1555
+       0.995         1260   -0.262     88.4     406      1472       1528        1559
+       0.998         1330   -0.315     76.2     163      1474       1525        1549
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (-0.315 a -0.244) indica boa estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1472 mm, 10 anos = 1526 mm, 100 anos = 1555 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1555 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     140               0.23              0.2        0.1%
+    SSP1-2.6    2100     383               0.01              4.5        1.2%
+    SSP2-4.5    2050     156               0.17              0.2        0.1%
+    SSP2-4.5    2100     509               0.00             12.5        3.4%
+    SSP5-8.5    2050     185               0.10              0.4        0.1%
+    SSP5-8.5    2100     727               0.00             37.3       10.2%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050               18x            75x            427x
+    SSP1-2.6    2100              221x          1415x          10847x
+    SSP2-4.5    2050               22x            99x            588x
+    SSP2-4.5    2100              490x          3567x          30000x
+    SSP5-8.5    2050               32x           156x            994x
+    SSP5-8.5    2100             1192x          9860x          89450x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+    ATENCAO: o registro horario desta estacao tem apenas 10 anos. O nivel
+    de periodo de retorno de 100 anos e, aqui, extrapolacao da cauda ajustada e
+    nao frequencia observada; os valores devem ser lidos como indicativos.
+    Somente Ilha Fiscal e Cananeia tem registro longo o bastante (mais de 50
+    anos) para sustentar diretamente esse nivel de retorno.
+
+========================================================================================================
+Recife (PE)   |   UHSLC 712   |   1955-1968   |   108,261 horas validas em 13 anos
+========================================================================================================
+tendencia removida: +3.52 mm/ano | amplitude do ciclo sazonal: 94 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950          943   -0.294    168.6    5413      1420       1467        1491
+       0.980         1081   -0.278    124.2    2166      1421       1471        1497
+       0.990         1158   -0.277    102.6    1083      1421       1472        1499
+       0.995         1223   -0.273     84.1     542      1421       1472        1500
+       0.998         1290   -0.268     65.8     217      1421       1474        1502
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (-0.294 a -0.268) indica boa estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1421 mm, 10 anos = 1472 mm, 100 anos = 1499 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1499 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     244               0.03              1.2        0.3%
+    SSP1-2.6    2100     662               0.00             30.6        8.4%
+    SSP2-4.5    2050     260               0.03              1.5        0.4%
+    SSP2-4.5    2100     794               0.00             50.6       13.8%
+    SSP5-8.5    2050     291               0.02              2.2        0.6%
+    SSP5-8.5    2100    1022               0.00             94.8       26.0%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050               72x           409x           2920x
+    SSP1-2.6    2100             1007x          8278x          73368x
+    SSP2-4.5    2050               85x           497x           3609x
+    SSP2-4.5    2100             1547x         13210x         121376x
+    SSP5-8.5    2050              117x           695x           5203x
+    SSP5-8.5    2100             2656x         24136x         227601x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+    ATENCAO: o registro horario desta estacao tem apenas 13 anos. O nivel
+    de periodo de retorno de 100 anos e, aqui, extrapolacao da cauda ajustada e
+    nao frequencia observada; os valores devem ser lidos como indicativos.
+    Somente Ilha Fiscal e Cananeia tem registro longo o bastante (mais de 50
+    anos) para sustentar diretamente esse nivel de retorno.
+
+========================================================================================================
+Imbituba (SC)   |   UHSLC 718   |   2001-2011   |   74,623 horas validas em 9 anos
+========================================================================================================
+tendencia removida: +4.43 mm/ano | amplitude do ciclo sazonal: 177 mm
+
+[a] Estabilidade do ajuste GPD (metodo de picos sobre limiar)
+     quantil  limiar (mm)       xi    sigma   n exc  N1a (mm)  N10a (mm)  N100a (mm)
+       0.950          401    0.011    103.4    3732      1052       1311        1576
+       0.980          503    0.065     86.6    1493      1034       1335        1683
+       0.990          569    0.142     75.8     747      1042       1432        1972
+       0.995          625    0.187     76.6     374      1047       1494        2183
+       0.998          705    0.364     67.9     150      1048       1743        3347
+    -> adotado o quantil 0.99; a variacao de xi entre limiares (+0.011 a +0.364) indica moderada estabilidade
+
+[b] Efeito da elevacao projetada sobre a frequencia de excedencia
+    Niveis de referencia (acima do nivel medio atual): 1 ano = 1042 mm, 10 anos = 1432 mm, 100 anos = 1972 mm
+
+    O nivel que HOJE tem periodo de retorno de 100 anos (1972 mm) passaria a:
+    cenario      ano  S (mm)   novo T.R. (anos)   dias/ano acima  % do tempo
+    ------------------------------------------------------------------------
+    SSP1-2.6    2050     150              56.75              0.0        0.0%
+    SSP1-2.6    2100     408              18.90              0.0        0.0%
+    SSP2-4.5    2050     165              53.46              0.0        0.0%
+    SSP2-4.5    2100     529              10.58              0.0        0.0%
+    SSP5-8.5    2050     193              47.81              0.0        0.0%
+    SSP5-8.5    2100     738               3.41              0.0        0.0%
+
+    Fatores de multiplicacao da frequencia de excedencia:
+    cenario      ano    nivel de 1 ano     de 10 anos     de 100 anos
+    ----------------------------------------------------------------
+    SSP1-2.6    2050                3x             2x              2x
+    SSP1-2.6    2100               39x            11x              5x
+    SSP2-4.5    2050                4x             2x              2x
+    SSP2-4.5    2100              159x            28x             10x
+    SSP5-8.5    2050                4x             3x              2x
+    SSP5-8.5    2100              929x           198x             29x
+
+    Interpretacao. O periodo de retorno (T.R.) e o intervalo medio entre
+    ocorrencias; um nivel com T.R. de 100 anos e, por definicao, excepcional.
+    Quando seu T.R. cai abaixo de um ano, ele passa a ocorrer varias vezes por
+    ano e deixa de ser excepcional: torna-se a condicao normal de mare alta.
+    A coluna de dias por ano traduz isso para grandeza diretamente verificavel,
+    contando no proprio registro horario historico quantas horas ficariam acima
+    do limiar atual se o nivel medio subisse S.
+
+    ATENCAO: o registro horario desta estacao tem apenas 9 anos. O nivel
+    de periodo de retorno de 100 anos e, aqui, extrapolacao da cauda ajustada e
+    nao frequencia observada; os valores devem ser lidos como indicativos.
+    Somente Ilha Fiscal e Cananeia tem registro longo o bastante (mais de 50
+    anos) para sustentar diretamente esse nivel de retorno.
+
+
+gravado 05_resultados/extremos_frequencia.json

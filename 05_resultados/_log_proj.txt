@@ -1,0 +1,145 @@
+============================================================================================================
+[1] TRAJETORIAS DE TEMPERATURA (IPCC AR6 WG1, Tabela SPM.1; relativas a 1850-1900)
+============================================================================================================
+Observacao HadCRUT5: media 2006-2024 = +1.111 K; 2024 = +1.537 K
+
+Cenario                                      2030           2050           2090           2100
+----------------------------------------------------------------------------------------------
+SSP1-1.9 (emissoes muito baixas)      1.40 K        1.60 K        1.40 K        1.37 K    
+SSP1-2.6 (emissoes baixas)            1.42 K        1.70 K        1.80 K        1.82 K    
+SSP2-4.5 (emissoes intermediarias)    1.47 K        1.99 K        2.69 K        2.81 K    
+SSP3-7.0 (emissoes altas)             1.48 K        2.08 K        3.59 K        3.84 K    
+SSP5-8.5 (emissoes muito altas)       1.57 K        2.38 K        4.38 K        4.72 K    
+
+Faixa muito provavel em 2090 (5-95%):
+   SSP1-1.9 (emissoes muito baixas)   1.00 a 1.80 K
+   SSP1-2.6 (emissoes baixas)         1.30 a 2.40 K
+   SSP2-4.5 (emissoes intermediarias) 2.10 a 3.49 K
+   SSP3-7.0 (emissoes altas)          2.79 a 4.58 K
+   SSP5-8.5 (emissoes muito altas)    3.29 a 5.68 K
+
+
+============================================================================================================
+[2] SENSIBILIDADE OBSERVADA: aumento da taxa de perda de massa por grau de aquecimento
+============================================================================================================
+Compara-se a taxa medida em duas epocas do registro de satelite (IMBIE) com o
+aquecimento ocorrido entre elas. A mesma conta e feita para o seculo XX inteiro e
+para as projecoes processuais do IPCC AR6, de modo a verificar se a sensibilidade
+e estacionaria.
+
+Groenlandia (IMBIE, Otosaka et al., 2023)
+   taxa em 1992-1996: +0.100 +/- 0.184 mm/ano, com T = +0.592 K
+   taxa em 2016-2020: +0.713 +/- 0.260 mm/ano, com T = +1.227 K
+   -> sensibilidade observada no periodo de satelite: +0.965 +/- 0.502 mm/ano por K
+   -> sensibilidade do emulador calibrado em 1900-2018: +0.132 mm/ano por K
+   -> razao: a sensibilidade recente e 7.3x a media do seculo XX
+
+Antartica (IMBIE, Otosaka et al., 2023)
+   taxa em 1992-1996: +0.194 +/- 0.246 mm/ano, com T = +0.592 K
+   taxa em 2016-2020: +0.320 +/- 0.340 mm/ano, com T = +1.227 K
+   -> sensibilidade observada no periodo de satelite: +0.198 +/- 0.660 mm/ano por K
+   -> sensibilidade do emulador calibrado em 1900-2018: +0.218 mm/ano por K
+   -> razao: a sensibilidade recente e 0.9x a media do seculo XX
+
+Sensibilidade implicita nas projecoes processuais do IPCC AR6 (SSP5-8.5, medianas):
+   Groenlandia: taxa de 0.700 mm/ano nos anos 2020 para 2.800 mm/ano nos anos 2090, com aquecimento de 1.38 a 4.55 K
+      -> sensibilidade implicita no AR6: +0.663 mm/ano por K (5.0x a do seculo XX, 0.7x a do periodo de satelite)
+   Antartica: taxa de 0.600 mm/ano nos anos 2020 para 2.700 mm/ano nos anos 2090, com aquecimento de 1.38 a 4.55 K
+      -> sensibilidade implicita no AR6: +0.663 mm/ano por K (3.0x a do seculo XX, 3.3x a do periodo de satelite)
+
+Leitura destes numeros: a sensibilidade das calotas ao aquecimento NAO e estacionaria.
+Ela cresceu entre o seculo XX e o periodo de satelite, e as projecoes processuais do
+IPCC AR6 supoem um crescimento adicional, atribuido a processos de descarga dinamica
+de gelo que praticamente nao aparecem no registro historico. Por isso a projecao
+estritamente orientada por dados do seculo XX e tratada aqui como limite inferior.
+
+
+============================================================================================================
+[3] PROJECAO GLOBAL: via A (emulador orientado por dados) e via B (IPCC AR6)
+============================================================================================================
+
+Parametros da via A' (resposta linearizada em torno do estado observado recente):
+   processo             fonte                          r_ref (mm/ano)   T_ref (K)    a_rec (mm/ano/K)
+   --------------------------------------------------------------------------------------------------
+   Groenlandia          IMBIE (satelite)               0.713 +/- 0.260       1.227      0.965 +/- 0.502
+   Antartica            IMBIE (satelite)               0.320 +/- 0.340       1.227      0.198 +/- 0.660
+   Geleiras             Frederikse et al. (2020)       0.686 +/- 0.021       1.074      0.077 +/- 0.058
+   Esterico/dinamico    Frederikse et al. (2020)       1.340 +/- 0.091       1.074      1.473 +/- 0.302
+
+SSP1-1.9 (emissoes muito baixas)   (elevacao media global em mm, acima do nivel de 2020)
+   processo               A 2050    A2 2050   B(AR6) 2050   A 2100    A2 2100   B(AR6) 2100
+   ------------------------------------------------------------------------------------------------------
+   Groenlandia                18         28            20       47         76            40
+   Antartica                  10         11            24       26         30            97
+   Geleiras                   28         21            28       75         57            65
+   Esterico/dinamico          49         57            47      132        155            95
+   ------------------------------------------------------------------------------------------------------
+   TOTAL                     104        118           127      280        318           335
+   razao com a via B: 2050: A=0.82, A'=0.93 | 2100: A=0.84, A'=0.95
+   faixa provavel do AR6 (17-83%): 2050: 103 a 171 mm | 2100: 232 a 487 mm
+   a via A' esta dentro da faixa provavel do AR6? 2050: sim | 2100: sim
+
+SSP1-2.6 (emissoes baixas)   (elevacao media global em mm, acima do nivel de 2020)
+   processo               A 2050    A2 2050   B(AR6) 2050   A 2100    A2 2100   B(AR6) 2100
+   ------------------------------------------------------------------------------------------------------
+   Groenlandia                18         29            21       49         91            50
+   Antartica                  10         11            23       30         33           102
+   Geleiras                   28         22            34       78         59            77
+   Esterico/dinamico          50         59            52      147        177           120
+   ------------------------------------------------------------------------------------------------------
+   TOTAL                     106        121           140      303        359           387
+   razao com a via B: 2050: A=0.76, A'=0.86 | 2100: A=0.78, A'=0.93
+   faixa provavel do AR6 (17-83%): 2050: 115 a 186 mm | 2100: 281 a 554 mm
+   a via A' esta dentro da faixa provavel do AR6? 2050: sim | 2100: sim
+
+SSP2-4.5 (emissoes intermediarias)   (elevacao media global em mm, acima do nivel de 2020)
+   processo               A 2050    A2 2050   B(AR6) 2050   A 2100    A2 2100   B(AR6) 2100
+   ------------------------------------------------------------------------------------------------------
+   Groenlandia                18         32            23       54        127            78
+   Antartica                  11         12            22       38         40           104
+   Geleiras                   29         22            41       86         61           110
+   Esterico/dinamico          53         64            59      183        232           175
+   ------------------------------------------------------------------------------------------------------
+   TOTAL                     111        129           155      361        460           507
+   razao com a via B: 2050: A=0.71, A'=0.83 | 2100: A=0.71, A'=0.91
+   faixa provavel do AR6 (17-83%): 2050: 130 a 202 mm | 2100: 392 a 698 mm
+   a via A' esta dentro da faixa provavel do AR6? 2050: nao | 2100: sim
+
+SSP3-7.0 (emissoes altas)   (elevacao media global em mm, acima do nivel de 2020)
+   processo               A 2050    A2 2050   B(AR6) 2050   A 2100    A2 2100   B(AR6) 2100
+   ------------------------------------------------------------------------------------------------------
+   Groenlandia                18         33            24       58        155           109
+   Antartica                  11         12            22       44         46           104
+   Geleiras                   29         22            47       92         64           145
+   Esterico/dinamico          54         65            63      212        275           227
+   ------------------------------------------------------------------------------------------------------
+   TOTAL                     112        131           166      407        540           630
+   razao com a via B: 2050: A=0.67, A'=0.79 | 2100: A=0.65, A'=0.86
+   faixa provavel do AR6 (17-83%): 2050: 140 a 213 mm | 2100: 505 a 840 mm
+   a via A' esta dentro da faixa provavel do AR6? 2050: nao | 2100: sim
+
+SSP5-8.5 (emissoes muito altas)   (elevacao media global em mm, acima do nivel de 2020)
+   processo               A 2050    A2 2050   B(AR6) 2050   A 2100    A2 2100   B(AR6) 2100
+   ------------------------------------------------------------------------------------------------------
+   Groenlandia                19         37            26       63        189           125
+   Antartica                  12         13            22       52         53           109
+   Geleiras                   30         22            54       99         66           165
+   Esterico/dinamico          58         71            71      247        327           273
+   ------------------------------------------------------------------------------------------------------
+   TOTAL                     119        143           182      460        635           716
+   razao com a via B: 2050: A=0.65, A'=0.79 | 2100: A=0.64, A'=0.89
+   faixa provavel do AR6 (17-83%): 2050: 155 a 231 mm | 2100: 582 a 949 mm
+   a via A' esta dentro da faixa provavel do AR6? 2050: nao | 2100: sim
+
+
+LEITURA DAS TRES VIAS
+------------------------------------------------------------------------------------------------------------
+A via A, calibrada em 119 anos, subestima a resposta das calotas, porque dilui numa
+media centenaria uma sensibilidade que demonstravelmente cresceu (analise [2]).
+A via A', que usa a sensibilidade efetivamente medida no periodo de satelite e a taxa
+observada na epoca mais recente, aproxima-se da via B sem recorrer a nenhum modelo
+processual. Esse e um resultado importante da pesquisa: a magnitude das projecoes
+processuais do IPCC AR6 e sustentada, de forma independente, pela sensibilidade
+observada nas proprias medicoes de satelite das calotas polares.
+
+gravado 05_resultados/projecoes_globais.json

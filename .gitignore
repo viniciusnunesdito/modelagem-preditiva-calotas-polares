@@ -1,0 +1,13 @@
+# cache do Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# arquivos temporarios do sistema e de editores
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+*.tmp
+*.bak

@@ -1,0 +1,144 @@
+==================================================================================================
+N1. FECHAMENTO GLOBAL: soma dos contribuintes vs nivel medio global observado
+==================================================================================================
+
+--- Periodo 1900-2018 (119 anos) ---
+Componente                           tendencia (mm/ano)                 IC95 HAC
+----------------------------------------------------------------------------------
+Expansao termica e halosterica             +0.517          +0.444 a   +0.590
+Geleiras de montanha                       +0.700          +0.660 a   +0.740
+Manto da Groenlandia                       +0.442          +0.412 a   +0.473
+Manto da Antartica                         +0.078          +0.060 a   +0.095
+Agua continental                           -0.213          -0.255 a   -0.171
+----------------------------------------------------------------------------------
+SOMA DOS CONTRIBUINTES                     +1.524          +1.416 a   +1.632
+NIVEL MEDIO GLOBAL OBSERVADO               +1.563          +1.432 a   +1.693
+RESIDUO (observado - soma)                 +0.039       FECHA (|res| <= 1,96 x inc. combinada = 0.170)
+
+   >>> Contribuicao das duas calotas polares: 0.520 mm/ano = 33.3% da elevacao global observada
+
+--- Periodo 1957-2018 (62 anos) ---
+Componente                           tendencia (mm/ano)                 IC95 HAC
+----------------------------------------------------------------------------------
+Expansao termica e halosterica             +0.705          +0.592 a   +0.817
+Geleiras de montanha                       +0.520          +0.481 a   +0.558
+Manto da Groenlandia                       +0.298          +0.233 a   +0.362
+Manto da Antartica                         +0.131          +0.093 a   +0.169
+Agua continental                           -0.144          -0.270 a   -0.017
+----------------------------------------------------------------------------------
+SOMA DOS CONTRIBUINTES                     +1.509          +1.151 a   +1.868
+NIVEL MEDIO GLOBAL OBSERVADO               +1.780          +1.421 a   +2.138
+RESIDUO (observado - soma)                 +0.270       FECHA (|res| <= 1,96 x inc. combinada = 0.507)
+
+   >>> Contribuicao das duas calotas polares: 0.428 mm/ano = 24.1% da elevacao global observada
+
+--- Periodo 1993-2018 (26 anos) ---
+Componente                           tendencia (mm/ano)                 IC95 HAC
+----------------------------------------------------------------------------------
+Expansao termica e halosterica             +1.191          +1.137 a   +1.246
+Geleiras de montanha                       +0.672          +0.663 a   +0.681
+Manto da Groenlandia                       +0.655          +0.555 a   +0.754
+Manto da Antartica                         +0.320          +0.271 a   +0.368
+Agua continental                           +0.315          +0.230 a   +0.399
+----------------------------------------------------------------------------------
+SOMA DOS CONTRIBUINTES                     +3.159          +2.926 a   +3.392
+NIVEL MEDIO GLOBAL OBSERVADO               +3.353          +3.016 a   +3.691
+RESIDUO (observado - soma)                 +0.194       FECHA (|res| <= 1,96 x inc. combinada = 0.410)
+(altimetria NOAA, verificacao)             +2.915          +2.665 a   +3.165
+
+   >>> Contribuicao das duas calotas polares: 0.974 mm/ano = 29.1% da elevacao global observada
+
+==================================================================================================
+N2. FECHAMENTO REGIONAL: bacia do Atlantico Sul
+==================================================================================================
+
+--- Atlantico Sul, 1900-2018 ---
+   Expansao termica e halosterica       +0.879 mm/ano
+   Geleiras de montanha                 +0.758 mm/ano
+   Manto da Groenlandia                 +0.498 mm/ano
+   Manto da Antartica                   +0.094 mm/ano
+   Agua continental                     -0.198 mm/ano
+   Ajuste isostatico glacial (GIA)      -0.044 mm/ano
+   SOMA DOS CONTRIBUINTES               +1.766 mm/ano
+   NIVEL OBSERVADO NA BACIA             +2.062 mm/ano
+   RESIDUO                              +0.297 mm/ano
+   >>> Calotas polares no Atlantico Sul: 0.592 mm/ano = 28.7% do observado
+
+--- Atlantico Sul, 1993-2018 ---
+   Expansao termica e halosterica       +1.295 mm/ano
+   Geleiras de montanha                 +0.720 mm/ano
+   Manto da Groenlandia                 +0.739 mm/ano
+   Manto da Antartica                   +0.385 mm/ano
+   Agua continental                     +0.379 mm/ano
+   Ajuste isostatico glacial (GIA)      -0.044 mm/ano
+   SOMA DOS CONTRIBUINTES               +3.480 mm/ano
+   NIVEL OBSERVADO NA BACIA             +3.887 mm/ano
+   RESIDUO                              +0.407 mm/ano
+   >>> Calotas polares no Atlantico Sul: 1.124 mm/ano = 28.9% do observado
+
+==================================================================================================
+N3. FECHAMENTO LOCAL nas estacoes maregraficas brasileiras de serie longa
+==================================================================================================
+
+==================================================================================================
+Ilha Fiscal (RJ)  |  lat -22.897  lon -43.167  |  periodo de fechamento 1963-2018
+==================================================================================================
+
+[1] Tendencia observada pelo maregrafo (51 anos validos):
+   OLS          : +2.421 mm/ano  (IC95 classico +1.167 a +3.674)
+   OLS + HAC    : +2.421 mm/ano  (IC95 HAC      +0.361 a +4.480)  [L=3, inflacao do EP = 1.68x]
+   Theil-Sen    : +2.125 mm/ano  (IC95 +0.515 a +3.624)
+   Bootstrap    : +2.421 mm/ano  (IC95 +0.458 a +4.351)  [blocos de 4 anos]
+   n = 51 anos | R2 = 0.235 | autocorrelacao dos residuos (defasagem 1) = +0.676
+
+[2] Decomposicao fisica da tendencia esperada no mesmo periodo:
+Processo                          global    x FP   = local   observacao
+--------------------------------------------------------------------------------------
+Groenlandia                       +0.302   1.263    +0.382   baristatico x impressao digital
+Antartica                         +0.145   0.950    +0.138   baristatico x impressao digital
+Geleiras                          +0.541   1.032    +0.558   baristatico x impressao digital
+Agua continental                  -0.069   0.743    -0.051   baristatico x impressao digital
+Esterico/dinamico local                             +0.115   campo de Frederikse et al. (2020)
+Movimento vertical do terreno                       +0.117   GNSS vu = -0.12 mm/ano (4 estacoes)
+--------------------------------------------------------------------------------------
+SOMA PREVISTA PELA FISICA                           +1.259 mm/ano
+OBSERVADO PELO MAREGRAFO                            +2.421 mm/ano  (IC95 +0.36 a +4.48)
+RESIDUO (obs - previsto)                            +1.162 mm/ano
+
+   >>> A soma dos processos fisicos ESTA dentro do intervalo de
+       confianca de 95% da tendencia observada. O orcamento local fecha.
+   >>> Parcela das calotas polares na tendencia observada: 0.519 mm/ano = 21.5% de 2.421 mm/ano
+   >>> Parcela das calotas na soma prevista: 41.3%
+
+==================================================================================================
+Cananeia (SP)  |  lat -25.017  lon -47.933  |  periodo de fechamento 1957-2004
+==================================================================================================
+
+[1] Tendencia observada pelo maregrafo (48 anos validos):
+   OLS          : +4.099 mm/ano  (IC95 classico +3.367 a +4.832)
+   OLS + HAC    : +4.099 mm/ano  (IC95 HAC      +3.130 a +5.068)  [L=3, inflacao do EP = 1.36x]
+   Theil-Sen    : +4.030 mm/ano  (IC95 +3.272 a +4.800)
+   Bootstrap    : +4.099 mm/ano  (IC95 +2.968 a +5.181)  [blocos de 4 anos]
+   n = 48 anos | R2 = 0.734 | autocorrelacao dos residuos (defasagem 1) = +0.580
+
+[2] Decomposicao fisica da tendencia esperada no mesmo periodo:
+Processo                          global    x FP   = local   observacao
+--------------------------------------------------------------------------------------
+Groenlandia                       +0.193   1.259    +0.243   baristatico x impressao digital
+Antartica                         +0.073   0.879    +0.064   baristatico x impressao digital
+Geleiras                          +0.458   1.004    +0.460   baristatico x impressao digital
+Agua continental                  -0.325   1.388    -0.451   baristatico x impressao digital
+Esterico/dinamico local                             +0.012   campo de Frederikse et al. (2020)
+Movimento vertical do terreno                       +0.043   GNSS vu = -0.04 mm/ano (1 estacoes)
+--------------------------------------------------------------------------------------
+SOMA PREVISTA PELA FISICA                           +0.370 mm/ano
+OBSERVADO PELO MAREGRAFO                            +4.099 mm/ano  (IC95 +3.13 a +5.07)
+RESIDUO (obs - previsto)                            +3.729 mm/ano
+
+   >>> A soma dos processos fisicos NAO esta dentro do intervalo de
+       confianca de 95% da tendencia observada. O orcamento local nao fecha.
+   >>> Parcela das calotas polares na tendencia observada: 0.306 mm/ano = 7.5% de 4.099 mm/ano
+   >>> Parcela das calotas na soma prevista: 82.8%
+
+
+gravado 05_resultados/fechamento_orcamento.json

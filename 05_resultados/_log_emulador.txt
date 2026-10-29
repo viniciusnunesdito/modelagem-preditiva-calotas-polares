@@ -1,0 +1,204 @@
+Temperatura global (HadCRUT5) rebaseada para 1850-1900 (deslocamento +0.356 K)
+   1850-2025: -0.06 a +1.55 K | media 2015-2024 = +1.259 K
+
+==========================================================================================================
+[1] SELECAO DA FORMA FUNCIONAL E DA JANELA DE SUAVIZACAO POR VALIDACAO ANINHADA
+==========================================================================================================
+Cortes de calibracao usam apenas anos <= 1989; o periodo de teste de V1 (1990-2018)
+permanece intocado. Para cada corte, ajusta-se e integra-se ancorado no corte.
+
+Manto de gelo da Groenlandia  (1900-2018, 119 anos; acumulado observado +54.0 mm)
+   RMSE da validacao aninhada (mm), por forma e janela de suavizacao:
+   forma       j=1      j=5     j=11     j=15     j=21
+   M1         4.63     4.66     4.72     4.79     4.93
+   M2         5.34     5.57     5.80     6.00     6.35
+   M3         4.63     4.66     4.72     4.79     4.93
+   M4         4.63     4.66     4.72     4.79     4.93
+   melhor RMSE aninhado: 4.63 mm; 12 combinacoes a menos de 5% dele (estatisticamente indistinguiveis)
+   -> selecionado por parcimonia: M1 (dS/dt = a (T - T0)), janela de 1 ano(s), RMSE aninhado 4.63 mm
+      ajuste final 1900-2018: a=+0.1321, T0=-3.0000  |  RMSE 3.46 mm, R2 0.9501
+
+Manto de gelo da Antartica  (1900-2018, 119 anos; acumulado observado +13.3 mm)
+   RMSE da validacao aninhada (mm), por forma e janela de suavizacao:
+   forma       j=1      j=5     j=11     j=15     j=21
+   M1         0.03     0.03     0.03     0.03     0.03
+   M2         0.04     0.04     0.04     0.04     0.05
+   M3         0.03     0.03     0.03     0.03     0.03
+   M4         0.03     0.03     0.03     0.03     0.03
+   melhor RMSE aninhado: 0.03 mm; 12 combinacoes a menos de 5% dele (estatisticamente indistinguiveis)
+   -> selecionado por parcimonia: M1 (dS/dt = a (T - T0)), janela de 1 ano(s), RMSE aninhado 0.03 mm
+      ajuste final 1900-2018: a=+0.2184, T0=-0.0249  |  RMSE 0.61 mm, R2 0.9551
+
+Geleiras de montanha  (1900-2018, 119 anos; acumulado observado +84.8 mm)
+   RMSE da validacao aninhada (mm), por forma e janela de suavizacao:
+   forma       j=1      j=5     j=11     j=15     j=21
+   M1         5.99     5.99     6.00     6.02     6.05
+   M2         6.54     6.54     6.54     6.53     6.52
+   M3         5.99     5.99     6.00     6.02     6.05
+   M4         5.99     5.99     6.00     6.02     6.05
+   melhor RMSE aninhado: 5.99 mm; 15 combinacoes a menos de 5% dele (estatisticamente indistinguiveis)
+   -> selecionado por parcimonia: M1 (dS/dt = a (T - T0)), janela de 1 ano(s), RMSE aninhado 5.99 mm
+      ajuste final 1900-2018: a=+0.2090, T0=-3.0000  |  RMSE 4.45 mm, R2 0.9666
+
+Expansao termica e halosterica  (1900-2018, 119 anos; acumulado observado +56.8 mm)
+   RMSE da validacao aninhada (mm), por forma e janela de suavizacao:
+   forma       j=1      j=5     j=11     j=15     j=21
+   M1         3.88     3.89     3.98     4.11     4.42
+   M2         4.96     5.23     5.47     5.68     5.94
+   M3         3.99     3.68     3.68     3.75     4.00
+   M4         3.88     3.89     3.98     4.11     4.42
+   melhor RMSE aninhado: 3.68 mm; 3 combinacoes a menos de 5% dele (estatisticamente indistinguiveis)
+   -> selecionado por parcimonia: M3 (dS/dt = a [max(T - T0, 0)]^q), janela de 5 ano(s), RMSE aninhado 3.68 mm
+      ajuste final 1900-2018: a=+0.9848, T0=-0.1939, q=+1.0000  |  RMSE 2.37 mm, R2 0.9835
+
+
+==========================================================================================================
+[2] VALIDACAO V1 (DECISIVA): calibrar em 1900-1989, prever 1990-2018
+==========================================================================================================
+
+Manto de gelo da Groenlandia  (forma M1, janela 1)
+   calibracao 1900-1989 (90 anos): a=+0.1591, T0=-3.0000
+   ancora em 1989: S = -8.80 mm
+   modelo                          RMSE 1990-2018   R2 fora amostra   S em 2018 (mm)
+   ----------------------------------------------------------------------------------
+   emulador M1 (T -> dS/dt)                  3.67             0.482             9.00
+   extrapolacao poli_g1                      2.61             0.737             6.04
+   extrapolacao poli_g2                      3.72             0.466            -1.95
+   extrapolacao poli_g3                     20.76           -15.601           -35.73
+   extrapolacao persistencia                 7.54            -1.192            -8.80
+   OBSERVADO                                                                    5.97
+   taxa media 1990-2018: observada +0.585 | emulador +0.615 mm/ano (erro +5.0%)
+   -> melhor referencia alternativa: poli_g1 (RMSE 2.61 mm). Emulador 0.7x menos preciso.
+
+Manto de gelo da Antartica  (forma M1, janela 1)
+   calibracao 1900-1989 (90 anos): a=+0.0169, T0=-3.0000
+   ancora em 1989: S = -4.67 mm
+   modelo                          RMSE 1990-2018   R2 fora amostra   S em 2018 (mm)
+   ----------------------------------------------------------------------------------
+   emulador M1 (T -> dS/dt)                  2.85            -0.259            -2.78
+   extrapolacao poli_g1                      3.01            -0.407            -3.09
+   extrapolacao poli_g2                      3.01            -0.407            -3.09
+   extrapolacao poli_g3                      3.01            -0.407            -3.09
+   extrapolacao persistencia                 3.91            -1.367            -4.67
+   OBSERVADO                                                                    3.81
+   taxa media 1990-2018: observada +0.293 | emulador +0.065 mm/ano (erro -77.7%)
+   -> melhor referencia alternativa: poli_g3 (RMSE 3.01 mm). Emulador 1.1x mais preciso.
+
+Geleiras de montanha  (forma M1, janela 1)
+   calibracao 1900-1989 (90 anos): a=+0.2434, T0=-3.0000
+   ancora em 1989: S = -13.82 mm
+   modelo                          RMSE 1990-2018   R2 fora amostra   S em 2018 (mm)
+   ----------------------------------------------------------------------------------
+   emulador M1 (T -> dS/dt)                  4.57             0.325            13.43
+   extrapolacao poli_g1                      2.21             0.842             8.91
+   extrapolacao poli_g2                      6.89            -0.534            -7.35
+   extrapolacao poli_g3                     18.98           -10.634           -30.68
+   extrapolacao persistencia                11.26            -3.094           -13.82
+   OBSERVADO                                                                    5.27
+   taxa media 1990-2018: observada +0.665 | emulador +0.941 mm/ano (erro +41.5%)
+   -> melhor referencia alternativa: poli_g1 (RMSE 2.21 mm). Emulador 0.5x menos preciso.
+
+Expansao termica e halosterica  (forma M3, janela 5)
+   calibracao 1900-1989 (90 anos): a=+1.2873, T0=-0.1120, q=+1.0004
+   ancora em 1989: S = -22.14 mm
+   modelo                          RMSE 1990-2018   R2 fora amostra   S em 2018 (mm)
+   ----------------------------------------------------------------------------------
+   emulador M3 (T -> dS/dt)                  2.56             0.929            14.09
+   extrapolacao poli_g1                     10.70            -0.234           -10.10
+   extrapolacao poli_g2                      5.17             0.712             0.00
+   extrapolacao poli_g3                     25.99            -6.286           -40.47
+   extrapolacao persistencia                17.77            -2.407           -22.14
+   OBSERVADO                                                                    8.56
+   taxa media 1990-2018: observada +1.139 | emulador +1.257 mm/ano (erro +10.4%)
+   -> melhor referencia alternativa: poli_g2 (RMSE 5.17 mm). Emulador 2.0x mais preciso.
+
+
+==========================================================================================================
+[3] VALIDACAO V2: confronto com dado independente (IMBIE, Otosaka et al., 2023)
+==========================================================================================================
+
+Groenlandia, periodo comum 1992-2018 (27 anos)
+   fonte                                 acumulado (mm)   taxa media (mm/ano)
+   --------------------------------------------------------------------------
+   IMBIE (satelite, independente)                +10.96                +0.469
+   Frederikse (serie de calibracao)              +14.62                +0.632
+   emulador acionado por temperatura             +13.34                +0.513
+   emulador vs IMBIE: diferenca de +2.38 mm no acumulado (+21.7%), RMSE 2.60 mm, R2 0.530
+
+Antartica, periodo comum 1992-2018 (27 anos)
+   fonte                                 acumulado (mm)   taxa media (mm/ano)
+   --------------------------------------------------------------------------
+   IMBIE (satelite, independente)                 +6.40                +0.239
+   Frederikse (serie de calibracao)               +8.53                +0.312
+   emulador acionado por temperatura              +5.16                +0.199
+   emulador vs IMBIE: diferenca de -1.23 mm no acumulado (-19.3%), RMSE 0.59 mm, R2 0.908
+
+
+==========================================================================================================
+[4] VALIDACAO V3: estabilidade dos parametros em cortes sucessivos
+==========================================================================================================
+
+Manto de gelo da Groenlandia (forma M1, dS/dt = a (T - T0), janela 1)
+     corte         a        T0  RMSE fora  R2 fora
+      1960    0.7005   -0.6980      18.19  -10.186
+      1970    0.4937   -1.0103      15.18   -7.453
+      1980    0.1724   -3.0000       7.25   -0.958
+      1990    0.1576   -3.0000       3.31    0.575
+      2000    0.1429   -3.0000       2.13    0.754
+      2010    0.1335   -3.0000       1.77   -0.295
+   coeficiente de variacao de a: 72.9% | T0 entre -3.000 e -0.698 K
+
+Manto de gelo da Antartica (forma M1, dS/dt = a (T - T0), janela 1)
+     corte         a        T0  RMSE fora  R2 fora
+      1960    0.0173   -3.0000       1.95    0.442
+      1970    0.0171   -3.0000       2.16    0.310
+      1980    0.0170   -3.0000       2.45    0.111
+      1990    0.0169   -3.0000       2.90   -0.326
+      2000    0.0270   -1.8184       2.82   -0.726
+      2010    0.1122   -0.2768       1.69   -0.993
+   coeficiente de variacao de a: 100.9% | T0 entre -3.000 e -0.277 K
+
+Geleiras de montanha (forma M1, dS/dt = a (T - T0), janela 1)
+     corte         a        T0  RMSE fora  R2 fora
+      1960    0.2985   -3.0000      19.07   -3.511
+      1970    0.2829   -3.0000      13.90   -1.928
+      1980    0.2612   -3.0000       8.64   -0.554
+      1990    0.2417   -3.0000       4.53    0.296
+      2000    0.2267   -3.0000       2.25    0.595
+      2010    0.2158   -3.0000       1.10    0.538
+   coeficiente de variacao de a: 11.6% | T0 entre -3.000 e -3.000 K
+
+Expansao termica e halosterica (forma M3, dS/dt = a [max(T - T0, 0)]^q, janela 5)
+     corte         a        T0         q  RMSE fora  R2 fora
+      1960    2.0171   -0.0307    1.0003      16.18   -0.573
+      1970    1.7091   -0.0523    1.0000       7.52    0.607
+      1980    1.9254   -0.0996    1.2924      16.20   -1.172
+      1990    1.2610   -0.1159    1.0000       1.84    0.961
+      2000    0.9304   -0.2169    1.0000       4.06    0.497
+      2010    0.9892   -0.1920    1.0000       1.22    0.842
+   coeficiente de variacao de a: 29.5% | T0 entre -0.217 e -0.031 K
+
+
+==========================================================================================================
+[5] VALIDACAO V4: incerteza dos parametros por bootstrap de blocos moveis
+==========================================================================================================
+
+Manto de gelo da Groenlandia (M1): 500 reamostragens, blocos de 5 anos
+   a    = +0.13205   IC95 [+0.12259, +0.43093]   (dp 0.09697)
+   T0   = -3.00000   IC95 [-3.00000, -0.68375]   (dp 0.86511)
+
+Manto de gelo da Antartica (M1): 500 reamostragens, blocos de 5 anos
+   a    = +0.21840   IC95 [+0.16543, +0.26695]   (dp 0.02505)
+   T0   = -0.02492   IC95 [-0.13573, +0.04806]   (dp 0.04557)
+
+Geleiras de montanha (M1): 500 reamostragens, blocos de 5 anos
+   a    = +0.20896   IC95 [+0.19546, +0.58192]   (dp 0.10902)
+   T0   = -3.00000   IC95 [-3.00000, -0.84083]   (dp 0.72751)
+
+Expansao termica e halosterica (M3): 500 reamostragens, blocos de 5 anos
+   a    = +0.98475   IC95 [+0.08152, +1.17246]   (dp 0.30284)
+   T0   = -0.19394   IC95 [-1.53320, -0.10444]   (dp 0.38022)
+   q    = +1.00000   IC95 [+1.00000, +3.00000]   (dp 0.59751)
+
+
+gravado 05_resultados/emulador_calotas.json

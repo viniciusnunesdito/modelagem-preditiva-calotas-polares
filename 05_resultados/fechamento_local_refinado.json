@@ -1,0 +1,412 @@
+{
+ "nota_lacuna": "Nenhuma das 472 series maregraficas utilizadas por Frederikse et al. (2020) para reconstruir as causas da elevacao do nivel do mar e brasileira; no Atlantico Sul o conjunto usa apenas estacoes da Argentina, Uruguai, Africa do Sul e Namibia.",
+ "estacoes": {
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal (RJ)",
+   "lat": -22.896667,
+   "lon": -43.166667,
+   "registro": [
+    1963,
+    2022
+   ],
+   "n_anos": 55,
+   "vlm": {
+    "vu_mm_ano": -0.117,
+    "inc": 0.533,
+    "n_gnss": 4,
+    "periodo_gnss": [
+     2019.4497,
+     2024.7392
+    ],
+    "defasagem_epoca": "a serie GNSS cobre 2019-2025, enquanto o registro maregrafico cobre 1963-2022; assume-se VLM constante"
+   },
+   "pontos_de_grade": {
+    "GrIS": {
+     "ponto": [
+      -23.25,
+      -43.25
+     ],
+     "raio_graus": 0.5
+    },
+    "AIS": {
+     "ponto": [
+      -23.25,
+      -43.25
+     ],
+     "raio_graus": 0.5
+    },
+    "glac": {
+     "ponto": [
+      -23.25,
+      -43.25
+     ],
+     "raio_graus": 0.5
+    },
+    "tws": {
+     "ponto": [
+      -23.25,
+      -43.25
+     ],
+     "raio_graus": 0.5
+    }
+   },
+   "periodos": {
+    "1963-2018": {
+     "n_anos": 51,
+     "observado": {
+      "rotulo": "Ilha Fiscal (RJ)",
+      "ols": {
+       "n": 51,
+       "coef": 2.4205296242709773,
+       "intercepto": 6931.637373737372,
+       "x_ref": 1990.8235294117646,
+       "se_classico": 0.6239391871364368,
+       "r2": 0.2349725860992924,
+       "rho1_residuos": 0.6755786067178263,
+       "residuos_dp": 71.38969134380984,
+       "se_hac": 1.050846622408329,
+       "defasagem_hac": 3,
+       "p_valor_hac": 0.021255838821386385,
+       "ic95_hac": [
+        0.3608702443506524,
+        4.480189004191303
+       ],
+       "fator_inflacao_se": 1.684213211917623,
+       "ic95_classico": [
+        1.1666768843270474,
+        3.674382364214907
+       ]
+      },
+      "theilsen": {
+       "coef": 2.125,
+       "intercepto": 2703.5,
+       "ic95": [
+        0.5151515151515151,
+        3.6241765480896073
+       ],
+       "n": 51
+      },
+      "bootstrap": {
+       "coef": 2.4205296242709773,
+       "se_bootstrap": 0.9912325820944108,
+       "ic95": [
+        0.4579071997658376,
+        4.351166179379701
+       ],
+       "tam_bloco": 4,
+       "n_rep": 4000,
+       "n": 51
+      }
+     },
+     "decomposicao": {
+      "GrIS": {
+       "rotulo": "Groenlandia",
+       "global": 0.2892,
+       "local": 0.3647,
+       "fp": 1.2614,
+       "inc": 0.0415
+      },
+      "AIS": {
+       "rotulo": "Antartica",
+       "global": 0.1371,
+       "local": 0.1304,
+       "fp": 0.9514,
+       "inc": 0.0242
+      },
+      "glac": {
+       "rotulo": "Geleiras de montanha",
+       "global": 0.5217,
+       "local": 0.5282,
+       "fp": 1.0126,
+       "inc": 0.0941
+      },
+      "tws": {
+       "rotulo": "Agua continental",
+       "global": -0.0681,
+       "local": 0.0612,
+       "fp": -0.8989,
+       "inc": 0.0447
+      },
+      "esterico_dinamico": {
+       "rotulo": "Esterico/dinamico local",
+       "local": 0.1153,
+       "inc": 0.0127,
+       "ponto": [
+        -23.25,
+        -43.25
+       ]
+      },
+      "vlm": {
+       "rotulo": "Movimento do terreno",
+       "local": 0.117,
+       "inc": 0.533,
+       "vu_gnss": -0.117
+      }
+     },
+     "soma_prevista": 1.3168,
+     "inc_soma": 0.5454,
+     "residuo": 1.1037,
+     "z": 0.932,
+     "fecha": true,
+     "calotas_mm_ano": 0.4951,
+     "parcela_calotas_observado_pct": 20.5,
+     "parcela_calotas_soma_pct": 37.6
+    },
+    "1993-2018": {
+     "n_anos": 25,
+     "observado": {
+      "rotulo": "Ilha Fiscal (RJ)",
+      "ols": {
+       "n": 25,
+       "coef": 2.8787611198326517,
+       "intercepto": 6953.256666666665,
+       "x_ref": 2005.04,
+       "se_classico": 1.6930981156098404,
+       "r2": 0.11166017420058005,
+       "rho1_residuos": 0.711663023756329,
+       "residuos_dp": 61.628771408198226,
+       "se_hac": 2.87243485676542,
+       "defasagem_hac": 2,
+       "p_valor_hac": 0.3162458468016819,
+       "ic95_hac": [
+        -2.7512111994275714,
+        8.508733439092875
+       ],
+       "fator_inflacao_se": 1.696555462605776,
+       "ic95_classico": [
+        -0.6236791822097949,
+        6.381201421875098
+       ]
+      },
+      "theilsen": {
+       "coef": 3.378063725490158,
+       "intercepto": 186.06556372556588,
+       "ic95": [
+        -0.8636363636363636,
+        7.9
+       ],
+       "n": 25
+      },
+      "bootstrap": {
+       "coef": 2.8787611198326517,
+       "se_bootstrap": 2.121350649006718,
+       "ic95": [
+        -1.370468835545034,
+        6.998736614778283
+       ],
+       "tam_bloco": 3,
+       "n_rep": 4000,
+       "n": 25
+      }
+     },
+     "decomposicao": {
+      "GrIS": {
+       "rotulo": "Groenlandia",
+       "global": 0.6265,
+       "local": 0.7914,
+       "fp": 1.2633,
+       "inc": 0.0326
+      },
+      "AIS": {
+       "rotulo": "Antartica",
+       "global": 0.3018,
+       "local": 0.2867,
+       "fp": 0.95,
+       "inc": 0.0316
+      },
+      "glac": {
+       "rotulo": "Geleiras de montanha",
+       "global": 0.6464,
+       "local": 0.6671,
+       "fp": 1.032,
+       "inc": 0.0708
+      },
+      "tws": {
+       "rotulo": "Agua continental",
+       "global": 0.3121,
+       "local": 0.2319,
+       "fp": 0.7428,
+       "inc": 0.0446
+      },
+      "esterico_dinamico": {
+       "rotulo": "Esterico/dinamico local",
+       "local": -0.5776,
+       "inc": 0.0792,
+       "ponto": [
+        -23.25,
+        -43.25
+       ]
+      },
+      "vlm": {
+       "rotulo": "Movimento do terreno",
+       "local": 0.117,
+       "inc": 0.533,
+       "vu_gnss": -0.117
+      }
+     },
+     "soma_prevista": 1.5164,
+     "inc_soma": 0.5472,
+     "residuo": 1.3623,
+     "z": 0.466,
+     "fecha": true,
+     "calotas_mm_ano": 1.0781,
+     "parcela_calotas_observado_pct": 37.5,
+     "parcela_calotas_soma_pct": 71.1
+    }
+   }
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "lat": -25.016667,
+   "lon": -47.933333,
+   "registro": [
+    1954,
+    2004
+   ],
+   "n_anos": 51,
+   "vlm": {
+    "vu_mm_ano": -0.043,
+    "inc": 0.935,
+    "n_gnss": 1,
+    "periodo_gnss": [
+     2002.4914,
+     2023.8823
+    ],
+    "defasagem_epoca": "a serie GNSS cobre 2002-2024, enquanto o registro maregrafico cobre 1954-2004; assume-se VLM constante"
+   },
+   "pontos_de_grade": {
+    "GrIS": {
+     "ponto": [
+      -25.25,
+      -47.75
+     ],
+     "raio_graus": 0.0
+    },
+    "AIS": {
+     "ponto": [
+      -25.25,
+      -47.75
+     ],
+     "raio_graus": 0.0
+    },
+    "glac": {
+     "ponto": [
+      -25.25,
+      -47.75
+     ],
+     "raio_graus": 0.0
+    },
+    "tws": {
+     "ponto": [
+      -25.25,
+      -47.75
+     ],
+     "raio_graus": 0.0
+    }
+   },
+   "periodos": {
+    "1957-2004": {
+     "n_anos": 48,
+     "observado": {
+      "rotulo": "Cananeia (SP)",
+      "ols": {
+       "n": 48,
+       "coef": 4.099227456940158,
+       "intercepto": 6937.150252525255,
+       "x_ref": 1980.5,
+       "se_classico": 0.36389115051444104,
+       "r2": 0.7339500011749767,
+       "rho1_residuos": 0.5795830395585331,
+       "residuos_dp": 34.92596856097379,
+       "se_hac": 0.4942770553747975,
+       "defasagem_hac": 3,
+       "p_valor_hac": 1.1007495840898104e-16,
+       "ic95_hac": [
+        3.1304444284055544,
+        5.068010485474761
+       ],
+       "fator_inflacao_se": 1.3583101833502327,
+       "ic95_classico": [
+        3.366752561583912,
+        4.8317023522964035
+       ]
+      },
+      "theilsen": {
+       "coef": 4.030059523809536,
+       "intercepto": -1038.5328869047853,
+       "ic95": [
+        3.2715053763440665,
+        4.8
+       ],
+       "n": 48
+      },
+      "bootstrap": {
+       "coef": 4.099227456940158,
+       "se_bootstrap": 0.5655050001972015,
+       "ic95": [
+        2.9675649221416984,
+        5.180848541356358
+       ],
+       "tam_bloco": 4,
+       "n_rep": 4000,
+       "n": 48
+      }
+     },
+     "decomposicao": {
+      "GrIS": {
+       "rotulo": "Groenlandia",
+       "global": 0.1844,
+       "local": 0.2321,
+       "fp": 1.2582,
+       "inc": 0.0408
+      },
+      "AIS": {
+       "rotulo": "Antartica",
+       "global": 0.0687,
+       "local": 0.0614,
+       "fp": 0.8944,
+       "inc": 0.0191
+      },
+      "glac": {
+       "rotulo": "Geleiras de montanha",
+       "global": 0.4416,
+       "local": 0.4279,
+       "fp": 0.969,
+       "inc": 0.0995
+      },
+      "tws": {
+       "rotulo": "Agua continental",
+       "global": -0.3223,
+       "local": 0.0176,
+       "fp": -0.0545,
+       "inc": 0.0321
+      },
+      "esterico_dinamico": {
+       "rotulo": "Esterico/dinamico local",
+       "local": 0.0116,
+       "inc": 0.0238,
+       "ponto": [
+        -25.25,
+        -47.75
+       ]
+      },
+      "vlm": {
+       "rotulo": "Movimento do terreno",
+       "local": 0.043,
+       "inc": 0.935,
+       "vu_gnss": -0.043
+      }
+     },
+     "soma_prevista": 0.7935,
+     "inc_soma": 0.9422,
+     "residuo": 3.3057,
+     "z": 3.107,
+     "fecha": false,
+     "calotas_mm_ano": 0.2935,
+     "parcela_calotas_observado_pct": 7.2,
+     "parcela_calotas_soma_pct": 37.0
+    }
+   }
+  }
+ }
+}

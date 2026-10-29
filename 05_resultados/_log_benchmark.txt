@@ -1,0 +1,148 @@
+
+TESTE 1 | Ilha Fiscal (RJ): 1963-2022, 55 anos validos
+         29 origens de treino avaliadas (de 1991 a 2021)
+
+============================================================================================================
+TESTE 1: erro de previsao fora da amostra, Ilha Fiscal (RJ) (mm)
+============================================================================================================
+Algoritmo                     RMSE h=1      RMSE h=5     RMSE h=10     RMSE h=20    MAE h=20   n(h=20)
+------------------------------------------------------------------------------------------------------
+Processo gaussiano                52.3          71.3          80.0          91.1        74.2       404
+k-vizinhos (k=5)                  56.8          66.4          78.6          93.1        76.5       404
+Media do treino                   76.3          80.5          84.4          93.8        76.2       404
+Floresta aleatoria                46.5          66.0          76.2          94.9        76.7       404
+Gradient boosting                 44.1          68.6          78.4          98.1        79.1       404
+Persistencia                      44.1          68.6          78.5          98.1        79.1       404
+Arvores extremas                  44.1          68.6          78.5          98.1        79.1       404
+SVR (RBF)                         58.8          69.0          78.2         100.5        81.7       404
+ARIMA(1,1,1)                      47.0          72.2          83.7         103.5        81.5       404
+OLS linear                        78.8          91.8         106.6         116.7        97.2       404
+Ridge polinomial g3               65.6          81.2         100.3         120.9       104.1       404
+Theil-Sen                         97.7         112.5         131.3         147.8       121.5       404
+OLS quadratico                    90.8         125.6         178.4         306.4       250.8       404
+OLS cubico                        63.7          94.5         145.0         369.0       228.2       404
+Rede neural (MLP)                218.6         581.9        1043.9        1918.6      1586.5       404
+
+    Linha de base trivial (media do treino): 93.8 mm
+    Melhor algoritmo: Processo gaussiano (91.1 mm), ganho de 3% sobre a linha de base
+    12 de 15 algoritmos sao PIORES que a linha de base trivial
+
+TESTE 1 | Cananeia (SP): 1954-2004, 51 anos validos
+         25 origens de treino avaliadas (de 1978 a 2003)
+
+============================================================================================================
+TESTE 1: erro de previsao fora da amostra, Cananeia (SP) (mm)
+============================================================================================================
+Algoritmo                     RMSE h=1      RMSE h=5     RMSE h=10     RMSE h=20    MAE h=20   n(h=20)
+------------------------------------------------------------------------------------------------------
+Theil-Sen                         40.0          41.3          39.7          39.6        30.8       329
+OLS linear                        42.1          45.3          44.4          46.5        36.1       329
+ARIMA(1,1,1)                      35.2          40.0          44.6          49.7        40.4       329
+Gradient boosting                 35.8          43.0          47.0          52.5        42.3       329
+Arvores extremas                  35.8          43.1          47.0          52.5        42.3       329
+Persistencia                      35.8          43.1          47.0          52.5        42.3       329
+Floresta aleatoria                34.8          42.3          46.1          52.7        42.5       329
+k-vizinhos (k=5)                  41.0          49.3          53.2          61.6        50.2       329
+Ridge polinomial g3               41.3          48.8          57.9          78.7        64.6       329
+Processo gaussiano                36.5          53.5          64.4          83.9        70.3       329
+SVR (RBF)                         38.9          53.0          70.3          94.3        80.4       329
+OLS quadratico                    45.2          57.0          70.3          99.1        78.4       329
+Media do treino                   93.7          99.8         103.8         113.8       108.1       329
+OLS cubico                        53.7         106.0         225.6         669.8       435.9       329
+Rede neural (MLP)                201.4         615.4        1145.4        2125.4      1733.7       329
+
+    Linha de base trivial (media do treino): 113.8 mm
+    Melhor algoritmo: Theil-Sen (39.6 mm), ganho de 65% sobre a linha de base
+    2 de 15 algoritmos sao PIORES que a linha de base trivial
+
+============================================================================================================
+REPLICACAO: o resultado se sustenta nas duas estacoes?
+============================================================================================================
+Estacao               linha de base         melhor algoritmo    ganho    piores que a base
+--------------------------------------------------------------------------------------------
+Ilha Fiscal (RJ)            93.8 mm       Processo gaussiano       3%             12 de 15
+Cananeia (SP)              113.8 mm                Theil-Sen      65%              2 de 15
+
+LEITURA: o resultado NAO se repete, e a divergencia e o achado.
+------------------------------------------------------------------------------------------------------------
+Em Ilha Fiscal o melhor algoritmo supera a linha de base trivial em 3% e doze dos
+quinze sao piores que ela. Em Cananeia o melhor supera em 65% e apenas dois sao
+piores. A diferenca nao esta no algoritmo, esta na razao sinal/ruido de cada serie:
+Ilha Fiscal tem R2 de 0,235 e desvio dos residuos de 71 mm; Cananeia tem R2 de 0,734
+e desvio de 35 mm. Onde a tendencia e forte e limpa, qualquer estimador de tendencia
+a aprende; onde ela esta enterrada na variabilidade interanual, nenhum aprende.
+
+O ponto critico e qual das duas series e fisicamente valida. A etapa 31 mostra que o
+orcamento do nivel do mar FECHA em Ilha Fiscal (z = +0,93) e e REJEITADO em Cananeia
+(z = +3,11, residuo de 3,3 mm/ano inexplicavel pelos processos conhecidos). Ou seja,
+a tendencia forte e facilmente aprendivel de Cananeia e justamente a que a fisica
+rejeita. Um procedimento de selecao guiado apenas por desempenho de validacao
+preferiria Cananeia e produziria projecoes confiantes, bem validadas e erradas.
+
+Dois niveis de conclusao, portanto. O primeiro e dependente da estacao: superar a
+previsao trivial depende da razao sinal/ruido local, nao do algoritmo. O segundo e
+estrutural e independe da estacao: seis dos quinze algoritmos nao conseguem gerar
+valor fora da faixa de treino, qualquer que seja a serie que recebam.
+
+
+TESTE 2 | Contribuicao acumulada das calotas polares (Groenlandia + Antartica) ao
+         nivel medio global, 1900-2018, 119 anos (Frederikse et al., 2020)
+         68 origens de treino avaliadas
+
+============================================================================================================
+TESTE 2: erro de previsao fora da amostra, contribuicao das calotas (mm)
+============================================================================================================
+Algoritmo                     RMSE h=1      RMSE h=5     RMSE h=10     RMSE h=20    MAE h=20   n(h=20)
+------------------------------------------------------------------------------------------------------
+ARIMA(1,1,1)                       0.4           1.0           1.9           3.6         2.5      1189
+Processo gaussiano                 0.5           1.4           2.7           4.4         3.5      1189
+Theil-Sen                          3.6           4.0           4.6           5.5         4.6      1189
+OLS linear                         3.9           4.3           4.8           5.9         4.9      1189
+Rede neural (MLP)                  1.1           2.0           3.5           6.1         4.1      1189
+Arvores extremas                   0.7           2.2           3.9           6.3         4.7      1189
+Persistencia                       0.7           2.2           3.9           6.3         4.7      1189
+Gradient boosting                  0.7           2.2           3.9           6.3         4.7      1189
+Floresta aleatoria                 1.1           2.5           4.2           6.6         4.9      1189
+k-vizinhos (k=5)                   2.0           3.4           4.9           7.1         5.6      1189
+OLS quadratico                     3.7           4.6           5.6           7.7         6.7      1189
+SVR (RBF)                          0.9           1.9           3.8           9.0         6.6      1189
+OLS cubico                         3.7           5.0           6.8          10.7         7.3      1189
+Ridge polinomial g3                4.5           5.6           7.0          10.7         9.3      1189
+Media do treino                   22.4          23.2          24.0          25.5        25.0      1189
+
+============================================================================================================
+DEMONSTRACAO DIRETA: o que cada algoritmo responde quando lhe pedem o ano 2100
+============================================================================================================
+Treino: contribuicao das calotas, serie completa 1900-2018. Pergunta: valor em 2050 e 2100.
+O valor observado em 2018 e 9.8 mm.
+
+Algoritmo                     2030      2050      2100   diagnostico
+--------------------------------------------------------------------------------------------
+Media do treino              -26.3     -26.3     -26.3   saturou: resposta praticamente constante, incapaz de extrapolar
+Persistencia                   9.8       9.8       9.8   saturou: resposta praticamente constante, incapaz de extrapolar
+OLS linear                    10.6      21.0      47.0   cresce monotonicamente
+OLS quadratico                 6.0      12.4      24.4   comportamento nao monotonico ou decrescente
+OLS cubico                    11.9      28.6      96.8   cresce monotonicamente
+Theil-Sen                      9.6      20.0      46.1   comportamento nao monotonico ou decrescente
+Ridge polinomial g3           13.0      26.8      65.6   cresce monotonicamente
+Floresta aleatoria             9.2       9.2       9.2   saturou: resposta praticamente constante, incapaz de extrapolar
+Gradient boosting              9.8       9.8       9.8   saturou: resposta praticamente constante, incapaz de extrapolar
+Arvores extremas               9.8       9.8       9.8   saturou: resposta praticamente constante, incapaz de extrapolar
+SVR (RBF)                     20.0       6.6     -24.3   comportamento nao monotonico ou decrescente
+k-vizinhos (k=5)               7.7       7.7       7.7   saturou: resposta praticamente constante, incapaz de extrapolar
+Processo gaussiano            11.7      21.6      47.7   cresce monotonicamente
+Rede neural (MLP)             16.5      26.6      51.2   cresce monotonicamente
+ARIMA(1,1,1)                  19.9      32.8      62.1   cresce monotonicamente
+
+6 de 15 algoritmos saturam e nao conseguem extrapolar: Media do treino, Persistencia, Floresta aleatoria, Gradient boosting, Arvores extremas, k-vizinhos (k=5)
+
+Esse comportamento nao e um defeito de implementacao nem de ajuste de
+hiperparametro: e uma propriedade estrutural desses algoritmos. Modelos baseados
+em arvores de decisao e em vizinhanca produzem previsoes como medias de valores
+de treino, e portanto nao podem gerar nenhum valor fora do intervalo observado no
+treino. Nucleos de base radial decaem para a media do treino longe dos dados.
+Como a projecao climatica e, por definicao, extrapolacao para fora da faixa
+historica, esses algoritmos sao inadequados para a tarefa, independentemente do
+desempenho que apresentem em horizontes curtos.
+
+gravado 05_resultados/benchmark_algoritmos.json

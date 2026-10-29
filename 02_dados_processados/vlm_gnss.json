@@ -1,0 +1,407 @@
+{
+ "raio_busca_km": 100.0,
+ "duracao_minima_anos": 5.0,
+ "fonte": "Blewitt et al. (2016), MIDAS, Nevada Geodetic Laboratory, referencial IGS14",
+ "contexto_brasil": {
+  "n_estacoes": 415,
+  "mediana_mm_ano": 0.378,
+  "media_mm_ano": 0.1898843373493976,
+  "desvio_mm_ano": 5.241432783157396
+ },
+ "estacoes_maregraficas": {
+  "SANTANA_AP": {
+   "nome": "Santana (AP)",
+   "lat": -0.05,
+   "lon": -51.17,
+   "n_gnss": 4,
+   "vlm_mm_ano": -0.224,
+   "vlm_inc_mm_ano": 1.456,
+   "duracao_efetiva_anos": 8.3,
+   "duracao_maxima_anos": 11.3,
+   "gnss_mais_proxima": "APS1",
+   "distancia_km": 1.1,
+   "periodo_gnss": [
+    2016.0712,
+    2024.742
+   ],
+   "estacoes": [
+    {
+     "nome": "APS1",
+     "d_km": 1.1,
+     "vu": -0.69,
+     "svu": 1.053,
+     "dur": 8.7
+    },
+    {
+     "nome": "APSA",
+     "d_km": 1.2,
+     "vu": 0.429,
+     "svu": 1.265,
+     "dur": 6.3
+    },
+    {
+     "nome": "MAPA",
+     "d_km": 13.4,
+     "vu": 0.974,
+     "svu": 0.755,
+     "dur": 11.3
+    },
+    {
+     "nome": "APMA",
+     "d_km": 13.5,
+     "vu": -2.59,
+     "svu": 1.33,
+     "dur": 7.3
+    }
+   ]
+  },
+  "BELEM_PA": {
+   "nome": "Belem (PA)",
+   "lat": -1.45,
+   "lon": -48.5,
+   "n_gnss": 2,
+   "vlm_mm_ano": -0.981,
+   "vlm_inc_mm_ano": 0.95,
+   "duracao_efetiva_anos": 19.2,
+   "duracao_maxima_anos": 20.7,
+   "gnss_mais_proxima": "BELE",
+   "distancia_km": 6.2,
+   "periodo_gnss": [
+    2004.0,
+    2024.731
+   ],
+   "estacoes": [
+    {
+     "nome": "BELE",
+     "d_km": 6.2,
+     "vu": -0.772,
+     "svu": 0.599,
+     "dur": 20.7
+    },
+    {
+     "nome": "BEPA",
+     "d_km": 6.6,
+     "vu": -2.372,
+     "svu": 0.983,
+     "dur": 9.0
+    }
+   ]
+  },
+  "MADEIRA_MA": {
+   "nome": "Ponta da Madeira (MA)",
+   "lat": -2.57,
+   "lon": -44.38,
+   "n_gnss": 1,
+   "vlm_mm_ano": -0.546,
+   "vlm_inc_mm_ano": 0.899,
+   "duracao_efetiva_anos": 17.1,
+   "duracao_maxima_anos": 17.1,
+   "gnss_mais_proxima": "SALU",
+   "distancia_km": 18.8,
+   "periodo_gnss": [
+    2007.6769,
+    2024.731
+   ],
+   "estacoes": [
+    {
+     "nome": "SALU",
+     "d_km": 18.8,
+     "vu": -0.546,
+     "svu": 0.636,
+     "dur": 17.1
+    }
+   ]
+  },
+  "FORTALEZA_CE": {
+   "nome": "Fortaleza (CE)",
+   "lat": -3.72,
+   "lon": -38.48,
+   "n_gnss": 4,
+   "vlm_mm_ano": -0.304,
+   "vlm_inc_mm_ano": 1.044,
+   "duracao_efetiva_anos": 15.1,
+   "duracao_maxima_anos": 19.0,
+   "gnss_mais_proxima": "CEFT",
+   "distancia_km": 1.3,
+   "periodo_gnss": [
+    2010.2313,
+    2024.742
+   ],
+   "estacoes": [
+    {
+     "nome": "CEFT",
+     "d_km": 1.3,
+     "vu": -0.287,
+     "svu": 0.613,
+     "dur": 14.5
+    },
+    {
+     "nome": "FORT",
+     "d_km": 18.5,
+     "vu": -2.469,
+     "svu": 1.501,
+     "dur": 12.3
+    },
+    {
+     "nome": "BRFT",
+     "d_km": 18.5,
+     "vu": -0.675,
+     "svu": 0.538,
+     "dur": 19.0
+    },
+    {
+     "nome": "CEEU",
+     "d_km": 18.5,
+     "vu": 0.149,
+     "svu": 0.53,
+     "dur": 16.5
+    }
+   ]
+  },
+  "RECIFE_PE": {
+   "nome": "Recife (PE)",
+   "lat": -8.05,
+   "lon": -34.87,
+   "n_gnss": 2,
+   "vlm_mm_ano": -3.054,
+   "vlm_inc_mm_ano": 0.868,
+   "duracao_efetiva_anos": 17.2,
+   "duracao_maxima_anos": 18.3,
+   "gnss_mais_proxima": "PERC",
+   "distancia_km": 8.9,
+   "periodo_gnss": [
+    2018.6201,
+    2024.742
+   ],
+   "estacoes": [
+    {
+     "nome": "PERC",
+     "d_km": 8.9,
+     "vu": -4.303,
+     "svu": 1.134,
+     "dur": 6.1
+    },
+    {
+     "nome": "RECF",
+     "d_km": 9.0,
+     "vu": -2.934,
+     "svu": 0.606,
+     "dur": 18.3
+    }
+   ]
+  },
+  "SALVADOR_BA": {
+   "nome": "Salvador (BA)",
+   "lat": -12.97,
+   "lon": -38.52,
+   "n_gnss": 3,
+   "vlm_mm_ano": 0.094,
+   "vlm_inc_mm_ano": 0.473,
+   "duracao_efetiva_anos": 16.8,
+   "duracao_maxima_anos": 17.1,
+   "gnss_mais_proxima": "SSA1",
+   "distancia_km": 0.7,
+   "periodo_gnss": [
+    2007.6769,
+    2024.742
+   ],
+   "estacoes": [
+    {
+     "nome": "SSA1",
+     "d_km": 0.7,
+     "vu": 0.187,
+     "svu": 0.556,
+     "dur": 17.1
+    },
+    {
+     "nome": "SALV",
+     "d_km": 4.4,
+     "vu": -0.489,
+     "svu": 1.073,
+     "dur": 8.6
+    },
+    {
+     "nome": "SAVO",
+     "d_km": 10.1,
+     "vu": -0.497,
+     "svu": 0.491,
+     "dur": 17.1
+    }
+   ]
+  },
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal (RJ)",
+   "lat": -22.9,
+   "lon": -43.17,
+   "n_gnss": 4,
+   "vlm_mm_ano": -0.117,
+   "vlm_inc_mm_ano": 0.533,
+   "duracao_efetiva_anos": 16.1,
+   "duracao_maxima_anos": 17.5,
+   "gnss_mais_proxima": "RJNI",
+   "distancia_km": 3.8,
+   "periodo_gnss": [
+    2019.4497,
+    2024.7392
+   ],
+   "estacoes": [
+    {
+     "nome": "RJNI",
+     "d_km": 3.8,
+     "vu": -1.009,
+     "svu": 0.895,
+     "dur": 5.3
+    },
+    {
+     "nome": "ONRJ",
+     "d_km": 5.6,
+     "vu": 0.077,
+     "svu": 0.516,
+     "dur": 17.5
+    },
+    {
+     "nome": "RIOD",
+     "d_km": 16.7,
+     "vu": -0.454,
+     "svu": 0.706,
+     "dur": 17.4
+    },
+    {
+     "nome": "RJVA",
+     "d_km": 74.2,
+     "vu": -0.229,
+     "svu": 1.038,
+     "dur": 5.8
+    }
+   ]
+  },
+  "SANTOS_SP": {
+   "nome": "Santos (SP)",
+   "lat": -23.98,
+   "lon": -46.3,
+   "n_gnss": 3,
+   "vlm_mm_ano": 0.694,
+   "vlm_inc_mm_ano": 0.749,
+   "duracao_efetiva_anos": 15.2,
+   "duracao_maxima_anos": 17.6,
+   "gnss_mais_proxima": "EACH",
+   "distancia_km": 59.0,
+   "periodo_gnss": [
+    2017.9083,
+    2024.742
+   ],
+   "estacoes": [
+    {
+     "nome": "EACH",
+     "d_km": 59.0,
+     "vu": -0.114,
+     "svu": 0.805,
+     "dur": 6.8
+    },
+    {
+     "nome": "POLI",
+     "d_km": 64.4,
+     "vu": 1.042,
+     "svu": 0.566,
+     "dur": 17.6
+    },
+    {
+     "nome": "SJSP",
+     "d_km": 96.8,
+     "vu": -0.403,
+     "svu": 0.92,
+     "dur": 11.4
+    }
+   ]
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "lat": -25.02,
+   "lon": -47.93,
+   "n_gnss": 1,
+   "vlm_mm_ano": -0.043,
+   "vlm_inc_mm_ano": 0.935,
+   "duracao_efetiva_anos": 21.4,
+   "duracao_maxima_anos": 21.4,
+   "gnss_mais_proxima": "NEIA",
+   "distancia_km": 0.5,
+   "periodo_gnss": [
+    2002.4914,
+    2023.8823
+   ],
+   "estacoes": [
+    {
+     "nome": "NEIA",
+     "d_km": 0.5,
+     "vu": -0.043,
+     "svu": 0.661,
+     "dur": 21.4
+    }
+   ]
+  },
+  "IMBITUBA_SC": {
+   "nome": "Imbituba (SC)",
+   "lat": -28.23,
+   "lon": -48.65,
+   "n_gnss": 3,
+   "vlm_mm_ano": -0.405,
+   "vlm_inc_mm_ano": 0.71,
+   "duracao_efetiva_anos": 14.4,
+   "duracao_maxima_anos": 14.5,
+   "gnss_mais_proxima": "IMBT",
+   "distancia_km": 0.8,
+   "periodo_gnss": [
+    2007.6769,
+    2022.141
+   ],
+   "estacoes": [
+    {
+     "nome": "IMBT",
+     "d_km": 0.8,
+     "vu": -0.42,
+     "svu": 0.684,
+     "dur": 14.5
+    },
+    {
+     "nome": "SCFL",
+     "d_km": 71.3,
+     "vu": 0.936,
+     "svu": 0.831,
+     "dur": 11.1
+    },
+    {
+     "nome": "IFSC",
+     "d_km": 71.5,
+     "vu": 0.4,
+     "svu": 0.791,
+     "dur": 9.0
+    }
+   ]
+  },
+  "RIO_GRANDE_RS": {
+   "nome": "Rio Grande (RS)",
+   "lat": -32.1,
+   "lon": -52.1,
+   "n_gnss": 1,
+   "vlm_mm_ano": 1.217,
+   "vlm_inc_mm_ano": 1.105,
+   "duracao_efetiva_anos": 8.2,
+   "duracao_maxima_anos": 8.2,
+   "gnss_mais_proxima": "RSPE",
+   "distancia_km": 44.6,
+   "periodo_gnss": [
+    2014.5024,
+    2022.6995
+   ],
+   "estacoes": [
+    {
+     "nome": "RSPE",
+     "d_km": 44.6,
+     "vu": 1.217,
+     "svu": 0.781,
+     "dur": 8.2
+    }
+   ]
+  }
+ }
+}

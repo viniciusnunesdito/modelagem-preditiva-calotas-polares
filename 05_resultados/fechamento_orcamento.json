@@ -1,0 +1,367 @@
+{
+ "global": {
+  "1900-2018": {
+   "componentes": {
+    "Expansao termica e halosterica": {
+     "coef": 0.5171,
+     "ic95": [
+      0.4441,
+      0.5902
+     ]
+    },
+    "Geleiras de montanha": {
+     "coef": 0.7,
+     "ic95": [
+      0.6596,
+      0.7405
+     ]
+    },
+    "Manto da Groenlandia": {
+     "coef": 0.4422,
+     "ic95": [
+      0.4115,
+      0.473
+     ]
+    },
+    "Manto da Antartica": {
+     "coef": 0.0777,
+     "ic95": [
+      0.0604,
+      0.0951
+     ]
+    },
+    "Agua continental": {
+     "coef": -0.2132,
+     "ic95": [
+      -0.2552,
+      -0.1712
+     ]
+    }
+   },
+   "soma": 1.5238,
+   "observado": 1.5627,
+   "residuo": 0.0389,
+   "fecha": true,
+   "calotas_mm_ano": 0.5199,
+   "parcela_calotas_pct": 33.3
+  },
+  "1957-2018": {
+   "componentes": {
+    "Expansao termica e halosterica": {
+     "coef": 0.7046,
+     "ic95": [
+      0.5919,
+      0.8174
+     ]
+    },
+    "Geleiras de montanha": {
+     "coef": 0.5197,
+     "ic95": [
+      0.4812,
+      0.5581
+     ]
+    },
+    "Manto da Groenlandia": {
+     "coef": 0.2977,
+     "ic95": [
+      0.2332,
+      0.3623
+     ]
+    },
+    "Manto da Antartica": {
+     "coef": 0.1306,
+     "ic95": [
+      0.0926,
+      0.1685
+     ]
+    },
+    "Agua continental": {
+     "coef": -0.1439,
+     "ic95": [
+      -0.2705,
+      -0.0173
+     ]
+    }
+   },
+   "soma": 1.5094,
+   "observado": 1.7796,
+   "residuo": 0.2702,
+   "fecha": true,
+   "calotas_mm_ano": 0.4283,
+   "parcela_calotas_pct": 24.1
+  },
+  "1993-2018": {
+   "componentes": {
+    "Expansao termica e halosterica": {
+     "coef": 1.1915,
+     "ic95": [
+      1.1373,
+      1.2456
+     ]
+    },
+    "Geleiras de montanha": {
+     "coef": 0.6717,
+     "ic95": [
+      0.6626,
+      0.6809
+     ]
+    },
+    "Manto da Groenlandia": {
+     "coef": 0.6547,
+     "ic95": [
+      0.555,
+      0.7544
+     ]
+    },
+    "Manto da Antartica": {
+     "coef": 0.3195,
+     "ic95": [
+      0.2711,
+      0.3679
+     ]
+    },
+    "Agua continental": {
+     "coef": 0.3146,
+     "ic95": [
+      0.2298,
+      0.3993
+     ]
+    }
+   },
+   "soma": 3.1591,
+   "observado": 3.3534,
+   "residuo": 0.1943,
+   "fecha": true,
+   "calotas_mm_ano": 0.9742,
+   "parcela_calotas_pct": 29.1
+  }
+ },
+ "atlantico_sul": {
+  "1900-2018": {
+   "componentes": {
+    "Expansao termica e halosterica": 0.8788,
+    "Geleiras de montanha": 0.7584,
+    "Manto da Groenlandia": 0.4984,
+    "Manto da Antartica": 0.0936,
+    "Agua continental": -0.1984,
+    "Ajuste isostatico glacial (GIA)": -0.0444
+   },
+   "soma": 1.7657,
+   "observado": 2.0625,
+   "residuo": 0.2968,
+   "calotas_mm_ano": 0.592,
+   "parcela_calotas_pct": 28.7
+  },
+  "1993-2018": {
+   "componentes": {
+    "Expansao termica e halosterica": 1.295,
+    "Geleiras de montanha": 0.72,
+    "Manto da Groenlandia": 0.7389,
+    "Manto da Antartica": 0.3849,
+    "Agua continental": 0.3788,
+    "Ajuste isostatico glacial (GIA)": -0.0444
+   },
+   "soma": 3.4804,
+   "observado": 3.8873,
+   "residuo": 0.4069,
+   "calotas_mm_ano": 1.1238,
+   "parcela_calotas_pct": 28.9
+  }
+ },
+ "local": {
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal (RJ)",
+   "lat": -22.896667,
+   "lon": -43.166667,
+   "periodo": [
+    1963,
+    2018
+   ],
+   "n_anos": 51,
+   "observado": {
+    "rotulo": "Ilha Fiscal (RJ)",
+    "ols": {
+     "n": 51,
+     "coef": 2.4205296242709773,
+     "intercepto": 6931.637373737372,
+     "x_ref": 1990.8235294117646,
+     "se_classico": 0.6239391871364368,
+     "r2": 0.2349725860992924,
+     "rho1_residuos": 0.6755786067178263,
+     "residuos_dp": 71.38969134380984,
+     "se_hac": 1.050846622408329,
+     "defasagem_hac": 3,
+     "p_valor_hac": 0.021255838821386385,
+     "ic95_hac": [
+      0.3608702443506524,
+      4.480189004191303
+     ],
+     "fator_inflacao_se": 1.684213211917623,
+     "ic95_classico": [
+      1.1666768843270474,
+      3.674382364214907
+     ]
+    },
+    "theilsen": {
+     "coef": 2.125,
+     "intercepto": 2703.5,
+     "ic95": [
+      0.5151515151515151,
+      3.6241765480896073
+     ],
+     "n": 51
+    },
+    "bootstrap": {
+     "coef": 2.4205296242709773,
+     "se_bootstrap": 0.9912325820944108,
+     "ic95": [
+      0.4579071997658376,
+      4.351166179379701
+     ],
+     "tam_bloco": 4,
+     "n_rep": 4000,
+     "n": 51
+    }
+   },
+   "decomposicao": {
+    "GrIS": {
+     "global": 0.302,
+     "fp": 1.2633,
+     "local": 0.3816
+    },
+    "AIS": {
+     "global": 0.145,
+     "fp": 0.95,
+     "local": 0.1378
+    },
+    "glac": {
+     "global": 0.541,
+     "fp": 1.032,
+     "local": 0.5583
+    },
+    "tws": {
+     "global": -0.0691,
+     "fp": 0.7428,
+     "local": -0.0513
+    },
+    "esterico_dinamico": {
+     "local": 0.1153,
+     "ponto_grade": [
+      -23.25,
+      -43.25
+     ],
+     "raio_busca": 0.5
+    },
+    "vlm": {
+     "vu_gnss": -0.117,
+     "inc": 0.533,
+     "contribuicao_rsl": 0.117,
+     "n_gnss": 4
+    }
+   },
+   "soma_prevista": 1.2586,
+   "residuo": 1.162,
+   "fecha": true,
+   "calotas_local_mm_ano": 0.5194,
+   "parcela_calotas_do_observado_pct": 21.5,
+   "parcela_calotas_da_soma_pct": 41.3
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "lat": -25.016667,
+   "lon": -47.933333,
+   "periodo": [
+    1957,
+    2004
+   ],
+   "n_anos": 48,
+   "observado": {
+    "rotulo": "Cananeia (SP)",
+    "ols": {
+     "n": 48,
+     "coef": 4.099227456940158,
+     "intercepto": 6937.150252525255,
+     "x_ref": 1980.5,
+     "se_classico": 0.36389115051444104,
+     "r2": 0.7339500011749767,
+     "rho1_residuos": 0.5795830395585331,
+     "residuos_dp": 34.92596856097379,
+     "se_hac": 0.4942770553747975,
+     "defasagem_hac": 3,
+     "p_valor_hac": 1.1007495840898104e-16,
+     "ic95_hac": [
+      3.1304444284055544,
+      5.068010485474761
+     ],
+     "fator_inflacao_se": 1.3583101833502327,
+     "ic95_classico": [
+      3.366752561583912,
+      4.8317023522964035
+     ]
+    },
+    "theilsen": {
+     "coef": 4.030059523809536,
+     "intercepto": -1038.5328869047853,
+     "ic95": [
+      3.2715053763440665,
+      4.8
+     ],
+     "n": 48
+    },
+    "bootstrap": {
+     "coef": 4.099227456940158,
+     "se_bootstrap": 0.5655050001972015,
+     "ic95": [
+      2.9675649221416984,
+      5.180848541356358
+     ],
+     "tam_bloco": 4,
+     "n_rep": 4000,
+     "n": 48
+    }
+   },
+   "decomposicao": {
+    "GrIS": {
+     "global": 0.1926,
+     "fp": 1.2592,
+     "local": 0.2425
+    },
+    "AIS": {
+     "global": 0.0725,
+     "fp": 0.8787,
+     "local": 0.0637
+    },
+    "glac": {
+     "global": 0.4578,
+     "fp": 1.0042,
+     "local": 0.4597
+    },
+    "tws": {
+     "global": -0.3247,
+     "fp": 1.3883,
+     "local": -0.4508
+    },
+    "esterico_dinamico": {
+     "local": 0.0116,
+     "ponto_grade": [
+      -25.25,
+      -47.75
+     ],
+     "raio_busca": 0.0
+    },
+    "vlm": {
+     "vu_gnss": -0.043,
+     "inc": 0.935,
+     "contribuicao_rsl": 0.043,
+     "n_gnss": 1
+    }
+   },
+   "soma_prevista": 0.3698,
+   "residuo": 3.7295,
+   "fecha": false,
+   "calotas_local_mm_ano": 0.3062,
+   "parcela_calotas_do_observado_pct": 7.5,
+   "parcela_calotas_da_soma_pct": 82.8
+  }
+ }
+}

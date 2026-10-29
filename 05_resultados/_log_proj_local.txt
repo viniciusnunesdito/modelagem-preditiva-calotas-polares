@@ -1,0 +1,356 @@
+==============================================================================================================
+[1] FATORES LOCAIS APLICADOS A CADA ESTACAO
+==============================================================================================================
+Estacao                      lat  FP GrIS  FP AIS  FP glac  FP tws   pad.dinam VLM mm/ano   razao hist
+--------------------------------------------------------------------------------------------------------------
+Santana (AP), foz do Ama   -0.05    1.008   1.101    1.033   1.157      1.021*      -0.22      -0.022
+Belem (PA)                 -1.45    1.020   1.098    1.034   1.253      1.253       -0.98      -0.013
+Ponta da Madeira (MA)      -2.57    1.046   1.101    1.047   1.074      1.021*      -0.55       0.019
+Fortaleza (CE)             -3.72    1.088   1.125    1.069   1.115      1.021*      -0.30       0.700
+Recife (PE)                -8.05    1.146   1.121    1.080   1.069      1.113       -3.05       0.646
+Salvador (BA)             -12.97    1.171   1.052    1.050   0.785      1.018       +0.09       0.489
+Canavieiras (BA)          -15.67    1.207   1.048    1.054   0.712      1.021*         --       0.790
+Ilha Fiscal, Rio de Jane  -22.90    1.263   0.950    1.032   0.743      0.940       -0.12       0.167
+Santos (SP)               -23.98    1.258   0.906    1.016   1.110      1.021*      +0.69       0.138
+Cananeia (SP)             -25.02    1.259   0.879    1.004   1.388      0.898       -0.04      -0.060
+Imbituba (SC)             -28.23    1.294   0.843    1.009   1.385      0.902       -0.41      -0.071
+Rio Grande (RS)           -32.10    1.311   0.741    0.979   1.282      1.021*      +1.22      -0.046
+
+* padrao dinamico interpolado pela media das estacoes com projecao do AR6 disponivel
+Tendencia esterica media global no campo historico (1957-2018): 0.679 mm/ano
+A ultima coluna traz a razao esterica HISTORICA, calculada e descartada: ela mede
+variabilidade dinamica decadal, nao resposta forcada, e por isso nao e usada aqui.
+Armazenamento de agua continental (IPCC AR6, comum a todas as vias): 2050: +7.0 mm, 2100: +28.0 mm
+
+
+==============================================================================================================
+[2] PROJECOES DE NIVEL RELATIVO DO MAR NAS ESTACOES BRASILEIRAS
+==============================================================================================================
+
+VIA A - emulador semi-empirico calibrado em 1900-2018 (limite inferior)
+
+  SSP1-1.9  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       122        28   23.4       339        77   22.6
+  Belem (PA)                     157        29   18.3       433        77   17.8
+  Ponta da Madeira (MA)          132        29   22.1       365        78   21.5
+  Fortaleza (CE)                 127        30   23.8       351        81   23.1
+  Recife (PE)                    215        31   14.5       585        84   14.3
+  Salvador (BA)                  113        31   27.5       310        83   26.8
+  Ilha Fiscal, Rio de Jane       115        32   27.4       316        85   26.8
+  Santos (SP)                     96        31   32.3       269        83   30.9
+  Cananeia (SP)                  114        31   27.1       318        83   26.0
+  Imbituba (SC)                  125        31   24.8       349        83   23.9
+  Rio Grande (RS)                 80        30   37.9       228        81   35.8
+
+  SSP1-2.6  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       124        29   23.4       363        82   22.7
+  Belem (PA)                     159        29   18.3       461        83   18.0
+  Ponta da Madeira (MA)          134        30   22.1       389        84   21.6
+  Fortaleza (CE)                 129        31   23.8       375        87   23.1
+  Recife (PE)                    217        32   14.6       611        90   14.7
+  Salvador (BA)                  115        31   27.4       334        89   26.6
+  Ilha Fiscal, Rio de Jane       117        32   27.4       339        90   26.7
+  Santos (SP)                     98        32   32.1       293        89   30.3
+  Cananeia (SP)                  116        31   27.0       340        88   25.9
+  Imbituba (SC)                  127        32   24.8       371        89   23.9
+  Rio Grande (RS)                 82        31   37.6       251        86   34.5
+
+  SSP2-4.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       129        30   23.4       422        96   22.8
+  Belem (PA)                     165        30   18.4       528        97   18.3
+  Ponta da Madeira (MA)          139        31   22.2       449        98   21.9
+  Fortaleza (CE)                 134        32   23.8       435       101   23.3
+  Recife (PE)                    222        33   14.8       675       104   15.5
+  Salvador (BA)                  120        33   27.3       394       103   26.2
+  Ilha Fiscal, Rio de Jane       122        33   27.3       395       104   26.4
+  Santos (SP)                    103        33   31.7       352       102   29.1
+  Cananeia (SP)                  120        32   26.9       394       101   25.7
+  Imbituba (SC)                  131        33   24.8       425       102   24.0
+  Rio Grande (RS)                 87        32   36.7       308        99   32.1
+
+  SSP3-7.0  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       130        30   23.4       469       107   22.8
+  Belem (PA)                     166        31   18.4       582       108   18.5
+  Ponta da Madeira (MA)          140        31   22.2       496       109   22.1
+  Fortaleza (CE)                 135        32   23.8       483       113   23.3
+  Recife (PE)                    223        33   14.8       726       116   16.0
+  Salvador (BA)                  121        33   27.2       442       114   25.9
+  Ilha Fiscal, Rio de Jane       122        33   27.3       440       115   26.2
+  Santos (SP)                    104        33   31.6       399       113   28.4
+  Cananeia (SP)                  121        33   26.9       437       112   25.6
+  Imbituba (SC)                  132        33   24.8       468       112   24.0
+  Rio Grande (RS)                 88        32   36.5       354       109   30.7
+
+  SSP5-8.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       137        32   23.4       525       120   22.9
+  Belem (PA)                     174        32   18.5       646       121   18.7
+  Ponta da Madeira (MA)          147        33   22.2       552       123   22.2
+  Fortaleza (CE)                 142        34   23.8       540       126   23.4
+  Recife (PE)                    231        35   15.1       786       130   16.5
+  Salvador (BA)                  128        34   27.0       498       128   25.7
+  Ilha Fiscal, Rio de Jane       129        35   27.1       493       128   26.1
+  Santos (SP)                    111        34   31.0       454       126   27.7
+  Cananeia (SP)                  127        34   26.8       488       124   25.5
+  Imbituba (SC)                  139        34   24.8       519       125   24.1
+  Rio Grande (RS)                 94        34   35.4       408       120   29.5
+
+VIA A' - emulador com a sensibilidade medida no periodo de satelite
+
+  SSP1-1.9  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       136        40   29.8       377       110   29.0
+  Belem (PA)                     173        41   23.6       477       110   23.1
+  Ponta da Madeira (MA)          146        42   28.4       404       112   27.8
+  Fortaleza (CE)                 141        43   30.4       391       116   29.7
+  Recife (PE)                    230        44   19.3       629       121   19.2
+  Salvador (BA)                  128        44   34.8       353       120   34.2
+  Ilha Fiscal, Rio de Jane       131        46   35.2       359       124   34.7
+  Santos (SP)                    112        45   40.3       314       123   39.0
+  Cananeia (SP)                  129        45   34.9       361       122   33.8
+  Imbituba (SC)                  141        46   32.4       392       124   31.5
+  Rio Grande (RS)                 97        45   46.4       275       122   44.4
+
+  SSP1-2.6  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       139        42   30.1       419       128   30.4
+  Belem (PA)                     177        42   23.9       524       129   24.5
+  Ponta da Madeira (MA)          150        43   28.7       447       131   29.3
+  Fortaleza (CE)                 145        44   30.7       434       136   31.2
+  Recife (PE)                    234        46   19.7       675       141   20.8
+  Salvador (BA)                  131        46   35.1       397       141   35.5
+  Ilha Fiscal, Rio de Jane       134        48   35.5       403       146   36.2
+  Santos (SP)                    116        47   40.5       360       144   40.0
+  Cananeia (SP)                  132        47   35.3       403       143   35.5
+  Imbituba (SC)                  144        47   32.8       435       145   33.4
+  Rio Grande (RS)                100        47   46.5       320       143   44.8
+
+  SSP2-4.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       148        46   30.8       522       172   32.9
+  Belem (PA)                     186        46   24.6       640       173   27.0
+  Ponta da Madeira (MA)          158        47   29.5       551       177   32.0
+  Fortaleza (CE)                 153        48   31.5       540       183   33.8
+  Recife (PE)                    244        50   20.6       788       190   24.1
+  Salvador (BA)                  140        50   35.8       505       190   37.7
+  Ilha Fiscal, Rio de Jane       143        52   36.4       509       198   38.9
+  Santos (SP)                    125        51   41.0       470       196   41.6
+  Cananeia (SP)                  141        51   36.2       507       195   38.4
+  Imbituba (SC)                  153        52   33.8       540       198   36.6
+  Rio Grande (RS)                110        51   46.5       431       196   45.4
+
+  SSP3-7.0  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       150        46   31.0       604       207   34.3
+  Belem (PA)                     188        47   24.8       733       209   28.5
+  Ponta da Madeira (MA)          160        48   29.7       634       213   33.6
+  Fortaleza (CE)                 155        49   31.7       625       220   35.3
+  Recife (PE)                    246        51   20.8       879       229   26.1
+  Salvador (BA)                  142        51   35.9       592       230   38.9
+  Ilha Fiscal, Rio de Jane       145        53   36.5       594       240   40.3
+  Santos (SP)                    127        52   41.1       558       237   42.4
+  Cananeia (SP)                  143        52   36.4       590       236   40.0
+  Imbituba (SC)                  155        53   34.0       624       240   38.4
+  Rio Grande (RS)                112        52   46.5       520       238   45.7
+
+  SSP5-8.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       162        52   31.9       701       248   35.5
+  Belem (PA)                     202        52   25.7       842       251   29.8
+  Ponta da Madeira (MA)          173        53   30.7       732       256   34.9
+  Fortaleza (CE)                 168        55   32.7       725       265   36.5
+  Recife (PE)                    259        57   22.0       985       276   28.0
+  Salvador (BA)                  155        57   36.7       693       277   39.9
+  Ilha Fiscal, Rio de Jane       157        59   37.5       694       289   41.6
+  Santos (SP)                    140        58   41.6       662       286   43.1
+  Cananeia (SP)                  155        58   37.4       687       284   41.4
+  Imbituba (SC)                  167        59   35.2       722       289   40.0
+  Rio Grande (RS)                125        58   46.6       624       287   46.0
+
+VIA B - projecoes processuais oficiais do IPCC AR6
+
+  SSP1-1.9  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       138        47   33.7       362       147   40.7
+  Belem (PA)                     173        47   27.1       447       147   32.9
+  Ponta da Madeira (MA)          148        47   31.9       388       149   38.4
+  Fortaleza (CE)                 144        49   34.0       375       153   40.7
+  Recife (PE)                    232        50   21.5       605       154   25.6
+  Salvador (BA)                  129        49   37.9       328       149   45.4
+  Ilha Fiscal, Rio de Jane       130        48   37.0       329       143   43.3
+  Santos (SP)                    110        47   42.5       277       138   49.9
+  Cananeia (SP)                  128        46   36.3       328       136   41.3
+  Imbituba (SC)                  139        46   33.3       356       134   37.5
+  Rio Grande (RS)                 92        44   47.9       223       124   55.6
+
+  SSP1-2.6  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       150        46   31.1       415       163   39.2
+  Belem (PA)                     185        47   25.2       506       163   32.2
+  Ponta da Madeira (MA)          160        47   29.6       442       165   37.3
+  Fortaleza (CE)                 155        49   31.4       430       169   39.4
+  Recife (PE)                    244        50   20.5       662       172   25.9
+  Salvador (BA)                  140        49   34.8       383       166   43.3
+  Ilha Fiscal, Rio de Jane       141        48   34.3       382       160   41.9
+  Santos (SP)                    122        47   38.8       332       155   46.9
+  Cananeia (SP)                  138        47   33.7       380       153   40.2
+  Imbituba (SC)                  150        47   31.1       408       151   37.0
+  Rio Grande (RS)                103        45   43.1       278       141   50.8
+
+  SSP2-4.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       165        47   28.8       536       193   36.1
+  Belem (PA)                     202        48   23.6       640       194   30.3
+  Ponta da Madeira (MA)          175        48   27.5       564       196   34.8
+  Fortaleza (CE)                 171        50   29.1       554       202   36.5
+  Recife (PE)                    260        51   19.6       794       206   25.9
+  Salvador (BA)                  156        50   32.1       509       201   39.5
+  Ilha Fiscal, Rio de Jane       156        50   31.9       505       197   39.0
+  Santos (SP)                    138        49   35.5       458       192   42.0
+  Cananeia (SP)                  154        48   31.5       500       190   38.0
+  Imbituba (SC)                  165        48   29.3       529       189   35.7
+  Rio Grande (RS)                119        46   38.9       404       179   44.4
+
+  SSP3-7.0  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       176        48   27.5       656       224   34.2
+  Belem (PA)                     214        49   22.7       773       225   29.2
+  Ponta da Madeira (MA)          187        49   26.4       686       229   33.3
+  Fortaleza (CE)                 182        51   27.9       678       236   34.8
+  Recife (PE)                    272        52   19.2       925       241   26.1
+  Salvador (BA)                  167        51   30.6       635       237   37.3
+  Ilha Fiscal, Rio de Jane       168        51   30.6       630       236   37.6
+  Santos (SP)                    149        50   33.6       586       231   39.5
+  Cananeia (SP)                  164        50   30.2       620       229   36.8
+  Imbituba (SC)                  176        50   28.2       651       229   35.1
+  Rio Grande (RS)                131        48   36.6       532       220   41.3
+
+  SSP5-8.5  (mm acima do nivel de 2020)
+  Estacao                   RSL 2050   calotas   %cal  RSL 2100   calotas   %cal
+  ----------------------------------------------------------------------------
+  Santana (AP), foz do Ama       194        50   26.1       745       246   33.0
+  Belem (PA)                     234        51   21.7       874       247   28.3
+  Ponta da Madeira (MA)          204        51   25.2       776       251   32.3
+  Fortaleza (CE)                 200        53   26.5       769       259   33.6
+  Recife (PE)                    291        54   18.7      1022       265   26.0
+  Salvador (BA)                  185        54   28.9       727       261   35.9
+  Ilha Fiscal, Rio de Jane       185        54   29.1       718       262   36.4
+  Santos (SP)                    167        53   31.5       678       256   37.8
+  Cananeia (SP)                  181        52   28.8       706       253   35.8
+  Imbituba (SC)                  193        52   27.1       738       254   34.4
+  Rio Grande (RS)                148        50   34.0       623       245   39.2
+
+
+==============================================================================================================
+[3] VALIDACAO DA CADEIA: comparacao com as projecoes oficiais do IPCC AR6 por estacao
+==============================================================================================================
+As projecoes do AR6 por estacao ja incluem impressao digital, dinamica oceanica e
+movimento vertical do terreno. Reproduzi-las com a cadeia montada aqui testa a cadeia
+inteira, nao apenas uma de suas pecas.
+
+  SSP1-2.6
+  Estacao                  AR6 2050 cadeia(B) 2050     dif   dif %   AR6 2100 cadeia(B) 2100     dif   dif %
+  --------------------------------------------------------------------------------------------
+  Imbituba (SC)                 146            150       4     2.5        397            408      11     2.7
+  Recife (PE)                   140            244     104    73.9        384            662     278    72.5
+  Salvador (BA)                 144            140      -4    -2.7        401            383     -18    -4.4
+  Belem (PA)                    145            185      40    27.7        385            506     122    31.6
+  Cananeia (SP)                 176            138     -38   -21.3        481            380    -101   -21.0
+  Ilha Fiscal, Rio de Ja        141            141       0     0.0        386            382      -4    -0.9
+  diferenca absoluta media: 21.8% | 9/12 valores dentro da faixa provavel (17-83%) do AR6
+
+  SSP2-4.5
+  Estacao                  AR6 2050 cadeia(B) 2050     dif   dif %   AR6 2100 cadeia(B) 2100     dif   dif %
+  --------------------------------------------------------------------------------------------
+  Imbituba (SC)                 164            165       1     0.4        534            529      -5    -1.0
+  Recife (PE)                   157            260     103    65.6        518            794     276    53.2
+  Salvador (BA)                 161            156      -5    -3.2        528            509     -19    -3.6
+  Belem (PA)                    161            202      41    25.5        517            640     123    23.9
+  Cananeia (SP)                 194            154     -40   -20.9        617            500    -117   -19.0
+  Ilha Fiscal, Rio de Ja        158            156      -2    -1.0        519            505     -14    -2.6
+  diferenca absoluta media: 18.3% | 9/12 valores dentro da faixa provavel (17-83%) do AR6
+
+  SSP5-8.5
+  Estacao                  AR6 2050 cadeia(B) 2050     dif   dif %   AR6 2100 cadeia(B) 2100     dif   dif %
+  --------------------------------------------------------------------------------------------
+  Imbituba (SC)                 195            193      -2    -1.2        756            738     -18    -2.4
+  Recife (PE)                   185            291     106    57.2        720           1022     302    41.9
+  Salvador (BA)                 188            185      -3    -1.5        732            727      -5    -0.7
+  Belem (PA)                    186            234      48    25.6        722            874     152    21.0
+  Cananeia (SP)                 225            181     -44   -19.5        835            706    -129   -15.4
+  Ilha Fiscal, Rio de Ja        187            185      -2    -1.1        739            718     -21    -2.8
+  diferenca absoluta media: 15.9% | 9/12 valores dentro da faixa provavel (17-83%) do AR6
+
+
+==============================================================================================================
+[4] RESULTADO PRINCIPAL: parcela das calotas polares na elevacao projetada
+==============================================================================================================
+Valores da via B (IPCC AR6), que e a referencia internacional.
+
+Estacao                      lat    SSP1-1.9    SSP1-2.6    SSP2-4.5    SSP3-7.0    SSP5-8.5
+------------------------------------------------------------------------------------------------
+
+  parcela das calotas (% da elevacao total projetada) em 2050:
+  Santana (AP), foz do Ama   -0.05        33.7        31.1        28.8        27.5        26.1
+  Belem (PA)                 -1.45        27.1        25.2        23.6        22.7        21.7
+  Ponta da Madeira (MA)      -2.57        31.9        29.6        27.5        26.4        25.2
+  Fortaleza (CE)             -3.72        34.0        31.4        29.1        27.9        26.5
+  Recife (PE)                -8.05        21.5        20.5        19.6        19.2        18.7
+  Salvador (BA)             -12.97        37.9        34.8        32.1        30.6        28.9
+  Ilha Fiscal, Rio de Jane  -22.90        37.0        34.3        31.9        30.6        29.1
+  Santos (SP)               -23.98        42.5        38.8        35.5        33.6        31.5
+  Cananeia (SP)             -25.02        36.3        33.7        31.5        30.2        28.8
+  Imbituba (SC)             -28.23        33.3        31.1        29.3        28.2        27.1
+  Rio Grande (RS)           -32.10        47.9        43.1        38.9        36.6        34.0
+  media sobre estacoes e cenarios          30.5% (amplitude 18.7% a 47.9%)
+
+  parcela das calotas (% da elevacao total projetada) em 2100:
+  Santana (AP), foz do Ama   -0.05        40.7        39.2        36.1        34.2        33.0
+  Belem (PA)                 -1.45        32.9        32.2        30.3        29.2        28.3
+  Ponta da Madeira (MA)      -2.57        38.4        37.3        34.8        33.3        32.3
+  Fortaleza (CE)             -3.72        40.7        39.4        36.5        34.8        33.6
+  Recife (PE)                -8.05        25.6        25.9        25.9        26.1        26.0
+  Salvador (BA)             -12.97        45.4        43.3        39.5        37.3        35.9
+  Ilha Fiscal, Rio de Jane  -22.90        43.3        41.9        39.0        37.6        36.4
+  Santos (SP)               -23.98        49.9        46.9        42.0        39.5        37.8
+  Cananeia (SP)             -25.02        41.3        40.2        38.0        36.8        35.8
+  Imbituba (SC)             -28.23        37.5        37.0        35.7        35.1        34.4
+  Rio Grande (RS)           -32.10        55.6        50.8        44.4        41.3        39.2
+  media sobre estacoes e cenarios          37.2% (amplitude 25.6% a 55.6%)
+
+Estacao                  cal. SSP1-1.9 cal. SSP1-2.6 cal. SSP2-4.5 cal. SSP3-7.0 cal. SSP5-8.5
+------------------------------------------------------------------------------------------------
+
+  contribuicao absoluta das calotas em 2100 (mm):
+  Santana (AP), foz do Ama           147           163           193           224           246
+  Belem (PA)                         147           163           194           225           247
+  Ponta da Madeira (MA)              149           165           196           229           251
+  Fortaleza (CE)                     153           169           202           236           259
+  Recife (PE)                        154           172           206           241           265
+  Salvador (BA)                      149           166           201           237           261
+  Ilha Fiscal, Rio de Jane           143           160           197           236           262
+  Santos (SP)                        138           155           192           231           256
+  Cananeia (SP)                      136           153           190           229           253
+  Imbituba (SC)                      134           151           189           229           254
+  Rio Grande (RS)                    124           141           179           220           245
+
+
+gravado 05_resultados/projecoes_locais.json

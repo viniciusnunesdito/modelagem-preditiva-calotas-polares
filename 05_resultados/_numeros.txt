@@ -1,0 +1,43 @@
+================================================================================================
+NUMEROS CITADOS NO ARTIGO
+================================================================================================
+
+[DADOS]
+  estacoes PSMSL brasileiras no inventario: 12
+  aprovadas pelos criterios (>=30 anos validos, >=25 de extensao): 2 (Cananeia, Ilha Fiscal)
+     Cananeia: 1954-2004, 51 anos validos, completude 100.0%, 19 meses ausentes
+     Ilha Fiscal: 1963-2022, 55 anos validos, completude 91.7%, 45 meses ausentes
+  series maregraficas brasileiras usadas por Frederikse et al. (2020): 0 de 472
+
+[V1 - REPRODUCAO DAS TENDENCIAS BARISTATICAS GLOBAIS, 1993-2018]
+  GrIS   reproduzido +0.626 | publicado +0.65 +/- 0.04 mm/ano | diferenca -0.024
+  AIS    reproduzido +0.302 | publicado +0.29 +/- 0.08 mm/ano | diferenca +0.012
+  glac   reproduzido +0.646 | publicado +0.65 +/- 0.09 mm/ano | diferenca -0.004
+  tws    reproduzido +0.312 | publicado +0.32 +/- 0.17 mm/ano | diferenca -0.008
+  total  reproduzido +1.896 | publicado +1.91 +/- 0.22 mm/ano | diferenca -0.014
+
+[IMPRESSOES DIGITAIS]
+  transecto costeiro de 28 pontos, 4,4 N a 34 S
+  Groenlandia          media 1.179 | desvio 0.107 | faixa 0.966 a 1.322
+  Antartica            media 0.996 | desvio 0.136 | faixa 0.683 a 1.148
+  calotas combinadas   media 1.119 | desvio 0.042 | faixa 1.025 a 1.169
+  total baristatico    media 1.081 | desvio 0.032 | faixa 1.024 a 1.140
+  amplitude da impressao digital combinada: 0.144 (12.8% da media)
+  Ilha Fiscal: GrIS 1.263, AIS 0.950, calotas 1.161
+  contraste de campo proximo: Nuuk GrIS -7.49; Mar de Amundsen AIS -10.08
+
+[V2 - FECHAMENTO DO ORCAMENTO]
+  Global 1900-2018: soma 1.524 | observado 1.563 | residuo +0.039 | FECHA | calotas 0.520 mm/ano = 33.3%
+  Atlantico Sul 1900-2018: soma 1.766 | observado 2.062 | calotas 28.7%
+  Global 1993-2018: soma 3.159 | observado 3.353 | residuo +0.194 | FECHA | calotas 0.974 mm/ano = 29.1%
+  Atlantico Sul 1993-2018: soma 3.480 | observado 3.887 | calotas 28.9%
+  Ilha Fiscal (RJ) 1963-2018: observado 2.421 mm/ano (IC95 HAC 0.36 a 4.48; rho1=0.68; inflacao do EP 1.68x) | soma 1.317 +/- 0.545 | z=+0.93 | FECHA | calotas 20.5% do observado, 37.6% da soma
+  Ilha Fiscal (RJ) 1993-2018: observado 2.879 mm/ano (IC95 HAC -2.75 a 8.51; rho1=0.71; inflacao do EP 1.70x) | soma 1.516 +/- 0.547 | z=+0.47 | FECHA | calotas 37.5% do observado, 71.1% da soma
+  Cananeia (SP) 1957-2004: observado 4.099 mm/ano (IC95 HAC 3.13 a 5.07; rho1=0.58; inflacao do EP 1.36x) | soma 0.793 +/- 0.942 | z=+3.11 | NAO FECHA | calotas 7.2% do observado, 37.0% da soma
+
+[BENCHMARK DE ALGORITMOS]
+Traceback (most recent call last):
+  File "C:\Users\Desktop\Projeto_Calotas_Polares\03_scripts\70_numeros_do_artigo.py", line 78, in <module>
+    r1 = BM['teste1_ilha_fiscal']['resultados']; r2 = BM['teste2_calotas_global']['resultados']
+         ~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'teste1_ilha_fiscal'

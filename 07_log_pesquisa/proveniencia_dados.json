@@ -1,0 +1,866 @@
+[
+  {
+    "arquivo": "psmsl/filelist_rlr_monthly.txt",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/filelist.txt",
+    "descricao": "Inventario de estacoes PSMSL com conjunto RLR mensal",
+    "fonte": "Permanent Service for Mean Sea Level (PSMSL)",
+    "bytes": 141393,
+    "sha256": "a0266c0a00ad226cbda486654fbc32fee902ef91d5cd8df49acf428e6bd4d82f",
+    "acessado_em": "2026-10-29T11:40:27"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_542.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/542.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 542 (IMBITUBA)",
+    "fonte": "PSMSL",
+    "bytes": 6344,
+    "sha256": "a102b3aa282f2978273910b1ca395ecf8abc18afec5b76188a1485a6b5df80d5",
+    "acessado_em": "2026-10-29T11:40:47"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_542.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/542.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 542 (IMBITUBA)",
+    "fonte": "PSMSL",
+    "bytes": 380,
+    "sha256": "f37b271af188bf6d19cf0ab44d2995306dfd1056ddda542e8165d5d4bfdc97c3",
+    "acessado_em": "2026-10-29T11:40:48"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_556.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/556.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 556 (RECIFE)",
+    "fonte": "PSMSL",
+    "bytes": 6318,
+    "sha256": "37606cbbc15fcb89374488a0866ef22fb9cfb08935b42cc3ce7c70c1d5a5042b",
+    "acessado_em": "2026-10-29T11:40:48"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_556.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/556.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 556 (RECIFE)",
+    "fonte": "PSMSL",
+    "bytes": 380,
+    "sha256": "78a79adb676441fb1f141e2d66c4cb3fd6fadbc58e35fcaf3cd90d99f8d6a472",
+    "acessado_em": "2026-10-29T11:40:49"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_559.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/559.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 559 (FORTALEZA)",
+    "fonte": "PSMSL",
+    "bytes": 6318,
+    "sha256": "2870f4a2e3a8a63cc34079acf7cd6c4257e2d9dddf13cd6dfcf765ea382a728b",
+    "acessado_em": "2026-10-29T11:40:50"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_559.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/559.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 559 (FORTALEZA)",
+    "fonte": "PSMSL",
+    "bytes": 380,
+    "sha256": "20cb69bb9e0ac5f8a056f31f6f2d6e63dc3ec133796d106921e71205305879a9",
+    "acessado_em": "2026-10-29T11:40:50"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_578.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/578.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 578 (SALVADOR)",
+    "fonte": "PSMSL",
+    "bytes": 6240,
+    "sha256": "1458ada7b1a97a0d97d76e7c4ca3f32e890369883d259cf6defac03a5926626c",
+    "acessado_em": "2026-10-29T11:40:51"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_578.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/578.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 578 (SALVADOR)",
+    "fonte": "PSMSL",
+    "bytes": 380,
+    "sha256": "1d7919804a052214da3610bd6194bd228376cc402795b83f3e968395671b89cb",
+    "acessado_em": "2026-10-29T11:40:52"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_579.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/579.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 579 (RIO DE JANEIRO)",
+    "fonte": "PSMSL",
+    "bytes": 6006,
+    "sha256": "bb93134c56b0cf9b18142a1db4fe8011ecae3ad4ff499c7e26613ea934b446d7",
+    "acessado_em": "2026-10-29T11:40:52"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_579.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/579.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 579 (RIO DE JANEIRO)",
+    "fonte": "PSMSL",
+    "bytes": 342,
+    "sha256": "e175c6e3593e9de54a30d5b6d1472dfb09923106bbf28688da5418ba4dfa9592",
+    "acessado_em": "2026-10-29T11:40:53"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_580.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/580.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 580 (BELEM)",
+    "fonte": "PSMSL",
+    "bytes": 6240,
+    "sha256": "678da22ba53f0074a8453a76281061810274ac7f3cdbad4c7aa5fa505af0911f",
+    "acessado_em": "2026-10-29T11:40:53"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_580.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/580.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 580 (BELEM)",
+    "fonte": "PSMSL",
+    "bytes": 380,
+    "sha256": "37158f25411e9ed6e8a235481858916b20feeedbbd2e0a4676c4f8363b75c2b4",
+    "acessado_em": "2026-10-29T11:40:54"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_589.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/589.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 589 (SALINOPOLIS)",
+    "fonte": "PSMSL",
+    "bytes": 1976,
+    "sha256": "b8e3a849001a60ccec7b2187a21683625375bab6267c6b5d6e7e5deba582d8fd",
+    "acessado_em": "2026-10-29T11:40:55"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_589.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/589.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 589 (SALINOPOLIS)",
+    "fonte": "PSMSL",
+    "bytes": 76,
+    "sha256": "e68262b4f8710e0e29a33b118a8ced964fb45ad36dd483c33064615e4db59bcc",
+    "acessado_em": "2026-10-29T11:40:55"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_699.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/699.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 699 (CANAVIEIRAS)",
+    "fonte": "PSMSL",
+    "bytes": 3744,
+    "sha256": "f0c0166da842a7aa08c2e80d169d97c8397490c7f9c44f68ea670648c13aca2e",
+    "acessado_em": "2026-10-29T11:40:56"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_699.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/699.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 699 (CANAVIEIRAS)",
+    "fonte": "PSMSL",
+    "bytes": 228,
+    "sha256": "f54815a8cbad86592a0ad12214967d43a8ac62b28b79ab96237b00954268b78b",
+    "acessado_em": "2026-10-29T11:40:57"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_726.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/726.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 726 (CANANEIA)",
+    "fonte": "PSMSL",
+    "bytes": 16484,
+    "sha256": "149fa64c9eae7942e6e29b7488ad9d29f51cd7b7594fc6d7f024e6640b9f4adc",
+    "acessado_em": "2026-10-29T11:40:58"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_726.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/726.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 726 (CANANEIA)",
+    "fonte": "PSMSL",
+    "bytes": 950,
+    "sha256": "48e5e85de02137b8ff4c7b0b57db7acadf2e3ab8d78016d1c7d0549b3b54cb19",
+    "acessado_em": "2026-10-29T11:40:58"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_1032.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/1032.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 1032 (ILHA FISCAL)",
+    "fonte": "PSMSL",
+    "bytes": 18694,
+    "sha256": "3a744611c6732f4e18c6ee76e11152f4473d9170c732c516e7965016e22553ce",
+    "acessado_em": "2026-10-29T11:40:59"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_1032.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/1032.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 1032 (ILHA FISCAL)",
+    "fonte": "PSMSL",
+    "bytes": 1102,
+    "sha256": "77807f3856731c02df9c591613114a5f433412c8773bf228c2a31974fb921b2e",
+    "acessado_em": "2026-10-29T11:41:00"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_1736.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/1736.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 1736 (MADEIRA)",
+    "fonte": "PSMSL",
+    "bytes": 6552,
+    "sha256": "045f8b15fb1919e475d26a0999b6b64c584d4d42a51d871fa31eb650098082ba",
+    "acessado_em": "2026-10-29T11:41:00"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_1736.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/1736.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 1736 (MADEIRA)",
+    "fonte": "PSMSL",
+    "bytes": 323,
+    "sha256": "ea76e86a5b2f11e08228ad899492132cc2a89968cead74c2d03592c36be62ed7",
+    "acessado_em": "2026-10-29T11:41:01"
+  },
+  {
+    "arquivo": "psmsl/rlr_monthly_1975.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.monthly.data/1975.rlrdata",
+    "descricao": "Nivel medio mensal RLR, estacao 1975 (SANTANA)",
+    "fonte": "PSMSL",
+    "bytes": 312,
+    "sha256": "8c1daa308a6898d3396e9113cfc2e1e4ca52e1bedd0b65fcb66a09e9de50f1b3",
+    "acessado_em": "2026-10-29T11:41:02"
+  },
+  {
+    "arquivo": "psmsl/rlr_annual_1975.rlrdata",
+    "url": "https://psmsl.org/data/obtaining/rlr.annual.data/1975.rlrdata",
+    "descricao": "Nivel medio anual RLR, estacao 1975 (SANTANA)",
+    "fonte": "PSMSL",
+    "bytes": 19,
+    "sha256": "08c6815943b58226e162510b9d8b20d3ba26600967f6e2e7b0e592dddef59cc9",
+    "acessado_em": "2026-10-29T11:41:02"
+  },
+  {
+    "arquivo": "altimetria/noaa_gmsl_66S66N_sazonal_removida.csv",
+    "url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_free_all_66.csv",
+    "descricao": "Anomalia do nivel medio global do mar por altimetria de satelite (66S-66N), sinal sazonal removido",
+    "fonte": "NOAA/NESDIS Laboratory for Satellite Altimetry",
+    "bytes": 38762,
+    "sha256": "5158a989a58320564588848bf22037ab9ce773a31d6bb9fb12ff1f902ade425d",
+    "acessado_em": "2026-10-29T11:46:43"
+  },
+  {
+    "arquivo": "altimetria/noaa_gmsl_66S66N_sazonal_mantida.csv",
+    "url": "https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/slr/slr_sla_gbl_keep_all_66.csv",
+    "descricao": "Idem, com sinal sazonal mantido",
+    "fonte": "NOAA/NESDIS Laboratory for Satellite Altimetry",
+    "bytes": 38748,
+    "sha256": "09debba8fa459aed7b422256e13a9e53622ad1cf94563421accc33a119da5f5e",
+    "acessado_em": "2026-10-29T11:46:44"
+  },
+  {
+    "arquivo": "temperatura/gistemp_v4_global.csv",
+    "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+    "descricao": "Anomalia de temperatura media global da superficie terra-oceano (GISTEMP v4), base 1951-1980",
+    "fonte": "NASA Goddard Institute for Space Studies (GISTEMP Team, 2026)",
+    "bytes": 12886,
+    "sha256": "4c64eda288bce32b8d76926278f346ecea1e53506df8ee72a3d5accb0657c416",
+    "acessado_em": "2026-10-29T11:46:45"
+  },
+  {
+    "arquivo": "temperatura/hadcrut5_global_anual.csv",
+    "url": "https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.0.2.0/analysis/diagnostics/HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv",
+    "descricao": "Anomalia de temperatura media global anual (HadCRUT5), base 1961-1990, com IC 95%",
+    "fonte": "Morice et al. (2021), Met Office Hadley Centre / Climatic Research Unit",
+    "bytes": 7022,
+    "sha256": "a1441ab5aef8f3baf43cca417bca271f6d674d4f235ea01129f0432c948882e0",
+    "acessado_em": "2026-10-29T11:46:45"
+  },
+  {
+    "arquivo": "oceano/ncei_ohc_0-700m_anual.dat",
+    "url": "https://www.ncei.noaa.gov/data/oceans/woa/DATA_ANALYSIS/3M_HEAT_CONTENT/DATA/basin/yearly/h22-w0-700m.dat",
+    "descricao": "Conteudo de calor oceanico 0-700 m, anual, global e por hemisferio",
+    "fonte": "NOAA NCEI (Levitus et al., 2012)",
+    "bytes": 4104,
+    "sha256": "29114e2df7b856f88876f97ca4f073b5a04786ca86c0d643565a9f035046489b",
+    "acessado_em": "2026-10-29T11:46:45"
+  },
+  {
+    "arquivo": "oceano/ncei_ohc_0-2000m_anual.dat",
+    "url": "https://www.ncei.noaa.gov/data/oceans/woa/DATA_ANALYSIS/3M_HEAT_CONTENT/DATA/basin/yearly/h22-w0-2000m.dat",
+    "descricao": "Conteudo de calor oceanico 0-2000 m, anual",
+    "fonte": "NOAA NCEI (Levitus et al., 2012)",
+    "bytes": 1254,
+    "sha256": "5b0fabf106dc1473f0a658baaced5245bc19e33a39c6d86294a3cf074ac0f5b4",
+    "acessado_em": "2026-10-29T11:46:46"
+  },
+  {
+    "arquivo": "altimetria/church_white_gmsl_2011.zip",
+    "url": "https://www.cmar.csiro.au/sealevel/downloads/church_white_gmsl_2011_up.zip",
+    "descricao": "Reconstrucao do nivel medio global do mar 1880-2013 a partir de maregrafos",
+    "fonte": "Church e White (2011), Surveys in Geophysics 32:585-602 / CSIRO",
+    "bytes": 388688,
+    "sha256": "ff6732be7d58385e30bcf2f424a458ab9f0f8b3c907661306db011b7179e0862",
+    "acessado_em": "2026-10-29T11:46:50"
+  },
+  {
+    "arquivo": "gnss/ngl_midas_IGS14.txt",
+    "url": "https://geodesy.unr.edu/velocities/midas.IGS14.txt",
+    "descricao": "Velocidades MIDAS de todas as estacoes GNSS globais no referencial IGS14 (inclui componente vertical)",
+    "fonte": "Blewitt et al. (2016), Nevada Geodetic Laboratory",
+    "bytes": 5021832,
+    "sha256": "0e3ac38650780a517b142c07bf21be9cda8c426b37c20940d6db693c7fe9a036",
+    "acessado_em": "2026-10-29T11:46:54"
+  },
+  {
+    "arquivo": "ipcc_ar6/marcadores_estacoes.geojson",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?markers=true",
+    "descricao": "Metadados de todas as localidades disponiveis na ferramenta IPCC AR6",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 571640,
+    "sha256": "aa1f3366d61bbb8802acf18ef21edffa211caf5dc894bac292b26f10daea3de5",
+    "acessado_em": "2026-10-29T11:58:25"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_542.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=542",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 542 (IMBITUBA)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 88898,
+    "sha256": "89ad818b9befc1eb0af1118560f3d257640b4af7d488f09d4582813a899d91ac",
+    "acessado_em": "2026-10-29T11:58:27"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_556.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=556",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 556 (RECIFE)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 88979,
+    "sha256": "1c230e504fd223af80622f4dcde93b37dd35ddda572a1e90d276b2d4f655f7fc",
+    "acessado_em": "2026-10-29T11:58:29"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_578.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=578",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 578 (SALVADOR)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 89009,
+    "sha256": "61ed8d234729c82c87ccc1ae5b04d1b040f0c42413df554d9c4c206bc3c811e6",
+    "acessado_em": "2026-10-29T11:58:30"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_580.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=580",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 580 (BELEM)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 88924,
+    "sha256": "517e5efeb7a757aa129d7e486927ead78319bbc88c6281ac7f1aefec27f95c08",
+    "acessado_em": "2026-10-29T11:58:31"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_726.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=726",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 726 (CANANEIA)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 88559,
+    "sha256": "527b4ec42e93fc7faded652797387ce1e1c0ae23244abc0052f16074a2738cae",
+    "acessado_em": "2026-10-29T11:58:33"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_psmsl_1032.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?psmsl_id=1032",
+    "descricao": "Projecoes IPCC AR6 de nivel relativo do mar, decompostas por processo, cenario e percentil, para a estacao 1032 (ILHA_FISCAL)",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 89098,
+    "sha256": "74d4d0a7334a14c6ea4f6279095e1a8b53bedfaaef673e7a452f2e563f038162",
+    "acessado_em": "2026-10-29T11:58:34"
+  },
+  {
+    "arquivo": "uhslc/meta.geojson",
+    "url": "https://uhslc.soest.hawaii.edu/data/meta.geojson",
+    "descricao": "Metadados de todas as estacoes do UHSLC",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 572994,
+    "sha256": "3b9c9578e107447754504e1efdfbb1c040d0aea9565431fd11e52550329a8f84",
+    "acessado_em": "2026-10-29T12:00:03"
+  },
+  {
+    "arquivo": "uhslc/hourly_202a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h202a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 202 (Natal)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 64462,
+    "sha256": "b2d3acb7f23d9b5c17ab22c108fc5ace24cbb9245a6f30fa555fbe07678f9c71",
+    "acessado_em": "2026-10-29T12:00:04"
+  },
+  {
+    "arquivo": "uhslc/daily_202a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d202a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 202 (Natal)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 2284,
+    "sha256": "bb70cc1e64be456de604b236b592b6c52b1196655b60e1875923a028704f64d7",
+    "acessado_em": "2026-10-29T12:00:05"
+  },
+  {
+    "arquivo": "uhslc/hourly_203a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h203a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 203 (Fernando de Noronha)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 97954,
+    "sha256": "fcbe4261c9fe91a57c92635498f11d78909812e8066f7d214408ff22a4cc7c34",
+    "acessado_em": "2026-10-29T12:00:06"
+  },
+  {
+    "arquivo": "uhslc/daily_203a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d203a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 203 (Fernando de Noronha)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 3469,
+    "sha256": "cf0132a3f38c597faf5f1b11c6c23f25497f907d23989230f6cdd31b5bba779c",
+    "acessado_em": "2026-10-29T12:00:07"
+  },
+  {
+    "arquivo": "uhslc/hourly_227a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h227a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 227 (Cayenne)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 318648,
+    "sha256": "3cb712ca4836b58e71c41c08ba307dee12a3820c5c3691f39a3d01dbb72cf6ba",
+    "acessado_em": "2026-10-29T12:00:09"
+  },
+  {
+    "arquivo": "uhslc/daily_227a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d227a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 227 (Cayenne)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 11396,
+    "sha256": "b3f368c209bde0aa8909032e9cadd2f727b1d879aa97c9078437467ebfb5a491",
+    "acessado_em": "2026-10-29T12:00:10"
+  },
+  {
+    "arquivo": "uhslc/hourly_229a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h229a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 229 (Belem)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 2111462,
+    "sha256": "d857b21b9a313d409d8e42b6cc26537e20a83a4f620ebd75cb611802cb5fdf65",
+    "acessado_em": "2026-10-29T12:00:12"
+  },
+  {
+    "arquivo": "uhslc/daily_229a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d229a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 229 (Belem)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 76848,
+    "sha256": "adc3e7af65c79dd925a219f6eb6c3f061e7902ab0518d1e36ae3c1cba8e5f101",
+    "acessado_em": "2026-10-29T12:00:13"
+  },
+  {
+    "arquivo": "uhslc/hourly_280a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h280a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 280 (Ilha Fiscal, Rio de Janeiro)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 7871267,
+    "sha256": "cfeee447ae45b3e0b6a0697ac2aec494e1412ebdb82d4d04520d150f320a00f8",
+    "acessado_em": "2026-10-29T12:00:20"
+  },
+  {
+    "arquivo": "uhslc/daily_280a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d280a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 280 (Ilha Fiscal, Rio de Janeiro)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 279942,
+    "sha256": "d2fcef110e817383feb4354d2f3d963243cbbf370b255daf76957d05972dfce8",
+    "acessado_em": "2026-10-29T12:00:22"
+  },
+  {
+    "arquivo": "uhslc/hourly_281a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h281a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 281 (Cananeia)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 8118178,
+    "sha256": "cb0b4e056cb1db4e62f853a2dc6f0dbfd13911018483550ab3513b70aa96bb2e",
+    "acessado_em": "2026-10-29T12:00:25"
+  },
+  {
+    "arquivo": "uhslc/daily_281a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d281a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 281 (Cananeia)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 289157,
+    "sha256": "ad89d059c2daa8c001ca2250b00aaa4149e261310bf72d083f9a84dee1a609e8",
+    "acessado_em": "2026-10-29T12:00:27"
+  },
+  {
+    "arquivo": "uhslc/hourly_282a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h282a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 282 (Ubatuba)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 634286,
+    "sha256": "8c088ea1b900f16b60978fa1015cb792aa223c3dd2f4aba5f211b7abf0145a5f",
+    "acessado_em": "2026-10-29T12:00:29"
+  },
+  {
+    "arquivo": "uhslc/daily_282a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d282a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 282 (Ubatuba)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 22557,
+    "sha256": "5b96276f52927f153d8278bc8fa66252441f596a200b1a9c51ded667b373500e",
+    "acessado_em": "2026-10-29T12:00:30"
+  },
+  {
+    "arquivo": "uhslc/hourly_283a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h283a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 283 (Fortaleza)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 2151225,
+    "sha256": "7f7a5aeb2efb732f3c245644deec602aacc176e6dd79576b56a9d6f1041bc420",
+    "acessado_em": "2026-10-29T12:00:32"
+  },
+  {
+    "arquivo": "uhslc/daily_283a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d283a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 283 (Fortaleza)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 77026,
+    "sha256": "cdaa2663280d3a82565184d7bb018bd64e445b9e6f5c0ec5f7c5bd7655da3a1e",
+    "acessado_em": "2026-10-29T12:00:33"
+  },
+  {
+    "arquivo": "uhslc/hourly_284a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h284a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 284 (Termisa)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 279060,
+    "sha256": "52554bda496af7706e6f736ea410c4db8107280d044a33cfca5bdac985bfa674",
+    "acessado_em": "2026-10-29T12:00:35"
+  },
+  {
+    "arquivo": "uhslc/daily_284a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d284a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 284 (Termisa)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 10055,
+    "sha256": "5357e713cb524242081bfb9594542dedf3e4ba216620eb58b36066cb497fd9f4",
+    "acessado_em": "2026-10-29T12:00:36"
+  },
+  {
+    "arquivo": "uhslc/hourly_707a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h707a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 707 (Canavieiras)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 903742,
+    "sha256": "86e607a92c344c0721327a10f70ba82c4f795450f1c978f2433592d8948297da",
+    "acessado_em": "2026-10-29T12:00:38"
+  },
+  {
+    "arquivo": "uhslc/daily_707a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d707a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 707 (Canavieiras)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 32524,
+    "sha256": "229e065520d889147fa86ebf3cf0f5dc12e68dab16923784a775fb66a6ec47c2",
+    "acessado_em": "2026-10-29T12:00:39"
+  },
+  {
+    "arquivo": "uhslc/hourly_708a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h708a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 708 (Salvador)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 1522960,
+    "sha256": "0c7bfee6d607986b20f8665cfe91b712fe37e532d25989c8cf2ddf07eb943fe5",
+    "acessado_em": "2026-10-29T12:00:42"
+  },
+  {
+    "arquivo": "uhslc/daily_708a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d708a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 708 (Salvador)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 55189,
+    "sha256": "4e59c80852e11f13d415e0471d794209fcac1954acb9e92fe3310d9ecdf26fc8",
+    "acessado_em": "2026-10-29T12:00:43"
+  },
+  {
+    "arquivo": "uhslc/hourly_709a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h709a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 709 (Rio de Janeiro)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 2222763,
+    "sha256": "2c7afd26fbcd2534bae583f3fdac4818b90da6dec7a9eb89f8933e189da56496",
+    "acessado_em": "2026-10-29T12:00:45"
+  },
+  {
+    "arquivo": "uhslc/daily_709a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d709a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 709 (Rio de Janeiro)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 79546,
+    "sha256": "8e85851bee2512389d94718137fe7b952f38223f888054658482ef8f2e35dac1",
+    "acessado_em": "2026-10-29T12:00:46"
+  },
+  {
+    "arquivo": "uhslc/hourly_710a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h710a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 710 (Suape)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 314462,
+    "sha256": "7319ac947b97dd7469077c3e24e57f43123a8324e244a1a96e9dc83b7c2e6b80",
+    "acessado_em": "2026-10-29T12:00:48"
+  },
+  {
+    "arquivo": "uhslc/daily_710a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d710a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 710 (Suape)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 11386,
+    "sha256": "a5781ff3aac8bb413370dfe6d8515b1f863e6c96fe070ce6b740a968314a6c0c",
+    "acessado_em": "2026-10-29T12:00:49"
+  },
+  {
+    "arquivo": "uhslc/hourly_711a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h711a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 711 (Luis Correia)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 158781,
+    "sha256": "8dedd1632dda77f63bcd3d8aacdc7bbc96730a4aa098a776da1d017b28b3d89b",
+    "acessado_em": "2026-10-29T12:00:50"
+  },
+  {
+    "arquivo": "uhslc/daily_711a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d711a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 711 (Luis Correia)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 5637,
+    "sha256": "ce1c7efe04040c0a5051bf2002cf2f3385708baf2ee7288a2332141261954eda",
+    "acessado_em": "2026-10-29T12:00:51"
+  },
+  {
+    "arquivo": "uhslc/hourly_712a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h712a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 712 (Recife)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 2034358,
+    "sha256": "fe4554c9560d31a7a4696704e4192dc5cbdbe4c3d52db2bf28f9aeccc5728d19",
+    "acessado_em": "2026-10-29T12:00:53"
+  },
+  {
+    "arquivo": "uhslc/daily_712a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d712a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 712 (Recife)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 73516,
+    "sha256": "7b73bed380c8a89508dbd977a4bba10abccaa982a87a7c37af11c219aa002ca9",
+    "acessado_em": "2026-10-29T12:00:55"
+  },
+  {
+    "arquivo": "uhslc/hourly_714a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h714a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 714 (Porto do Rio Grande)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 3751947,
+    "sha256": "2d06f98ca9d14a27d0f6f5c90b4c353398d9ffba44bd92c230c781cb0afa6630",
+    "acessado_em": "2026-10-29T12:00:57"
+  },
+  {
+    "arquivo": "uhslc/daily_714a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d714a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 714 (Porto do Rio Grande)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 135178,
+    "sha256": "0c38bf8906233ebea1c93ae1e2479472fb8249bb84aa9b9fe0ed648f83aa3a48",
+    "acessado_em": "2026-10-29T12:00:59"
+  },
+  {
+    "arquivo": "uhslc/hourly_715a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h715a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 715 (Madeira)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 3286558,
+    "sha256": "76d700b5e833d24d6145bd2cc38b6a2e410d4319b87aa327710f2a5bf766e5c8",
+    "acessado_em": "2026-10-29T12:01:01"
+  },
+  {
+    "arquivo": "uhslc/daily_715a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d715a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 715 (Madeira)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 89720,
+    "sha256": "287ffb5b3ae956b2de564754fe198db73672572241143ea800883e97a68d2fd8",
+    "acessado_em": "2026-10-29T12:01:02"
+  },
+  {
+    "arquivo": "uhslc/hourly_716a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h716a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 716 (Santana)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 331432,
+    "sha256": "baad5a8c7f370a4fea4ea1cfa8409f891b06b0463a1a7f5e4568147f67483a24",
+    "acessado_em": "2026-10-29T12:01:04"
+  },
+  {
+    "arquivo": "uhslc/daily_716a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d716a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 716 (Santana)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 11760,
+    "sha256": "0b79384283e0d24f51169e0898af3287d9456b3bffa2f3e4e3716aa21ac15289",
+    "acessado_em": "2026-10-29T12:01:05"
+  },
+  {
+    "arquivo": "uhslc/hourly_717a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h717a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 717 (Santana SSN)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 118843,
+    "sha256": "6197877f91fe8303e2cb34578d26c419f78920c8d8ac06b9fc4a04f87bb442ff",
+    "acessado_em": "2026-10-29T12:01:06"
+  },
+  {
+    "arquivo": "uhslc/daily_717a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d717a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 717 (Santana SSN)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 4211,
+    "sha256": "369b6ea99c1b510eb068c675843301ab6f4a4fcfa6ee948de1db48e10be45312",
+    "acessado_em": "2026-10-29T12:01:07"
+  },
+  {
+    "arquivo": "uhslc/hourly_718a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h718a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 718 (Imbituba)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 1455212,
+    "sha256": "b7cc25a477369a1eafb6cc0d138d8b979a4ee7be67dd9600ccfadece175ddc05",
+    "acessado_em": "2026-10-29T12:01:09"
+  },
+  {
+    "arquivo": "uhslc/daily_718a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d718a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 718 (Imbituba)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 51848,
+    "sha256": "ba7ce4ab04c0f3e7431e6c3a39f2fa83e0109da8963b2eb1dd62be5987b96f75",
+    "acessado_em": "2026-10-29T12:01:10"
+  },
+  {
+    "arquivo": "uhslc/hourly_719a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h719a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 719 (Macae)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 1157417,
+    "sha256": "d381a2e8a2a03bf441e6a996bad37e65d9e784064ea4c397f5c9b81b6b827216",
+    "acessado_em": "2026-10-29T12:01:12"
+  },
+  {
+    "arquivo": "uhslc/daily_719a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d719a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 719 (Macae)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 41544,
+    "sha256": "6e8ca5dc72bbbfdc92d7fa6d94529e5b980a01d36454dc2fd020d7fc1afc50c3",
+    "acessado_em": "2026-10-29T12:01:13"
+  },
+  {
+    "arquivo": "uhslc/hourly_850a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h850a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 850 (Ile Royale)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 4868674,
+    "sha256": "b3ab636059ec4bd6e11ea1faa0ddfccddb1b6103df9cddef9c7f3d0803395b50",
+    "acessado_em": "2026-10-29T12:01:16"
+  },
+  {
+    "arquivo": "uhslc/daily_850a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d850a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 850 (Ile Royale)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 175042,
+    "sha256": "cd92bfa0038babae30820efffc849fe16811e4d5b015e8b112706eafeb76cf78",
+    "acessado_em": "2026-10-29T12:01:17"
+  },
+  {
+    "arquivo": "uhslc/hourly_851a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h851a.csv",
+    "descricao": "Nivel do mar horario, qualidade de pesquisa, estacao UHSLC 851 (Ile Royale Anse Legoff)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 3037453,
+    "sha256": "1d776122ec96640182fafbb6cb29cca6ce69dca3346754cbe5adaca9f1a62038",
+    "acessado_em": "2026-10-29T12:01:20"
+  },
+  {
+    "arquivo": "uhslc/daily_851a.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/daily/d851a.csv",
+    "descricao": "Nivel do mar diario, qualidade de pesquisa, estacao UHSLC 851 (Ile Royale Anse Legoff)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset; Caldwell, Merrifield e Thompson (2015), DOI 10.7289/V5V40S7W",
+    "bytes": 109190,
+    "sha256": "a44147681cce588953ffcaf2b4ef4b03b4b8860f429c884d5fe4ca12f8f2c6de",
+    "acessado_em": "2026-10-29T12:01:21"
+  },
+  {
+    "arquivo": "uhslc/hourly_283b.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h283b.csv",
+    "descricao": "Nivel horario, registro b, estacao 283 (Fortaleza)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 356132,
+    "sha256": "2c76f5a9da46ae98c95b62e303a8e451479fdba46404061fa5d9f4cfdd4eec42",
+    "acessado_em": "2026-10-29T12:05:45"
+  },
+  {
+    "arquivo": "uhslc/hourly_283c.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h283c.csv",
+    "descricao": "Nivel horario, registro c, estacao 283 (Fortaleza)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 2627234,
+    "sha256": "b1b159aa8ac15e5cf98d64b6565638644a998e282f48cd192b7608b21060f1d6",
+    "acessado_em": "2026-10-29T12:05:47"
+  },
+  {
+    "arquivo": "uhslc/hourly_708b.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h708b.csv",
+    "descricao": "Nivel horario, registro b, estacao 708 (Salvador)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 2196551,
+    "sha256": "9800eb79f0c58afde542ede2ba7e12ba6c3d4baedeac36ecf05cb7ac75054542",
+    "acessado_em": "2026-10-29T12:05:49"
+  },
+  {
+    "arquivo": "uhslc/hourly_281b.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h281b.csv",
+    "descricao": "Nivel horario, registro b, estacao 281 (Cananeia)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 421658,
+    "sha256": "8eacef64ea8b543fa7093051f6d528f2cdea776cca6e84dfde4ba3709a52a4b3",
+    "acessado_em": "2026-10-29T12:05:51"
+  },
+  {
+    "arquivo": "uhslc/hourly_716b.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h716b.csv",
+    "descricao": "Nivel horario, registro b, estacao 716 (Santana)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 307666,
+    "sha256": "d525961e31bdd738d19d8398b205532937faf00b662fb109c24504620ba6cc3d",
+    "acessado_em": "2026-10-29T12:05:53"
+  },
+  {
+    "arquivo": "uhslc/hourly_716c.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h716c.csv",
+    "descricao": "Nivel horario, registro c, estacao 716 (Santana)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 229154,
+    "sha256": "61034d8fc139fafb64378e1fd630386309923be6845c11ab759f76dc1ae4606c",
+    "acessado_em": "2026-10-29T12:05:54"
+  },
+  {
+    "arquivo": "uhslc/hourly_716d.csv",
+    "url": "https://uhslc.soest.hawaii.edu/data/csv/rqds/atlantic/hourly/h716d.csv",
+    "descricao": "Nivel horario, registro d, estacao 716 (Santana)",
+    "fonte": "University of Hawaii Sea Level Center (UHSLC), Research Quality Dataset",
+    "bytes": 151183,
+    "sha256": "cdf544f6fc665baa7ffb1e921915c64394a6cce3071f30aa2db7acfdf3cf1ed5",
+    "acessado_em": "2026-10-29T12:05:56"
+  },
+  {
+    "arquivo": "ipcc_ar6/IPCC_AR6_WGI_SPM.pdf",
+    "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+    "descricao": "Sumario para Formuladores de Politicas, IPCC AR6 WG1",
+    "fonte": "IPCC (2021), Climate Change 2021: The Physical Science Basis",
+    "bytes": 3361797,
+    "sha256": "37c9fa760757524c8d69630a89cecab9ebcacb66786970a3439da0619875e446",
+    "acessado_em": "2026-10-29T12:19:31"
+  },
+  {
+    "arquivo": "ipcc_ar6/ar6_global.json",
+    "url": "https://sealevel.nasa.gov/projection-passthru/?station=global",
+    "descricao": "Projecoes globais IPCC AR6 de nivel do mar, decompostas por processo, cenario e percentil",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554",
+    "bytes": 69710,
+    "sha256": "402c9645889a978a93e748fce44f87e876424651dbad4f51859bf09d9389ef25",
+    "acessado_em": "2026-10-29T12:48:28"
+  }
+]

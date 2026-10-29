@@ -1,0 +1,271 @@
+{
+ "criterio_cruzamento": "24 horas de excedencia por ano (1 dia/ano)",
+ "ano_base": 2020,
+ "estacoes": {
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal, Rio de Janeiro (RJ)",
+   "registro_longo": true,
+   "nivel_100anos_mm": 1455.8,
+   "ano_cruzamento": {
+    "ssp126": 2142,
+    "ssp245": 2110,
+    "ssp585": 2090
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.22,
+      "acima_do_nivel_100anos": 0.01
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 3.52,
+      "acima_do_nivel_100anos": 0.07
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.25,
+      "acima_do_nivel_100anos": 0.01
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 11.3,
+      "acima_do_nivel_100anos": 0.31
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.38,
+      "acima_do_nivel_100anos": 0.01
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 45.35,
+      "acima_do_nivel_100anos": 3.6
+     }
+    }
+   },
+   "largura_cauda_mm": 333.7,
+   "fator_100anos_ssp245_2100": 805.7
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "registro_longo": true,
+   "nivel_100anos_mm": 1775.4,
+   "ano_cruzamento": {
+    "ssp126": 2145,
+    "ssp245": 2116,
+    "ssp585": 2096
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.13,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 1.74,
+      "acima_do_nivel_100anos": 0.01
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.16,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 4.89,
+      "acima_do_nivel_100anos": 0.05
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.22,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 20.85,
+      "acima_do_nivel_100anos": 0.6
+     }
+    }
+   },
+   "largura_cauda_mm": 438.7,
+   "fator_100anos_ssp245_2100": 183.8
+  },
+  "FORTALEZA_CE": {
+   "nome": "Fortaleza (CE)",
+   "registro_longo": false,
+   "nivel_100anos_mm": 1824.3,
+   "ano_cruzamento": {
+    "ssp126": null,
+    "ssp245": null,
+    "ssp585": null
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.66,
+      "acima_do_nivel_100anos": 0.17
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 6.3,
+      "acima_do_nivel_100anos": 3.58
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.76,
+      "acima_do_nivel_100anos": 0.23
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 12.7,
+      "acima_do_nivel_100anos": 7.83
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 1.06,
+      "acima_do_nivel_100anos": 0.34
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 31.74,
+      "acima_do_nivel_100anos": 22.55
+     }
+    }
+   },
+   "largura_cauda_mm": 87.9,
+   "fator_100anos_ssp245_2100": 18787.6
+  },
+  "SALVADOR_BA": {
+   "nome": "Salvador (BA)",
+   "registro_longo": false,
+   "nivel_100anos_mm": 1554.8,
+   "ano_cruzamento": {
+    "ssp126": 2070,
+    "ssp245": 2064,
+    "ssp585": 2058
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.73,
+      "acima_do_nivel_100anos": 0.19
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 9.22,
+      "acima_do_nivel_100anos": 4.52
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.86,
+      "acima_do_nivel_100anos": 0.24
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 20.42,
+      "acima_do_nivel_100anos": 12.5
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 1.31,
+      "acima_do_nivel_100anos": 0.41
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 49.68,
+      "acima_do_nivel_100anos": 37.27
+     }
+    }
+   },
+   "largura_cauda_mm": 83.3,
+   "fator_100anos_ssp245_2100": 30000.5
+  },
+  "RECIFE_PE": {
+   "nome": "Recife (PE)",
+   "registro_longo": false,
+   "nivel_100anos_mm": 1498.7,
+   "ano_cruzamento": {
+    "ssp126": 2068,
+    "ssp245": 2062,
+    "ssp585": 2056
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 3.0,
+      "acima_do_nivel_100anos": 1.25
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 41.94,
+      "acima_do_nivel_100anos": 30.57
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 3.58,
+      "acima_do_nivel_100anos": 1.51
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 64.47,
+      "acima_do_nivel_100anos": 50.57
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 4.86,
+      "acima_do_nivel_100anos": 2.21
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 110.65,
+      "acima_do_nivel_100anos": 94.83
+     }
+    }
+   },
+   "largura_cauda_mm": 77.5,
+   "fator_100anos_ssp245_2100": 121375.5
+  },
+  "IMBITUBA_SC": {
+   "nome": "Imbituba (SC)",
+   "registro_longo": false,
+   "nivel_100anos_mm": 1971.9,
+   "ano_cruzamento": {
+    "ssp126": null,
+    "ssp245": null,
+    "ssp585": 2144
+   },
+   "dias_por_ano": {
+    "ssp126": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.12,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 1.63,
+      "acima_do_nivel_100anos": 0.0
+     }
+    },
+    "ssp245": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.14,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 6.63,
+      "acima_do_nivel_100anos": 0.0
+     }
+    },
+    "ssp585": {
+     "2050": {
+      "acima_do_nivel_1ano": 0.18,
+      "acima_do_nivel_100anos": 0.0
+     },
+     "2100": {
+      "acima_do_nivel_1ano": 38.72,
+      "acima_do_nivel_100anos": 0.0
+     }
+    }
+   },
+   "largura_cauda_mm": 929.4,
+   "fator_100anos_ssp245_2100": 9.5
+  }
+ },
+ "correlacao_log_largura_log_fator": -0.9863
+}

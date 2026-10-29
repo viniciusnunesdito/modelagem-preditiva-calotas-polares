@@ -1,0 +1,527 @@
+{
+ "periodo": [
+  1993,
+  2018
+ ],
+ "locais": {
+  "SANTANA_AP": {
+   "nome": "Santana (AP), foz do Amazonas",
+   "lat": -0.05,
+   "lon": -51.17,
+   "fp": {
+    "GrIS": 1.0078,
+    "AIS": 1.1014,
+    "glac": 1.0332,
+    "tws": 1.1569,
+    "total": 1.0557
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.6313,
+    "AIS": 0.3324,
+    "glac": 0.6679,
+    "tws": 0.3611,
+    "total": 2.0015
+   },
+   "ponto_grade": {
+    "lat": 0.25,
+    "lon": -49.75,
+    "raio_busca_graus": 1.5
+   },
+   "fp_calotas_combinado": 1.0382
+  },
+  "BELEM_PA": {
+   "nome": "Belem (PA)",
+   "lat": -1.45,
+   "lon": -48.5,
+   "fp": {
+    "GrIS": 1.0205,
+    "AIS": 1.098,
+    "glac": 1.0339,
+    "tws": 1.2528,
+    "total": 1.0753
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.6393,
+    "AIS": 0.3314,
+    "glac": 0.6683,
+    "tws": 0.391,
+    "total": 2.0385
+   },
+   "ponto_grade": {
+    "lat": -0.75,
+    "lon": -48.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.0457
+  },
+  "MADEIRA_MA": {
+   "nome": "Ponta da Madeira (MA)",
+   "lat": -2.57,
+   "lon": -44.38,
+   "fp": {
+    "GrIS": 1.0463,
+    "AIS": 1.1014,
+    "glac": 1.0472,
+    "tws": 1.074,
+    "total": 1.0588
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.6554,
+    "AIS": 0.3324,
+    "glac": 0.6769,
+    "tws": 0.3352,
+    "total": 2.0073
+   },
+   "ponto_grade": {
+    "lat": -2.25,
+    "lon": -44.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.0642
+  },
+  "FORTALEZA_CE": {
+   "nome": "Fortaleza (CE)",
+   "lat": -3.72,
+   "lon": -38.48,
+   "fp": {
+    "GrIS": 1.0876,
+    "AIS": 1.1252,
+    "glac": 1.0691,
+    "tws": 1.1147,
+    "total": 1.0911
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.6813,
+    "AIS": 0.3396,
+    "glac": 0.691,
+    "tws": 0.3479,
+    "total": 2.0685
+   },
+   "ponto_grade": {
+    "lat": -3.75,
+    "lon": -38.25,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 1.0998
+  },
+  "RECIFE_PE": {
+   "nome": "Recife (PE)",
+   "lat": -8.05,
+   "lon": -34.87,
+   "fp": {
+    "GrIS": 1.1458,
+    "AIS": 1.1206,
+    "glac": 1.0801,
+    "tws": 1.0689,
+    "total": 1.1075
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7178,
+    "AIS": 0.3382,
+    "glac": 0.6982,
+    "tws": 0.3337,
+    "total": 2.0996
+   },
+   "ponto_grade": {
+    "lat": -8.25,
+    "lon": -34.75,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 1.1376
+  },
+  "SALVADOR_BA": {
+   "nome": "Salvador (BA)",
+   "lat": -12.97,
+   "lon": -38.52,
+   "fp": {
+    "GrIS": 1.1715,
+    "AIS": 1.0519,
+    "glac": 1.0496,
+    "tws": 0.7853,
+    "total": 1.0464
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7339,
+    "AIS": 0.3174,
+    "glac": 0.6785,
+    "tws": 0.2451,
+    "total": 1.9838
+   },
+   "ponto_grade": {
+    "lat": -13.25,
+    "lon": -38.75,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.1326
+  },
+  "CANAVIEIRAS_BA": {
+   "nome": "Canavieiras (BA)",
+   "lat": -15.67,
+   "lon": -38.97,
+   "fp": {
+    "GrIS": 1.207,
+    "AIS": 1.0482,
+    "glac": 1.0539,
+    "tws": 0.7115,
+    "total": 1.047
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7561,
+    "AIS": 0.3163,
+    "glac": 0.6812,
+    "tws": 0.2221,
+    "total": 1.985
+   },
+   "ponto_grade": {
+    "lat": -15.75,
+    "lon": -38.75,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 1.1554
+  },
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal, Rio de Janeiro (RJ)",
+   "lat": -22.9,
+   "lon": -43.17,
+   "fp": {
+    "GrIS": 1.2633,
+    "AIS": 0.95,
+    "glac": 1.032,
+    "tws": 0.7428,
+    "total": 1.047
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7914,
+    "AIS": 0.2867,
+    "glac": 0.6671,
+    "tws": 0.2319,
+    "total": 1.985
+   },
+   "ponto_grade": {
+    "lat": -23.25,
+    "lon": -43.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.1614
+  },
+  "SANTOS_SP": {
+   "nome": "Santos (SP)",
+   "lat": -23.98,
+   "lon": -46.3,
+   "fp": {
+    "GrIS": 1.2579,
+    "AIS": 0.9064,
+    "glac": 1.0155,
+    "tws": 1.1103,
+    "total": 1.094
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.788,
+    "AIS": 0.2735,
+    "glac": 0.6564,
+    "tws": 0.3466,
+    "total": 2.0741
+   },
+   "ponto_grade": {
+    "lat": -24.25,
+    "lon": -46.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.1436
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "lat": -25.02,
+   "lon": -47.93,
+   "fp": {
+    "GrIS": 1.2592,
+    "AIS": 0.8787,
+    "glac": 1.0042,
+    "tws": 1.3883,
+    "total": 1.1316
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7888,
+    "AIS": 0.2652,
+    "glac": 0.6491,
+    "tws": 0.4334,
+    "total": 2.1454
+   },
+   "ponto_grade": {
+    "lat": -25.25,
+    "lon": -47.75,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 1.1355
+  },
+  "IMBITUBA_SC": {
+   "nome": "Imbituba (SC)",
+   "lat": -28.23,
+   "lon": -48.65,
+   "fp": {
+    "GrIS": 1.2944,
+    "AIS": 0.8431,
+    "glac": 1.0087,
+    "tws": 1.3854,
+    "total": 1.1385
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.8109,
+    "AIS": 0.2544,
+    "glac": 0.652,
+    "tws": 0.4324,
+    "total": 2.1585
+   },
+   "ponto_grade": {
+    "lat": -28.25,
+    "lon": -48.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.1477
+  },
+  "RIO_GRANDE_RS": {
+   "nome": "Rio Grande (RS)",
+   "lat": -32.1,
+   "lon": -52.1,
+   "fp": {
+    "GrIS": 1.311,
+    "AIS": 0.7405,
+    "glac": 0.9794,
+    "tws": 1.2825,
+    "total": 1.1009
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.8213,
+    "AIS": 0.2235,
+    "glac": 0.6331,
+    "tws": 0.4003,
+    "total": 2.0872
+   },
+   "ponto_grade": {
+    "lat": -32.25,
+    "lon": -51.75,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 1.1255
+  }
+ },
+ "contraste": {
+  "NUUK_GROENLANDIA": {
+   "nome": "Nuuk, Groenlandia (campo proximo do GrIS)",
+   "lat": 64.17,
+   "lon": -51.73,
+   "fp": {
+    "GrIS": -7.4916,
+    "AIS": 1.2432,
+    "glac": 0.0959,
+    "tws": 0.4404,
+    "total": -2.1694
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": -4.6932,
+    "AIS": 0.3752,
+    "glac": 0.062,
+    "tws": 0.1375,
+    "total": -4.1129
+   },
+   "ponto_grade": {
+    "lat": 63.75,
+    "lon": -51.75,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": -4.6519
+  },
+  "REYKJAVIK_ISLANDIA": {
+   "nome": "Reykjavik, Islandia",
+   "lat": 64.15,
+   "lon": -21.94,
+   "fp": {
+    "GrIS": -2.2382,
+    "AIS": 1.1359,
+    "glac": -1.0224,
+    "tws": 0.6551,
+    "total": -0.7984
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": -1.4021,
+    "AIS": 0.3428,
+    "glac": -0.6609,
+    "tws": 0.2045,
+    "total": -1.5137
+   },
+   "ponto_grade": {
+    "lat": 64.25,
+    "lon": -22.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": -1.1413
+  },
+  "NOVA_YORK": {
+   "nome": "Nova York, EUA",
+   "lat": 40.7,
+   "lon": -74.01,
+   "fp": {
+    "GrIS": 0.3133,
+    "AIS": 1.3519,
+    "glac": 0.7873,
+    "tws": 0.1917,
+    "total": 0.6224
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.1962,
+    "AIS": 0.4079,
+    "glac": 0.5089,
+    "tws": 0.0598,
+    "total": 1.1801
+   },
+   "ponto_grade": {
+    "lat": 40.25,
+    "lon": -73.75,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 0.6509
+  },
+  "LISBOA": {
+   "nome": "Lisboa, Portugal",
+   "lat": 38.7,
+   "lon": -9.14,
+   "fp": {
+    "GrIS": 0.3882,
+    "AIS": 1.0388,
+    "glac": 0.9163,
+    "tws": 0.9402,
+    "total": 0.7664
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.2432,
+    "AIS": 0.3135,
+    "glac": 0.5923,
+    "tws": 0.2935,
+    "total": 1.453
+   },
+   "ponto_grade": {
+    "lat": 38.25,
+    "lon": -9.25,
+    "raio_busca_graus": 0.5
+   },
+   "fp_calotas_combinado": 0.5997
+  },
+  "CIDADE_DO_CABO": {
+   "nome": "Cidade do Cabo, Africa do Sul",
+   "lat": -33.9,
+   "lon": 18.42,
+   "fp": {
+    "GrIS": 1.2541,
+    "AIS": 1.4586,
+    "glac": 1.0962,
+    "tws": 1.402,
+    "total": 1.2563
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7856,
+    "AIS": 0.4402,
+    "glac": 0.7086,
+    "tws": 0.4376,
+    "total": 2.3817
+   },
+   "ponto_grade": {
+    "lat": -33.75,
+    "lon": 18.25,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 1.3206
+  },
+  "SYOWA_ANTARTICA": {
+   "nome": "Base Syowa, Antartica (campo proximo do AIS)",
+   "lat": -69.0,
+   "lon": 39.58,
+   "fp": {
+    "GrIS": 1.1722,
+    "AIS": 5.5521,
+    "glac": 1.0958,
+    "tws": 1.1294,
+    "total": 1.8357
+   },
+   "tendencia_local_mm_ano": {
+    "GrIS": 0.7343,
+    "AIS": 1.6754,
+    "glac": 0.7083,
+    "tws": 0.3525,
+    "total": 3.4801
+   },
+   "ponto_grade": {
+    "lat": -68.75,
+    "lon": 39.75,
+    "raio_busca_graus": 0.0
+   },
+   "fp_calotas_combinado": 2.5961
+  }
+ },
+ "media_global": {
+  "GrIS": {
+   "tendencia_mm_ano": 0.6265,
+   "erro_padrao": 0.0286
+  },
+  "AIS": {
+   "tendencia_mm_ano": 0.3018,
+   "erro_padrao": 0.0151
+  },
+  "glac": {
+   "tendencia_mm_ano": 0.6464,
+   "erro_padrao": 0.0038
+  },
+  "tws": {
+   "tendencia_mm_ano": 0.3121,
+   "erro_padrao": 0.0372
+  },
+  "total": {
+   "tendencia_mm_ano": 1.8958,
+   "erro_padrao": 0.0645
+  }
+ },
+ "descricao_processos": {
+  "GrIS": "Manto de gelo da Groenlandia",
+  "AIS": "Manto de gelo da Antartica",
+  "glac": "Geleiras de montanha",
+  "tws": "Armazenamento de agua continental",
+  "total": "Todos os processos baristaticos"
+ },
+ "media_costa_brasileira": {
+  "GrIS": {
+   "media": 1.1727,
+   "desvio": 0.105,
+   "min": 1.0078,
+   "max": 1.311
+  },
+  "AIS": {
+   "media": 0.9971,
+   "desvio": 0.1236,
+   "min": 0.7405,
+   "max": 1.1252
+  },
+  "glac": {
+   "media": 1.0339,
+   "desvio": 0.0274,
+   "min": 0.9794,
+   "max": 1.0801
+  },
+  "tws": {
+   "media": 1.0895,
+   "desvio": 0.2241,
+   "min": 0.7115,
+   "max": 1.3883
+  },
+  "total": {
+   "media": 1.0828,
+   "desvio": 0.0315,
+   "min": 1.0464,
+   "max": 1.1385
+  },
+  "calotas_combinado": {
+   "media": 1.1156,
+   "desvio": 0.0414,
+   "min": 1.0382,
+   "max": 1.1614
+  }
+ }
+}

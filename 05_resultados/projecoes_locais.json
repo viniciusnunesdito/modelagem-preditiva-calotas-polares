@@ -1,0 +1,4609 @@
+{
+ "fatores_locais": {
+  "SANTANA_AP": {
+   "nome": "Santana (AP), foz do Amazonas",
+   "lat": -0.05,
+   "lon": -51.17,
+   "fp": {
+    "GrIS": 1.0078,
+    "AIS": 1.1014,
+    "glac": 1.0332,
+    "tws": 1.1569,
+    "total": 1.0557
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": -0.0221,
+   "vlm": -0.224,
+   "vlm_inc": 1.456,
+   "vlm_duracao_efetiva": 8.3,
+   "n_gnss": 4
+  },
+  "BELEM_PA": {
+   "nome": "Belem (PA)",
+   "lat": -1.45,
+   "lon": -48.5,
+   "fp": {
+    "GrIS": 1.0205,
+    "AIS": 1.098,
+    "glac": 1.0339,
+    "tws": 1.2528,
+    "total": 1.0753
+   },
+   "padrao_dinamico": 1.253,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": -0.013,
+   "vlm": -0.981,
+   "vlm_inc": 0.95,
+   "vlm_duracao_efetiva": 19.2,
+   "n_gnss": 2
+  },
+  "MADEIRA_MA": {
+   "nome": "Ponta da Madeira (MA)",
+   "lat": -2.57,
+   "lon": -44.38,
+   "fp": {
+    "GrIS": 1.0463,
+    "AIS": 1.1014,
+    "glac": 1.0472,
+    "tws": 1.074,
+    "total": 1.0588
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": 0.0188,
+   "vlm": -0.546,
+   "vlm_inc": 0.899,
+   "vlm_duracao_efetiva": 17.1,
+   "n_gnss": 1
+  },
+  "FORTALEZA_CE": {
+   "nome": "Fortaleza (CE)",
+   "lat": -3.72,
+   "lon": -38.48,
+   "fp": {
+    "GrIS": 1.0876,
+    "AIS": 1.1252,
+    "glac": 1.0691,
+    "tws": 1.1147,
+    "total": 1.0911
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": 0.7004,
+   "vlm": -0.304,
+   "vlm_inc": 1.044,
+   "vlm_duracao_efetiva": 15.1,
+   "n_gnss": 4
+  },
+  "RECIFE_PE": {
+   "nome": "Recife (PE)",
+   "lat": -8.05,
+   "lon": -34.87,
+   "fp": {
+    "GrIS": 1.1458,
+    "AIS": 1.1206,
+    "glac": 1.0801,
+    "tws": 1.0689,
+    "total": 1.1075
+   },
+   "padrao_dinamico": 1.1128,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": 0.6461,
+   "vlm": -3.054,
+   "vlm_inc": 0.868,
+   "vlm_duracao_efetiva": 17.2,
+   "n_gnss": 2
+  },
+  "SALVADOR_BA": {
+   "nome": "Salvador (BA)",
+   "lat": -12.97,
+   "lon": -38.52,
+   "fp": {
+    "GrIS": 1.1715,
+    "AIS": 1.0519,
+    "glac": 1.0496,
+    "tws": 0.7853,
+    "total": 1.0464
+   },
+   "padrao_dinamico": 1.0179,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": 0.4892,
+   "vlm": 0.094,
+   "vlm_inc": 0.473,
+   "vlm_duracao_efetiva": 16.8,
+   "n_gnss": 3
+  },
+  "CANAVIEIRAS_BA": {
+   "nome": "Canavieiras (BA)",
+   "lat": -15.67,
+   "lon": -38.97,
+   "fp": {
+    "GrIS": 1.207,
+    "AIS": 1.0482,
+    "glac": 1.0539,
+    "tws": 0.7115,
+    "total": 1.047
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": 0.7902,
+   "vlm": null,
+   "vlm_inc": null,
+   "vlm_duracao_efetiva": null,
+   "n_gnss": 0
+  },
+  "ILHA_FISCAL_RJ": {
+   "nome": "Ilha Fiscal, Rio de Janeiro (RJ)",
+   "lat": -22.9,
+   "lon": -43.17,
+   "fp": {
+    "GrIS": 1.2633,
+    "AIS": 0.95,
+    "glac": 1.032,
+    "tws": 0.7428,
+    "total": 1.047
+   },
+   "padrao_dinamico": 0.9395,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": 0.1668,
+   "vlm": -0.117,
+   "vlm_inc": 0.533,
+   "vlm_duracao_efetiva": 16.1,
+   "n_gnss": 4
+  },
+  "SANTOS_SP": {
+   "nome": "Santos (SP)",
+   "lat": -23.98,
+   "lon": -46.3,
+   "fp": {
+    "GrIS": 1.2579,
+    "AIS": 0.9064,
+    "glac": 1.0155,
+    "tws": 1.1103,
+    "total": 1.094
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": 0.1381,
+   "vlm": 0.694,
+   "vlm_inc": 0.749,
+   "vlm_duracao_efetiva": 15.2,
+   "n_gnss": 3
+  },
+  "CANANEIA_SP": {
+   "nome": "Cananeia (SP)",
+   "lat": -25.02,
+   "lon": -47.93,
+   "fp": {
+    "GrIS": 1.2592,
+    "AIS": 0.8787,
+    "glac": 1.0042,
+    "tws": 1.3883,
+    "total": 1.1316
+   },
+   "padrao_dinamico": 0.8983,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": -0.0596,
+   "vlm": -0.043,
+   "vlm_inc": 0.935,
+   "vlm_duracao_efetiva": 21.4,
+   "n_gnss": 1
+  },
+  "IMBITUBA_SC": {
+   "nome": "Imbituba (SC)",
+   "lat": -28.23,
+   "lon": -48.65,
+   "fp": {
+    "GrIS": 1.2944,
+    "AIS": 0.8431,
+    "glac": 1.0087,
+    "tws": 1.3854,
+    "total": 1.1385
+   },
+   "padrao_dinamico": 0.9021,
+   "padrao_dinamico_interpolado": false,
+   "razao_esterica_historica_descartada": -0.0711,
+   "vlm": -0.405,
+   "vlm_inc": 0.71,
+   "vlm_duracao_efetiva": 14.4,
+   "n_gnss": 3
+  },
+  "RIO_GRANDE_RS": {
+   "nome": "Rio Grande (RS)",
+   "lat": -32.1,
+   "lon": -52.1,
+   "fp": {
+    "GrIS": 1.311,
+    "AIS": 0.7405,
+    "glac": 0.9794,
+    "tws": 1.2825,
+    "total": 1.1009
+   },
+   "padrao_dinamico": 1.0206,
+   "padrao_dinamico_interpolado": true,
+   "razao_esterica_historica_descartada": -0.0463,
+   "vlm": 1.217,
+   "vlm_inc": 1.105,
+   "vlm_duracao_efetiva": 8.2,
+   "n_gnss": 1
+  }
+ },
+ "agua_continental": {
+  "2050": 7.0,
+  "2100": 28.0
+ },
+ "tendencia_esterica_global_historica": 0.6789,
+ "padrao_dinamico_medio": 1.0206,
+ "projecoes": {
+  "A": {
+   "ssp119": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 17.8,
+      "AIS": 10.7,
+      "glac": 28.9,
+      "esterico": 49.8,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 122.1,
+      "calotas": 28.5,
+      "pct_calotas": 23.4
+     },
+     "2100": {
+      "GrIS": 47.7,
+      "AIS": 28.9,
+      "glac": 77.3,
+      "esterico": 134.4,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 338.6,
+      "calotas": 76.6,
+      "pct_calotas": 22.6
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 18.0,
+      "AIS": 10.7,
+      "glac": 28.9,
+      "esterico": 61.2,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 157.0,
+      "calotas": 28.7,
+      "pct_calotas": 18.3
+     },
+     "2100": {
+      "GrIS": 48.3,
+      "AIS": 28.8,
+      "glac": 77.4,
+      "esterico": 164.9,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 433.0,
+      "calotas": 77.1,
+      "pct_calotas": 17.8
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 18.5,
+      "AIS": 10.7,
+      "glac": 29.3,
+      "esterico": 49.8,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 132.2,
+      "calotas": 29.2,
+      "pct_calotas": 22.1
+     },
+     "2100": {
+      "GrIS": 49.5,
+      "AIS": 28.9,
+      "glac": 78.4,
+      "esterico": 134.4,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 364.9,
+      "calotas": 78.4,
+      "pct_calotas": 21.5
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 19.2,
+      "AIS": 10.9,
+      "glac": 29.9,
+      "esterico": 49.8,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 126.8,
+      "calotas": 30.2,
+      "pct_calotas": 23.8
+     },
+     "2100": {
+      "GrIS": 51.4,
+      "AIS": 29.5,
+      "glac": 80.0,
+      "esterico": 134.4,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 350.9,
+      "calotas": 81.0,
+      "pct_calotas": 23.1
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 20.2,
+      "AIS": 10.9,
+      "glac": 30.2,
+      "esterico": 54.3,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 214.8,
+      "calotas": 31.1,
+      "pct_calotas": 14.5
+     },
+     "2100": {
+      "GrIS": 54.2,
+      "AIS": 29.4,
+      "glac": 80.8,
+      "esterico": 146.5,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 585.2,
+      "calotas": 83.6,
+      "pct_calotas": 14.3
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 20.7,
+      "AIS": 10.2,
+      "glac": 29.3,
+      "esterico": 49.7,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 112.7,
+      "calotas": 30.9,
+      "pct_calotas": 27.5
+     },
+     "2100": {
+      "GrIS": 55.4,
+      "AIS": 27.6,
+      "glac": 78.6,
+      "esterico": 134.0,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 310.1,
+      "calotas": 83.0,
+      "pct_calotas": 26.8
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 22.3,
+      "AIS": 9.2,
+      "glac": 28.9,
+      "esterico": 45.9,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 115.0,
+      "calotas": 31.6,
+      "pct_calotas": 27.4
+     },
+     "2100": {
+      "GrIS": 59.8,
+      "AIS": 24.9,
+      "glac": 77.2,
+      "esterico": 123.7,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 315.8,
+      "calotas": 84.7,
+      "pct_calotas": 26.8
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 22.2,
+      "AIS": 8.8,
+      "glac": 28.4,
+      "esterico": 49.8,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 96.2,
+      "calotas": 31.0,
+      "pct_calotas": 32.3
+     },
+     "2100": {
+      "GrIS": 59.5,
+      "AIS": 23.8,
+      "glac": 76.0,
+      "esterico": 134.4,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 269.2,
+      "calotas": 83.3,
+      "pct_calotas": 30.9
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 22.3,
+      "AIS": 8.5,
+      "glac": 28.1,
+      "esterico": 43.9,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 113.7,
+      "calotas": 30.8,
+      "pct_calotas": 27.1
+     },
+     "2100": {
+      "GrIS": 59.6,
+      "AIS": 23.1,
+      "glac": 75.2,
+      "esterico": 118.3,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 318.4,
+      "calotas": 82.6,
+      "pct_calotas": 26.0
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 22.9,
+      "AIS": 8.2,
+      "glac": 28.2,
+      "esterico": 44.0,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 125.2,
+      "calotas": 31.1,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 61.2,
+      "AIS": 22.1,
+      "glac": 75.5,
+      "esterico": 118.8,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 348.8,
+      "calotas": 83.4,
+      "pct_calotas": 23.9
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 23.2,
+      "AIS": 7.2,
+      "glac": 27.4,
+      "esterico": 49.8,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 80.1,
+      "calotas": 30.4,
+      "pct_calotas": 37.9
+     },
+     "2100": {
+      "GrIS": 62.0,
+      "AIS": 19.4,
+      "glac": 73.3,
+      "esterico": 134.4,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 227.7,
+      "calotas": 81.4,
+      "pct_calotas": 35.8
+     }
+    }
+   },
+   "ssp126": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 18.0,
+      "AIS": 11.0,
+      "glac": 29.1,
+      "esterico": 51.0,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 124.0,
+      "calotas": 29.0,
+      "pct_calotas": 23.4
+     },
+     "2100": {
+      "GrIS": 49.7,
+      "AIS": 32.6,
+      "glac": 80.6,
+      "esterico": 149.6,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 362.8,
+      "calotas": 82.2,
+      "pct_calotas": 22.7
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 18.2,
+      "AIS": 11.0,
+      "glac": 29.2,
+      "esterico": 62.7,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 159.2,
+      "calotas": 29.2,
+      "pct_calotas": 18.3
+     },
+     "2100": {
+      "GrIS": 50.3,
+      "AIS": 32.5,
+      "glac": 80.7,
+      "esterico": 183.7,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 460.7,
+      "calotas": 82.8,
+      "pct_calotas": 18.0
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 18.6,
+      "AIS": 11.0,
+      "glac": 29.5,
+      "esterico": 51.0,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 134.1,
+      "calotas": 29.6,
+      "pct_calotas": 22.1
+     },
+     "2100": {
+      "GrIS": 51.6,
+      "AIS": 32.6,
+      "glac": 81.7,
+      "esterico": 149.6,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 389.2,
+      "calotas": 84.1,
+      "pct_calotas": 21.6
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 19.4,
+      "AIS": 11.2,
+      "glac": 30.2,
+      "esterico": 51.0,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 128.7,
+      "calotas": 30.6,
+      "pct_calotas": 23.8
+     },
+     "2100": {
+      "GrIS": 53.6,
+      "AIS": 33.3,
+      "glac": 83.4,
+      "esterico": 149.6,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 375.4,
+      "calotas": 86.9,
+      "pct_calotas": 23.1
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 20.4,
+      "AIS": 11.2,
+      "glac": 30.5,
+      "esterico": 55.7,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 216.8,
+      "calotas": 31.6,
+      "pct_calotas": 14.6
+     },
+     "2100": {
+      "GrIS": 56.5,
+      "AIS": 33.1,
+      "glac": 84.3,
+      "esterico": 163.1,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 611.2,
+      "calotas": 89.6,
+      "pct_calotas": 14.7
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 20.9,
+      "AIS": 10.5,
+      "glac": 29.6,
+      "esterico": 50.9,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 114.6,
+      "calotas": 31.4,
+      "pct_calotas": 27.4
+     },
+     "2100": {
+      "GrIS": 57.8,
+      "AIS": 31.1,
+      "glac": 81.9,
+      "esterico": 149.2,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 334.4,
+      "calotas": 88.8,
+      "pct_calotas": 26.6
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 22.5,
+      "AIS": 9.5,
+      "glac": 29.1,
+      "esterico": 47.0,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 116.8,
+      "calotas": 32.0,
+      "pct_calotas": 27.4
+     },
+     "2100": {
+      "GrIS": 62.3,
+      "AIS": 28.1,
+      "glac": 80.5,
+      "esterico": 137.7,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 338.7,
+      "calotas": 90.4,
+      "pct_calotas": 26.7
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 22.4,
+      "AIS": 9.1,
+      "glac": 28.6,
+      "esterico": 51.0,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 98.1,
+      "calotas": 31.5,
+      "pct_calotas": 32.1
+     },
+     "2100": {
+      "GrIS": 62.0,
+      "AIS": 26.8,
+      "glac": 79.2,
+      "esterico": 149.6,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 293.2,
+      "calotas": 88.8,
+      "pct_calotas": 30.3
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 22.4,
+      "AIS": 8.8,
+      "glac": 28.3,
+      "esterico": 44.9,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 115.5,
+      "calotas": 31.2,
+      "pct_calotas": 27.0
+     },
+     "2100": {
+      "GrIS": 62.1,
+      "AIS": 26.0,
+      "glac": 78.3,
+      "esterico": 131.7,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 340.4,
+      "calotas": 88.1,
+      "pct_calotas": 25.9
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 23.1,
+      "AIS": 8.4,
+      "glac": 28.5,
+      "esterico": 45.1,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 126.9,
+      "calotas": 31.5,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 63.8,
+      "AIS": 24.9,
+      "glac": 78.7,
+      "esterico": 132.2,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 370.9,
+      "calotas": 88.7,
+      "pct_calotas": 23.9
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 23.4,
+      "AIS": 7.4,
+      "glac": 27.6,
+      "esterico": 51.0,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 81.9,
+      "calotas": 30.8,
+      "pct_calotas": 37.6
+     },
+     "2100": {
+      "GrIS": 64.6,
+      "AIS": 21.9,
+      "glac": 76.4,
+      "esterico": 149.6,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 251.1,
+      "calotas": 86.5,
+      "pct_calotas": 34.5
+     }
+    }
+   },
+   "ssp245": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 18.4,
+      "AIS": 11.7,
+      "glac": 29.8,
+      "esterico": 54.1,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 128.9,
+      "calotas": 30.1,
+      "pct_calotas": 23.4
+     },
+     "2100": {
+      "GrIS": 54.6,
+      "AIS": 41.5,
+      "glac": 88.6,
+      "esterico": 186.9,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 421.9,
+      "calotas": 96.1,
+      "pct_calotas": 22.8
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 18.6,
+      "AIS": 11.7,
+      "glac": 29.8,
+      "esterico": 66.5,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 164.8,
+      "calotas": 30.3,
+      "pct_calotas": 18.4
+     },
+     "2100": {
+      "GrIS": 55.3,
+      "AIS": 41.4,
+      "glac": 88.7,
+      "esterico": 229.4,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 528.3,
+      "calotas": 96.7,
+      "pct_calotas": 18.3
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 19.1,
+      "AIS": 11.7,
+      "glac": 30.2,
+      "esterico": 54.1,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 139.1,
+      "calotas": 30.8,
+      "pct_calotas": 22.2
+     },
+     "2100": {
+      "GrIS": 56.7,
+      "AIS": 41.5,
+      "glac": 89.8,
+      "esterico": 186.9,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 448.6,
+      "calotas": 98.2,
+      "pct_calotas": 21.9
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 19.8,
+      "AIS": 12.0,
+      "glac": 30.8,
+      "esterico": 54.1,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 133.7,
+      "calotas": 31.8,
+      "pct_calotas": 23.8
+     },
+     "2100": {
+      "GrIS": 58.9,
+      "AIS": 42.4,
+      "glac": 91.7,
+      "esterico": 186.9,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 435.4,
+      "calotas": 101.3,
+      "pct_calotas": 23.3
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 20.9,
+      "AIS": 11.9,
+      "glac": 31.2,
+      "esterico": 59.0,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 222.1,
+      "calotas": 32.8,
+      "pct_calotas": 14.8
+     },
+     "2100": {
+      "GrIS": 62.1,
+      "AIS": 42.2,
+      "glac": 92.6,
+      "esterico": 203.8,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 674.9,
+      "calotas": 104.3,
+      "pct_calotas": 15.5
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 21.4,
+      "AIS": 11.2,
+      "glac": 30.3,
+      "esterico": 54.0,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 119.5,
+      "calotas": 32.6,
+      "pct_calotas": 27.3
+     },
+     "2100": {
+      "GrIS": 63.5,
+      "AIS": 39.6,
+      "glac": 90.0,
+      "esterico": 186.4,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 394.0,
+      "calotas": 103.1,
+      "pct_calotas": 26.2
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 23.0,
+      "AIS": 10.1,
+      "glac": 29.8,
+      "esterico": 49.8,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 121.5,
+      "calotas": 33.2,
+      "pct_calotas": 27.3
+     },
+     "2100": {
+      "GrIS": 68.5,
+      "AIS": 35.8,
+      "glac": 88.5,
+      "esterico": 172.0,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 394.9,
+      "calotas": 104.2,
+      "pct_calotas": 26.4
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 22.9,
+      "AIS": 9.7,
+      "glac": 29.3,
+      "esterico": 54.1,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 103.0,
+      "calotas": 32.6,
+      "pct_calotas": 31.7
+     },
+     "2100": {
+      "GrIS": 68.2,
+      "AIS": 34.1,
+      "glac": 87.1,
+      "esterico": 186.9,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 351.9,
+      "calotas": 102.3,
+      "pct_calotas": 29.1
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 23.0,
+      "AIS": 9.4,
+      "glac": 29.0,
+      "esterico": 47.6,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 119.9,
+      "calotas": 32.3,
+      "pct_calotas": 26.9
+     },
+     "2100": {
+      "GrIS": 68.2,
+      "AIS": 33.1,
+      "glac": 86.1,
+      "esterico": 164.5,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 394.3,
+      "calotas": 101.3,
+      "pct_calotas": 25.7
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 23.6,
+      "AIS": 9.0,
+      "glac": 29.1,
+      "esterico": 47.8,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 131.4,
+      "calotas": 32.6,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 70.2,
+      "AIS": 31.8,
+      "glac": 86.5,
+      "esterico": 165.2,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 424.8,
+      "calotas": 101.9,
+      "pct_calotas": 24.0
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 23.9,
+      "AIS": 7.9,
+      "glac": 28.3,
+      "esterico": 54.1,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 86.6,
+      "calotas": 31.8,
+      "pct_calotas": 36.7
+     },
+     "2100": {
+      "GrIS": 71.1,
+      "AIS": 27.9,
+      "glac": 84.0,
+      "esterico": 186.9,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 308.4,
+      "calotas": 98.9,
+      "pct_calotas": 32.1
+     }
+    }
+   },
+   "ssp370": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 18.5,
+      "AIS": 11.9,
+      "glac": 30.0,
+      "esterico": 54.8,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 130.0,
+      "calotas": 30.4,
+      "pct_calotas": 23.4
+     },
+     "2100": {
+      "GrIS": 58.6,
+      "AIS": 48.6,
+      "glac": 95.0,
+      "esterico": 216.7,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 469.2,
+      "calotas": 107.2,
+      "pct_calotas": 22.8
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 18.7,
+      "AIS": 11.9,
+      "glac": 30.0,
+      "esterico": 67.3,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 166.1,
+      "calotas": 30.6,
+      "pct_calotas": 18.4
+     },
+     "2100": {
+      "GrIS": 59.3,
+      "AIS": 48.5,
+      "glac": 95.1,
+      "esterico": 266.1,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 582.5,
+      "calotas": 107.8,
+      "pct_calotas": 18.5
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 19.2,
+      "AIS": 11.9,
+      "glac": 30.4,
+      "esterico": 54.8,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 140.2,
+      "calotas": 31.1,
+      "pct_calotas": 22.2
+     },
+     "2100": {
+      "GrIS": 60.8,
+      "AIS": 48.6,
+      "glac": 96.3,
+      "esterico": 216.7,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 496.2,
+      "calotas": 109.4,
+      "pct_calotas": 22.1
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 19.9,
+      "AIS": 12.2,
+      "glac": 31.0,
+      "esterico": 54.8,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 134.9,
+      "calotas": 32.1,
+      "pct_calotas": 23.8
+     },
+     "2100": {
+      "GrIS": 63.2,
+      "AIS": 49.7,
+      "glac": 98.3,
+      "esterico": 216.7,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 483.4,
+      "calotas": 112.9,
+      "pct_calotas": 23.3
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 21.0,
+      "AIS": 12.1,
+      "glac": 31.3,
+      "esterico": 59.8,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 223.3,
+      "calotas": 33.1,
+      "pct_calotas": 14.8
+     },
+     "2100": {
+      "GrIS": 66.6,
+      "AIS": 49.5,
+      "glac": 99.3,
+      "esterico": 236.3,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 725.9,
+      "calotas": 116.1,
+      "pct_calotas": 16.0
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 21.5,
+      "AIS": 11.4,
+      "glac": 30.4,
+      "esterico": 54.7,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 120.6,
+      "calotas": 32.8,
+      "pct_calotas": 27.2
+     },
+     "2100": {
+      "GrIS": 68.1,
+      "AIS": 46.4,
+      "glac": 96.5,
+      "esterico": 216.1,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 441.7,
+      "calotas": 114.5,
+      "pct_calotas": 25.9
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 23.1,
+      "AIS": 10.3,
+      "glac": 29.9,
+      "esterico": 50.5,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 122.5,
+      "calotas": 33.4,
+      "pct_calotas": 27.3
+     },
+     "2100": {
+      "GrIS": 73.4,
+      "AIS": 41.9,
+      "glac": 94.9,
+      "esterico": 199.5,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 439.9,
+      "calotas": 115.4,
+      "pct_calotas": 26.2
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 23.0,
+      "AIS": 9.8,
+      "glac": 29.4,
+      "esterico": 54.8,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 104.1,
+      "calotas": 32.8,
+      "pct_calotas": 31.6
+     },
+     "2100": {
+      "GrIS": 73.1,
+      "AIS": 40.0,
+      "glac": 93.4,
+      "esterico": 216.7,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 398.8,
+      "calotas": 113.1,
+      "pct_calotas": 28.4
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 23.1,
+      "AIS": 9.5,
+      "glac": 29.1,
+      "esterico": 48.3,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 121.0,
+      "calotas": 32.6,
+      "pct_calotas": 26.9
+     },
+     "2100": {
+      "GrIS": 73.2,
+      "AIS": 38.8,
+      "glac": 92.4,
+      "esterico": 190.7,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 437.4,
+      "calotas": 112.0,
+      "pct_calotas": 25.6
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 23.7,
+      "AIS": 9.1,
+      "glac": 29.2,
+      "esterico": 48.5,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 132.4,
+      "calotas": 32.8,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 75.2,
+      "AIS": 37.2,
+      "glac": 92.8,
+      "esterico": 191.6,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 468.0,
+      "calotas": 112.4,
+      "pct_calotas": 24.0
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 24.0,
+      "AIS": 8.0,
+      "glac": 28.4,
+      "esterico": 54.8,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 87.7,
+      "calotas": 32.0,
+      "pct_calotas": 36.5
+     },
+     "2100": {
+      "GrIS": 76.2,
+      "AIS": 32.7,
+      "glac": 90.1,
+      "esterico": 216.7,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 354.2,
+      "calotas": 108.9,
+      "pct_calotas": 30.7
+     }
+    }
+   },
+   "ssp585": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 19.0,
+      "AIS": 13.0,
+      "glac": 30.9,
+      "esterico": 59.3,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 137.0,
+      "calotas": 32.0,
+      "pct_calotas": 23.4
+     },
+     "2100": {
+      "GrIS": 63.2,
+      "AIS": 57.0,
+      "glac": 102.5,
+      "esterico": 251.7,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 524.8,
+      "calotas": 120.2,
+      "pct_calotas": 22.9
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 19.3,
+      "AIS": 12.9,
+      "glac": 30.9,
+      "esterico": 72.7,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 174.1,
+      "calotas": 32.2,
+      "pct_calotas": 18.5
+     },
+     "2100": {
+      "GrIS": 64.0,
+      "AIS": 56.8,
+      "glac": 102.6,
+      "esterico": 309.1,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 646.1,
+      "calotas": 120.8,
+      "pct_calotas": 18.7
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 19.8,
+      "AIS": 13.0,
+      "glac": 31.3,
+      "esterico": 59.3,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 147.2,
+      "calotas": 32.7,
+      "pct_calotas": 22.2
+     },
+     "2100": {
+      "GrIS": 65.6,
+      "AIS": 57.0,
+      "glac": 103.9,
+      "esterico": 251.7,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 552.0,
+      "calotas": 122.6,
+      "pct_calotas": 22.2
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 20.6,
+      "AIS": 13.2,
+      "glac": 32.0,
+      "esterico": 59.3,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 142.0,
+      "calotas": 33.8,
+      "pct_calotas": 23.8
+     },
+     "2100": {
+      "GrIS": 68.2,
+      "AIS": 58.2,
+      "glac": 106.1,
+      "esterico": 251.7,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 539.8,
+      "calotas": 126.4,
+      "pct_calotas": 23.4
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 21.7,
+      "AIS": 13.2,
+      "glac": 32.3,
+      "esterico": 64.6,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 230.9,
+      "calotas": 34.8,
+      "pct_calotas": 15.1
+     },
+     "2100": {
+      "GrIS": 71.9,
+      "AIS": 58.0,
+      "glac": 107.2,
+      "esterico": 274.5,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 785.8,
+      "calotas": 129.9,
+      "pct_calotas": 16.5
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 22.1,
+      "AIS": 12.4,
+      "glac": 31.4,
+      "esterico": 59.1,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 127.7,
+      "calotas": 34.5,
+      "pct_calotas": 27.0
+     },
+     "2100": {
+      "GrIS": 73.5,
+      "AIS": 54.4,
+      "glac": 104.2,
+      "esterico": 251.1,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 497.6,
+      "calotas": 127.9,
+      "pct_calotas": 25.7
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 23.9,
+      "AIS": 11.2,
+      "glac": 30.9,
+      "esterico": 54.5,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 129.2,
+      "calotas": 35.1,
+      "pct_calotas": 27.1
+     },
+     "2100": {
+      "GrIS": 79.2,
+      "AIS": 49.2,
+      "glac": 102.4,
+      "esterico": 231.7,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 492.7,
+      "calotas": 128.4,
+      "pct_calotas": 26.1
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 23.8,
+      "AIS": 10.7,
+      "glac": 30.4,
+      "esterico": 59.3,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 111.0,
+      "calotas": 34.4,
+      "pct_calotas": 31.0
+     },
+     "2100": {
+      "GrIS": 78.9,
+      "AIS": 46.9,
+      "glac": 100.8,
+      "esterico": 251.7,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 453.9,
+      "calotas": 125.8,
+      "pct_calotas": 27.7
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 23.8,
+      "AIS": 10.3,
+      "glac": 30.0,
+      "esterico": 52.2,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 127.3,
+      "calotas": 34.1,
+      "pct_calotas": 26.8
+     },
+     "2100": {
+      "GrIS": 79.0,
+      "AIS": 45.5,
+      "glac": 99.7,
+      "esterico": 221.6,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 488.0,
+      "calotas": 124.4,
+      "pct_calotas": 25.5
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 24.5,
+      "AIS": 9.9,
+      "glac": 30.2,
+      "esterico": 52.4,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 138.8,
+      "calotas": 34.4,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 81.2,
+      "AIS": 43.6,
+      "glac": 100.1,
+      "esterico": 222.5,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 518.6,
+      "calotas": 124.8,
+      "pct_calotas": 24.1
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 24.8,
+      "AIS": 8.7,
+      "glac": 29.3,
+      "esterico": 59.3,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 94.5,
+      "calotas": 33.5,
+      "pct_calotas": 35.4
+     },
+     "2100": {
+      "GrIS": 82.2,
+      "AIS": 38.3,
+      "glac": 97.2,
+      "esterico": 251.7,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 408.0,
+      "calotas": 120.5,
+      "pct_calotas": 29.5
+     }
+    }
+   }
+  },
+  "Al": {
+   "ssp119": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 28.3,
+      "AIS": 12.1,
+      "glac": 22.2,
+      "esterico": 58.4,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 135.8,
+      "calotas": 40.4,
+      "pct_calotas": 29.8
+     },
+     "2100": {
+      "GrIS": 76.9,
+      "AIS": 32.6,
+      "glac": 59.3,
+      "esterico": 157.9,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 377.0,
+      "calotas": 109.5,
+      "pct_calotas": 29.0
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 28.7,
+      "AIS": 12.1,
+      "glac": 22.2,
+      "esterico": 71.7,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 172.8,
+      "calotas": 40.7,
+      "pct_calotas": 23.6
+     },
+     "2100": {
+      "GrIS": 77.9,
+      "AIS": 32.5,
+      "glac": 59.3,
+      "esterico": 193.9,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 477.1,
+      "calotas": 110.4,
+      "pct_calotas": 23.1
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 29.4,
+      "AIS": 12.1,
+      "glac": 22.5,
+      "esterico": 58.4,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 146.3,
+      "calotas": 41.5,
+      "pct_calotas": 28.4
+     },
+     "2100": {
+      "GrIS": 79.9,
+      "AIS": 32.6,
+      "glac": 60.1,
+      "esterico": 157.9,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 404.1,
+      "calotas": 112.4,
+      "pct_calotas": 27.8
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 30.6,
+      "AIS": 12.4,
+      "glac": 22.9,
+      "esterico": 58.4,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 141.2,
+      "calotas": 42.9,
+      "pct_calotas": 30.4
+     },
+     "2100": {
+      "GrIS": 83.0,
+      "AIS": 33.3,
+      "glac": 61.3,
+      "esterico": 157.9,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 391.0,
+      "calotas": 116.3,
+      "pct_calotas": 29.7
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 32.2,
+      "AIS": 12.3,
+      "glac": 23.2,
+      "esterico": 63.7,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 230.5,
+      "calotas": 44.5,
+      "pct_calotas": 19.3
+     },
+     "2100": {
+      "GrIS": 87.5,
+      "AIS": 33.1,
+      "glac": 61.9,
+      "esterico": 172.2,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 628.9,
+      "calotas": 120.6,
+      "pct_calotas": 19.2
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 32.9,
+      "AIS": 11.5,
+      "glac": 22.5,
+      "esterico": 58.3,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 127.9,
+      "calotas": 44.5,
+      "pct_calotas": 34.8
+     },
+     "2100": {
+      "GrIS": 89.4,
+      "AIS": 31.1,
+      "glac": 60.2,
+      "esterico": 157.5,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 352.7,
+      "calotas": 120.5,
+      "pct_calotas": 34.2
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 35.5,
+      "AIS": 10.4,
+      "glac": 22.1,
+      "esterico": 53.8,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 130.6,
+      "calotas": 45.9,
+      "pct_calotas": 35.2
+     },
+     "2100": {
+      "GrIS": 96.4,
+      "AIS": 28.1,
+      "glac": 59.2,
+      "esterico": 145.4,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 359.2,
+      "calotas": 124.5,
+      "pct_calotas": 34.7
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 35.4,
+      "AIS": 10.0,
+      "glac": 21.8,
+      "esterico": 58.4,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 112.5,
+      "calotas": 45.3,
+      "pct_calotas": 40.3
+     },
+     "2100": {
+      "GrIS": 96.0,
+      "AIS": 26.8,
+      "glac": 58.2,
+      "esterico": 157.9,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 314.5,
+      "calotas": 122.8,
+      "pct_calotas": 39.0
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 35.4,
+      "AIS": 9.6,
+      "glac": 21.6,
+      "esterico": 51.4,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 129.0,
+      "calotas": 45.0,
+      "pct_calotas": 34.9
+     },
+     "2100": {
+      "GrIS": 96.1,
+      "AIS": 26.0,
+      "glac": 57.6,
+      "esterico": 139.0,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 361.0,
+      "calotas": 122.1,
+      "pct_calotas": 33.8
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 36.4,
+      "AIS": 9.3,
+      "glac": 21.6,
+      "esterico": 51.6,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 140.8,
+      "calotas": 45.6,
+      "pct_calotas": 32.4
+     },
+     "2100": {
+      "GrIS": 98.8,
+      "AIS": 24.9,
+      "glac": 57.8,
+      "esterico": 139.6,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 392.3,
+      "calotas": 123.7,
+      "pct_calotas": 31.5
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 36.9,
+      "AIS": 8.1,
+      "glac": 21.0,
+      "esterico": 58.4,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 96.9,
+      "calotas": 45.0,
+      "pct_calotas": 46.4
+     },
+     "2100": {
+      "GrIS": 100.1,
+      "AIS": 21.9,
+      "glac": 56.2,
+      "esterico": 157.9,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 274.6,
+      "calotas": 122.0,
+      "pct_calotas": 44.4
+     }
+    }
+   },
+   "ssp126": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 29.5,
+      "AIS": 12.4,
+      "glac": 22.3,
+      "esterico": 60.2,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 139.1,
+      "calotas": 41.8,
+      "pct_calotas": 30.1
+     },
+     "2100": {
+      "GrIS": 91.7,
+      "AIS": 35.9,
+      "glac": 60.5,
+      "esterico": 180.7,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 419.0,
+      "calotas": 127.6,
+      "pct_calotas": 30.4
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 29.9,
+      "AIS": 12.3,
+      "glac": 22.3,
+      "esterico": 73.9,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 176.6,
+      "calotas": 42.2,
+      "pct_calotas": 23.9
+     },
+     "2100": {
+      "GrIS": 92.8,
+      "AIS": 35.8,
+      "glac": 60.5,
+      "esterico": 221.8,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 524.5,
+      "calotas": 128.6,
+      "pct_calotas": 24.5
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 30.6,
+      "AIS": 12.4,
+      "glac": 22.6,
+      "esterico": 60.2,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 149.7,
+      "calotas": 43.0,
+      "pct_calotas": 28.7
+     },
+     "2100": {
+      "GrIS": 95.2,
+      "AIS": 35.9,
+      "glac": 61.3,
+      "esterico": 180.7,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 446.8,
+      "calotas": 131.1,
+      "pct_calotas": 29.3
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 31.8,
+      "AIS": 12.6,
+      "glac": 23.0,
+      "esterico": 60.2,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 144.6,
+      "calotas": 44.4,
+      "pct_calotas": 30.7
+     },
+     "2100": {
+      "GrIS": 98.9,
+      "AIS": 36.7,
+      "glac": 62.6,
+      "esterico": 180.7,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 434.4,
+      "calotas": 135.6,
+      "pct_calotas": 31.2
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 33.5,
+      "AIS": 12.6,
+      "glac": 23.3,
+      "esterico": 65.6,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 234.1,
+      "calotas": 46.1,
+      "pct_calotas": 19.7
+     },
+     "2100": {
+      "GrIS": 104.2,
+      "AIS": 36.5,
+      "glac": 63.2,
+      "esterico": 197.0,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 675.2,
+      "calotas": 140.7,
+      "pct_calotas": 20.8
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 34.3,
+      "AIS": 11.8,
+      "glac": 22.6,
+      "esterico": 60.0,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 131.4,
+      "calotas": 46.1,
+      "pct_calotas": 35.1
+     },
+     "2100": {
+      "GrIS": 106.6,
+      "AIS": 34.3,
+      "glac": 61.4,
+      "esterico": 180.2,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 396.9,
+      "calotas": 140.8,
+      "pct_calotas": 35.5
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 37.0,
+      "AIS": 10.7,
+      "glac": 22.2,
+      "esterico": 55.4,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 134.0,
+      "calotas": 47.6,
+      "pct_calotas": 35.5
+     },
+     "2100": {
+      "GrIS": 114.9,
+      "AIS": 31.0,
+      "glac": 60.4,
+      "esterico": 166.3,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 402.7,
+      "calotas": 145.9,
+      "pct_calotas": 36.2
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 36.8,
+      "AIS": 10.2,
+      "glac": 21.9,
+      "esterico": 60.2,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 116.0,
+      "calotas": 47.0,
+      "pct_calotas": 40.5
+     },
+     "2100": {
+      "GrIS": 114.4,
+      "AIS": 29.5,
+      "glac": 59.4,
+      "esterico": 180.7,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 359.6,
+      "calotas": 143.9,
+      "pct_calotas": 40.0
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 36.8,
+      "AIS": 9.9,
+      "glac": 21.7,
+      "esterico": 53.0,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 132.4,
+      "calotas": 46.7,
+      "pct_calotas": 35.3
+     },
+     "2100": {
+      "GrIS": 114.5,
+      "AIS": 28.6,
+      "glac": 58.8,
+      "esterico": 159.0,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 403.3,
+      "calotas": 143.2,
+      "pct_calotas": 35.5
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 37.9,
+      "AIS": 9.5,
+      "glac": 21.7,
+      "esterico": 53.2,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 144.1,
+      "calotas": 47.3,
+      "pct_calotas": 32.8
+     },
+     "2100": {
+      "GrIS": 117.7,
+      "AIS": 27.5,
+      "glac": 59.0,
+      "esterico": 159.7,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 435.1,
+      "calotas": 145.2,
+      "pct_calotas": 33.4
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 38.4,
+      "AIS": 8.3,
+      "glac": 21.1,
+      "esterico": 60.2,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 100.5,
+      "calotas": 46.7,
+      "pct_calotas": 46.5
+     },
+     "2100": {
+      "GrIS": 119.2,
+      "AIS": 24.1,
+      "glac": 57.3,
+      "esterico": 180.7,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 319.9,
+      "calotas": 143.4,
+      "pct_calotas": 44.8
+     }
+    }
+   },
+   "ssp245": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 32.5,
+      "AIS": 13.0,
+      "glac": 22.5,
+      "esterico": 64.8,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 147.7,
+      "calotas": 45.5,
+      "pct_calotas": 30.8
+     },
+     "2100": {
+      "GrIS": 127.7,
+      "AIS": 44.0,
+      "glac": 63.4,
+      "esterico": 236.4,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 521.8,
+      "calotas": 171.7,
+      "pct_calotas": 32.9
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 32.9,
+      "AIS": 13.0,
+      "glac": 22.5,
+      "esterico": 79.6,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 186.2,
+      "calotas": 45.9,
+      "pct_calotas": 24.6
+     },
+     "2100": {
+      "GrIS": 129.3,
+      "AIS": 43.8,
+      "glac": 63.5,
+      "esterico": 290.3,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 640.4,
+      "calotas": 173.2,
+      "pct_calotas": 27.0
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 33.7,
+      "AIS": 13.0,
+      "glac": 22.8,
+      "esterico": 64.8,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 158.3,
+      "calotas": 46.7,
+      "pct_calotas": 29.5
+     },
+     "2100": {
+      "GrIS": 132.6,
+      "AIS": 44.0,
+      "glac": 64.3,
+      "esterico": 236.4,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 551.0,
+      "calotas": 176.6,
+      "pct_calotas": 32.0
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 35.0,
+      "AIS": 13.3,
+      "glac": 23.3,
+      "esterico": 64.8,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 153.4,
+      "calotas": 48.4,
+      "pct_calotas": 31.5
+     },
+     "2100": {
+      "GrIS": 137.8,
+      "AIS": 44.9,
+      "glac": 65.6,
+      "esterico": 236.4,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 540.3,
+      "calotas": 182.8,
+      "pct_calotas": 33.8
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 36.9,
+      "AIS": 13.3,
+      "glac": 23.5,
+      "esterico": 70.7,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 243.5,
+      "calotas": 50.2,
+      "pct_calotas": 20.6
+     },
+     "2100": {
+      "GrIS": 145.2,
+      "AIS": 44.7,
+      "glac": 66.3,
+      "esterico": 257.8,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 788.3,
+      "calotas": 190.0,
+      "pct_calotas": 24.1
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 37.7,
+      "AIS": 12.4,
+      "glac": 22.9,
+      "esterico": 64.6,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 140.4,
+      "calotas": 50.2,
+      "pct_calotas": 35.8
+     },
+     "2100": {
+      "GrIS": 148.5,
+      "AIS": 42.0,
+      "glac": 64.4,
+      "esterico": 235.8,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 505.2,
+      "calotas": 190.5,
+      "pct_calotas": 37.7
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 40.7,
+      "AIS": 11.2,
+      "glac": 22.5,
+      "esterico": 59.7,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 142.8,
+      "calotas": 51.9,
+      "pct_calotas": 36.4
+     },
+     "2100": {
+      "GrIS": 160.1,
+      "AIS": 37.9,
+      "glac": 63.3,
+      "esterico": 217.6,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 509.2,
+      "calotas": 198.0,
+      "pct_calotas": 38.9
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 40.5,
+      "AIS": 10.7,
+      "glac": 22.1,
+      "esterico": 64.8,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 125.2,
+      "calotas": 51.3,
+      "pct_calotas": 41.0
+     },
+     "2100": {
+      "GrIS": 159.4,
+      "AIS": 36.2,
+      "glac": 62.3,
+      "esterico": 236.4,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 469.9,
+      "calotas": 195.6,
+      "pct_calotas": 41.6
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 40.6,
+      "AIS": 10.4,
+      "glac": 21.9,
+      "esterico": 57.1,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 140.9,
+      "calotas": 51.0,
+      "pct_calotas": 36.2
+     },
+     "2100": {
+      "GrIS": 159.6,
+      "AIS": 35.1,
+      "glac": 61.6,
+      "esterico": 208.1,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 506.7,
+      "calotas": 194.7,
+      "pct_calotas": 38.4
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 41.7,
+      "AIS": 10.0,
+      "glac": 22.0,
+      "esterico": 57.3,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 152.8,
+      "calotas": 51.7,
+      "pct_calotas": 33.8
+     },
+     "2100": {
+      "GrIS": 164.1,
+      "AIS": 33.7,
+      "glac": 61.9,
+      "esterico": 209.0,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 539.8,
+      "calotas": 197.7,
+      "pct_calotas": 36.6
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 42.2,
+      "AIS": 8.8,
+      "glac": 21.3,
+      "esterico": 64.8,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 109.6,
+      "calotas": 51.0,
+      "pct_calotas": 46.5
+     },
+     "2100": {
+      "GrIS": 166.2,
+      "AIS": 29.6,
+      "glac": 60.1,
+      "esterico": 236.4,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 430.8,
+      "calotas": 195.7,
+      "pct_calotas": 45.4
+     }
+    }
+   },
+   "ssp370": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 33.2,
+      "AIS": 13.2,
+      "glac": 22.6,
+      "esterico": 65.9,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 149.6,
+      "calotas": 46.3,
+      "pct_calotas": 31.0
+     },
+     "2100": {
+      "GrIS": 156.6,
+      "AIS": 50.4,
+      "glac": 65.8,
+      "esterico": 281.0,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 604.1,
+      "calotas": 207.0,
+      "pct_calotas": 34.3
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 33.6,
+      "AIS": 13.1,
+      "glac": 22.6,
+      "esterico": 80.9,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 188.4,
+      "calotas": 46.7,
+      "pct_calotas": 24.8
+     },
+     "2100": {
+      "GrIS": 158.6,
+      "AIS": 50.3,
+      "glac": 65.8,
+      "esterico": 345.0,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 733.2,
+      "calotas": 208.8,
+      "pct_calotas": 28.5
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 34.4,
+      "AIS": 13.2,
+      "glac": 22.9,
+      "esterico": 65.9,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 160.3,
+      "calotas": 47.6,
+      "pct_calotas": 29.7
+     },
+     "2100": {
+      "GrIS": 162.6,
+      "AIS": 50.4,
+      "glac": 66.7,
+      "esterico": 281.0,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 634.5,
+      "calotas": 213.0,
+      "pct_calotas": 33.6
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 35.8,
+      "AIS": 13.5,
+      "glac": 23.4,
+      "esterico": 65.9,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 155.4,
+      "calotas": 49.3,
+      "pct_calotas": 31.7
+     },
+     "2100": {
+      "GrIS": 169.0,
+      "AIS": 51.5,
+      "glac": 68.0,
+      "esterico": 281.0,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 625.1,
+      "calotas": 220.5,
+      "pct_calotas": 35.3
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 37.7,
+      "AIS": 13.4,
+      "glac": 23.6,
+      "esterico": 71.8,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 245.6,
+      "calotas": 51.1,
+      "pct_calotas": 20.8
+     },
+     "2100": {
+      "GrIS": 178.0,
+      "AIS": 51.3,
+      "glac": 68.7,
+      "esterico": 306.4,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 878.8,
+      "calotas": 229.3,
+      "pct_calotas": 26.1
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 38.5,
+      "AIS": 12.6,
+      "glac": 22.9,
+      "esterico": 65.7,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 142.4,
+      "calotas": 51.1,
+      "pct_calotas": 35.9
+     },
+     "2100": {
+      "GrIS": 182.0,
+      "AIS": 48.2,
+      "glac": 66.8,
+      "esterico": 280.3,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 591.8,
+      "calotas": 230.2,
+      "pct_calotas": 38.9
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 41.6,
+      "AIS": 11.4,
+      "glac": 22.5,
+      "esterico": 60.6,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 144.8,
+      "calotas": 52.9,
+      "pct_calotas": 36.5
+     },
+     "2100": {
+      "GrIS": 196.3,
+      "AIS": 43.5,
+      "glac": 65.7,
+      "esterico": 258.7,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 594.3,
+      "calotas": 239.8,
+      "pct_calotas": 40.3
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 41.4,
+      "AIS": 10.8,
+      "glac": 22.2,
+      "esterico": 65.9,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 127.2,
+      "calotas": 52.2,
+      "pct_calotas": 41.1
+     },
+     "2100": {
+      "GrIS": 195.4,
+      "AIS": 41.5,
+      "glac": 64.6,
+      "esterico": 281.0,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 558.2,
+      "calotas": 237.0,
+      "pct_calotas": 42.4
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 41.4,
+      "AIS": 10.5,
+      "glac": 21.9,
+      "esterico": 58.0,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 142.9,
+      "calotas": 51.9,
+      "pct_calotas": 36.4
+     },
+     "2100": {
+      "GrIS": 195.6,
+      "AIS": 40.2,
+      "glac": 63.9,
+      "esterico": 247.4,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 589.5,
+      "calotas": 235.9,
+      "pct_calotas": 40.0
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 42.6,
+      "AIS": 10.1,
+      "glac": 22.0,
+      "esterico": 58.2,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 154.8,
+      "calotas": 52.7,
+      "pct_calotas": 34.0
+     },
+     "2100": {
+      "GrIS": 201.1,
+      "AIS": 38.6,
+      "glac": 64.2,
+      "esterico": 248.4,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 623.5,
+      "calotas": 239.7,
+      "pct_calotas": 38.4
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 43.1,
+      "AIS": 8.9,
+      "glac": 21.4,
+      "esterico": 65.9,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 111.7,
+      "calotas": 52.0,
+      "pct_calotas": 46.5
+     },
+     "2100": {
+      "GrIS": 203.7,
+      "AIS": 33.9,
+      "glac": 62.3,
+      "esterico": 281.0,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 519.5,
+      "calotas": 237.6,
+      "pct_calotas": 45.7
+     }
+    }
+   },
+   "ssp585": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 37.4,
+      "AIS": 14.1,
+      "glac": 22.9,
+      "esterico": 72.5,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 161.8,
+      "calotas": 51.6,
+      "pct_calotas": 31.9
+     },
+     "2100": {
+      "GrIS": 190.5,
+      "AIS": 58.0,
+      "glac": 68.5,
+      "esterico": 333.4,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 700.8,
+      "calotas": 248.5,
+      "pct_calotas": 35.5
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 37.9,
+      "AIS": 14.1,
+      "glac": 22.9,
+      "esterico": 89.0,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 202.1,
+      "calotas": 52.0,
+      "pct_calotas": 25.7
+     },
+     "2100": {
+      "GrIS": 192.9,
+      "AIS": 57.9,
+      "glac": 68.6,
+      "esterico": 409.3,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 842.2,
+      "calotas": 250.7,
+      "pct_calotas": 29.8
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 38.8,
+      "AIS": 14.1,
+      "glac": 23.2,
+      "esterico": 72.5,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 172.6,
+      "calotas": 53.0,
+      "pct_calotas": 30.7
+     },
+     "2100": {
+      "GrIS": 197.7,
+      "AIS": 58.0,
+      "glac": 69.5,
+      "esterico": 333.4,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 732.4,
+      "calotas": 255.8,
+      "pct_calotas": 34.9
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 40.4,
+      "AIS": 14.4,
+      "glac": 23.7,
+      "esterico": 72.5,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 167.9,
+      "calotas": 54.8,
+      "pct_calotas": 32.7
+     },
+     "2100": {
+      "GrIS": 205.5,
+      "AIS": 59.3,
+      "glac": 70.9,
+      "esterico": 333.4,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 724.7,
+      "calotas": 264.8,
+      "pct_calotas": 36.5
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 42.5,
+      "AIS": 14.4,
+      "glac": 24.0,
+      "esterico": 79.0,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 259.0,
+      "calotas": 56.9,
+      "pct_calotas": 22.0
+     },
+     "2100": {
+      "GrIS": 216.5,
+      "AIS": 59.1,
+      "glac": 71.6,
+      "esterico": 363.5,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 985.0,
+      "calotas": 275.6,
+      "pct_calotas": 28.0
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 43.5,
+      "AIS": 13.5,
+      "glac": 23.3,
+      "esterico": 72.3,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 155.2,
+      "calotas": 57.0,
+      "pct_calotas": 36.7
+     },
+     "2100": {
+      "GrIS": 221.4,
+      "AIS": 55.4,
+      "glac": 69.6,
+      "esterico": 332.5,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 693.4,
+      "calotas": 276.8,
+      "pct_calotas": 39.9
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 46.9,
+      "AIS": 12.2,
+      "glac": 22.9,
+      "esterico": 66.7,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 157.4,
+      "calotas": 59.1,
+      "pct_calotas": 37.5
+     },
+     "2100": {
+      "GrIS": 238.7,
+      "AIS": 50.1,
+      "glac": 68.5,
+      "esterico": 306.9,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 694.3,
+      "calotas": 288.8,
+      "pct_calotas": 41.6
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 46.7,
+      "AIS": 11.6,
+      "glac": 22.5,
+      "esterico": 72.5,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 140.3,
+      "calotas": 58.3,
+      "pct_calotas": 41.6
+     },
+     "2100": {
+      "GrIS": 237.7,
+      "AIS": 47.8,
+      "glac": 67.4,
+      "esterico": 333.4,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 661.8,
+      "calotas": 285.5,
+      "pct_calotas": 43.1
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 46.8,
+      "AIS": 11.3,
+      "glac": 22.3,
+      "esterico": 63.8,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 155.1,
+      "calotas": 58.0,
+      "pct_calotas": 37.4
+     },
+     "2100": {
+      "GrIS": 238.0,
+      "AIS": 46.3,
+      "glac": 66.6,
+      "esterico": 293.5,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 686.6,
+      "calotas": 284.3,
+      "pct_calotas": 41.4
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 48.1,
+      "AIS": 10.8,
+      "glac": 22.4,
+      "esterico": 64.0,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 167.2,
+      "calotas": 58.9,
+      "pct_calotas": 35.2
+     },
+     "2100": {
+      "GrIS": 244.6,
+      "AIS": 44.4,
+      "glac": 66.9,
+      "esterico": 294.7,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 721.8,
+      "calotas": 289.0,
+      "pct_calotas": 40.0
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 48.7,
+      "AIS": 9.5,
+      "glac": 21.7,
+      "esterico": 72.5,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 124.8,
+      "calotas": 58.2,
+      "pct_calotas": 46.6
+     },
+     "2100": {
+      "GrIS": 247.8,
+      "AIS": 39.0,
+      "glac": 65.0,
+      "esterico": 333.4,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 623.7,
+      "calotas": 286.8,
+      "pct_calotas": 46.0
+     }
+    }
+   }
+  },
+  "B": {
+   "ssp119": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 20.2,
+      "AIS": 26.4,
+      "glac": 28.9,
+      "esterico": 48.0,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 138.3,
+      "calotas": 46.6,
+      "pct_calotas": 33.7
+     },
+     "2100": {
+      "GrIS": 40.3,
+      "AIS": 106.8,
+      "glac": 67.2,
+      "esterico": 97.0,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 361.6,
+      "calotas": 147.1,
+      "pct_calotas": 40.7
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 20.4,
+      "AIS": 26.4,
+      "glac": 28.9,
+      "esterico": 58.9,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 172.8,
+      "calotas": 46.8,
+      "pct_calotas": 27.1
+     },
+     "2100": {
+      "GrIS": 40.8,
+      "AIS": 106.5,
+      "glac": 67.2,
+      "esterico": 119.0,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 447.1,
+      "calotas": 147.3,
+      "pct_calotas": 32.9
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 20.9,
+      "AIS": 26.4,
+      "glac": 29.3,
+      "esterico": 48.0,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 148.5,
+      "calotas": 47.4,
+      "pct_calotas": 31.9
+     },
+     "2100": {
+      "GrIS": 41.9,
+      "AIS": 106.8,
+      "glac": 68.1,
+      "esterico": 97.0,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 387.5,
+      "calotas": 148.7,
+      "pct_calotas": 38.4
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 21.8,
+      "AIS": 27.0,
+      "glac": 29.9,
+      "esterico": 48.0,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 143.6,
+      "calotas": 48.8,
+      "pct_calotas": 34.0
+     },
+     "2100": {
+      "GrIS": 43.5,
+      "AIS": 109.1,
+      "glac": 69.5,
+      "esterico": 97.0,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 374.6,
+      "calotas": 152.6,
+      "pct_calotas": 40.7
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 22.9,
+      "AIS": 26.9,
+      "glac": 30.2,
+      "esterico": 52.3,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 231.5,
+      "calotas": 49.8,
+      "pct_calotas": 21.5
+     },
+     "2100": {
+      "GrIS": 45.8,
+      "AIS": 108.7,
+      "glac": 70.2,
+      "esterico": 105.7,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 604.7,
+      "calotas": 154.5,
+      "pct_calotas": 25.6
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 23.4,
+      "AIS": 25.2,
+      "glac": 29.4,
+      "esterico": 47.8,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 128.6,
+      "calotas": 48.7,
+      "pct_calotas": 37.9
+     },
+     "2100": {
+      "GrIS": 46.9,
+      "AIS": 102.0,
+      "glac": 68.2,
+      "esterico": 96.7,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 328.3,
+      "calotas": 148.9,
+      "pct_calotas": 45.4
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 25.3,
+      "AIS": 22.8,
+      "glac": 28.9,
+      "esterico": 44.2,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 129.8,
+      "calotas": 48.1,
+      "pct_calotas": 37.0
+     },
+     "2100": {
+      "GrIS": 50.5,
+      "AIS": 92.1,
+      "glac": 67.1,
+      "esterico": 89.3,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 329.2,
+      "calotas": 142.7,
+      "pct_calotas": 43.3
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 25.2,
+      "AIS": 21.8,
+      "glac": 28.4,
+      "esterico": 48.0,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 110.3,
+      "calotas": 46.9,
+      "pct_calotas": 42.5
+     },
+     "2100": {
+      "GrIS": 50.3,
+      "AIS": 87.9,
+      "glac": 66.0,
+      "esterico": 97.0,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 276.8,
+      "calotas": 138.2,
+      "pct_calotas": 49.9
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 25.2,
+      "AIS": 21.1,
+      "glac": 28.1,
+      "esterico": 42.2,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 127.6,
+      "calotas": 46.3,
+      "pct_calotas": 36.3
+     },
+     "2100": {
+      "GrIS": 50.4,
+      "AIS": 85.2,
+      "glac": 65.3,
+      "esterico": 85.3,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 328.5,
+      "calotas": 135.6,
+      "pct_calotas": 41.3
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 25.9,
+      "AIS": 20.2,
+      "glac": 28.2,
+      "esterico": 42.4,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 138.6,
+      "calotas": 46.1,
+      "pct_calotas": 33.3
+     },
+     "2100": {
+      "GrIS": 51.8,
+      "AIS": 81.8,
+      "glac": 65.6,
+      "esterico": 85.7,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 356.0,
+      "calotas": 133.6,
+      "pct_calotas": 37.5
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 26.2,
+      "AIS": 17.8,
+      "glac": 27.4,
+      "esterico": 48.0,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 91.9,
+      "calotas": 44.0,
+      "pct_calotas": 47.9
+     },
+     "2100": {
+      "GrIS": 52.4,
+      "AIS": 71.8,
+      "glac": 63.7,
+      "esterico": 97.0,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 223.4,
+      "calotas": 124.3,
+      "pct_calotas": 55.6
+     }
+    }
+   },
+   "ssp126": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 21.2,
+      "AIS": 25.3,
+      "glac": 35.1,
+      "esterico": 53.1,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 149.5,
+      "calotas": 46.5,
+      "pct_calotas": 31.1
+     },
+     "2100": {
+      "GrIS": 50.4,
+      "AIS": 112.3,
+      "glac": 79.6,
+      "esterico": 122.5,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 415.1,
+      "calotas": 162.7,
+      "pct_calotas": 39.2
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 21.4,
+      "AIS": 25.3,
+      "glac": 35.2,
+      "esterico": 65.2,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 185.2,
+      "calotas": 46.7,
+      "pct_calotas": 25.2
+     },
+     "2100": {
+      "GrIS": 51.0,
+      "AIS": 112.0,
+      "glac": 79.6,
+      "esterico": 150.4,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 506.5,
+      "calotas": 163.0,
+      "pct_calotas": 32.2
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 22.0,
+      "AIS": 25.3,
+      "glac": 35.6,
+      "esterico": 53.1,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 159.9,
+      "calotas": 47.3,
+      "pct_calotas": 29.6
+     },
+     "2100": {
+      "GrIS": 52.3,
+      "AIS": 112.3,
+      "glac": 80.6,
+      "esterico": 122.5,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 441.5,
+      "calotas": 164.7,
+      "pct_calotas": 37.3
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 22.8,
+      "AIS": 25.9,
+      "glac": 36.3,
+      "esterico": 53.1,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 155.1,
+      "calotas": 48.7,
+      "pct_calotas": 31.4
+     },
+     "2100": {
+      "GrIS": 54.4,
+      "AIS": 114.8,
+      "glac": 82.3,
+      "esterico": 122.5,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 429.5,
+      "calotas": 169.2,
+      "pct_calotas": 39.4
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 24.1,
+      "AIS": 25.8,
+      "glac": 36.7,
+      "esterico": 57.9,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 243.5,
+      "calotas": 49.8,
+      "pct_calotas": 20.5
+     },
+     "2100": {
+      "GrIS": 57.3,
+      "AIS": 114.3,
+      "glac": 83.2,
+      "esterico": 133.5,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 662.5,
+      "calotas": 171.6,
+      "pct_calotas": 25.9
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 24.6,
+      "AIS": 24.2,
+      "glac": 35.7,
+      "esterico": 52.9,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 140.1,
+      "calotas": 48.8,
+      "pct_calotas": 34.8
+     },
+     "2100": {
+      "GrIS": 58.6,
+      "AIS": 107.3,
+      "glac": 80.8,
+      "esterico": 122.1,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 383.3,
+      "calotas": 165.9,
+      "pct_calotas": 43.3
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 26.5,
+      "AIS": 21.8,
+      "glac": 35.1,
+      "esterico": 48.9,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 141.0,
+      "calotas": 48.4,
+      "pct_calotas": 34.3
+     },
+     "2100": {
+      "GrIS": 63.2,
+      "AIS": 96.9,
+      "glac": 79.5,
+      "esterico": 112.7,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 382.4,
+      "calotas": 160.1,
+      "pct_calotas": 41.9
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 26.4,
+      "AIS": 20.8,
+      "glac": 34.5,
+      "esterico": 53.1,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 121.8,
+      "calotas": 47.3,
+      "pct_calotas": 38.8
+     },
+     "2100": {
+      "GrIS": 62.9,
+      "AIS": 92.5,
+      "glac": 78.2,
+      "esterico": 122.5,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 331.6,
+      "calotas": 155.3,
+      "pct_calotas": 46.9
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 26.4,
+      "AIS": 20.2,
+      "glac": 34.1,
+      "esterico": 46.7,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 138.5,
+      "calotas": 46.7,
+      "pct_calotas": 33.7
+     },
+     "2100": {
+      "GrIS": 63.0,
+      "AIS": 89.6,
+      "glac": 77.3,
+      "esterico": 107.8,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 380.0,
+      "calotas": 152.6,
+      "pct_calotas": 40.2
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 27.2,
+      "AIS": 19.4,
+      "glac": 34.3,
+      "esterico": 46.9,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 149.6,
+      "calotas": 46.6,
+      "pct_calotas": 31.1
+     },
+     "2100": {
+      "GrIS": 64.7,
+      "AIS": 86.0,
+      "glac": 77.7,
+      "esterico": 108.3,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 407.8,
+      "calotas": 150.7,
+      "pct_calotas": 37.0
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 27.5,
+      "AIS": 17.0,
+      "glac": 33.3,
+      "esterico": 53.1,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 103.4,
+      "calotas": 44.6,
+      "pct_calotas": 43.1
+     },
+     "2100": {
+      "GrIS": 65.5,
+      "AIS": 75.5,
+      "glac": 75.4,
+      "esterico": 122.5,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 277.5,
+      "calotas": 141.1,
+      "pct_calotas": 50.8
+     }
+    }
+   },
+   "ssp245": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 23.2,
+      "AIS": 24.2,
+      "glac": 42.4,
+      "esterico": 60.2,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 164.8,
+      "calotas": 47.4,
+      "pct_calotas": 28.8
+     },
+     "2100": {
+      "GrIS": 78.6,
+      "AIS": 114.5,
+      "glac": 113.7,
+      "esterico": 178.6,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 535.7,
+      "calotas": 193.2,
+      "pct_calotas": 36.1
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 23.5,
+      "AIS": 24.2,
+      "glac": 42.4,
+      "esterico": 73.9,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 202.1,
+      "calotas": 47.6,
+      "pct_calotas": 23.6
+     },
+     "2100": {
+      "GrIS": 79.6,
+      "AIS": 114.2,
+      "glac": 113.7,
+      "esterico": 219.3,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 640.4,
+      "calotas": 193.8,
+      "pct_calotas": 30.3
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 24.1,
+      "AIS": 24.2,
+      "glac": 42.9,
+      "esterico": 60.2,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 175.3,
+      "calotas": 48.3,
+      "pct_calotas": 27.5
+     },
+     "2100": {
+      "GrIS": 81.6,
+      "AIS": 114.5,
+      "glac": 115.2,
+      "esterico": 178.6,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 563.7,
+      "calotas": 196.2,
+      "pct_calotas": 34.8
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 25.0,
+      "AIS": 24.8,
+      "glac": 43.8,
+      "esterico": 60.2,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 170.7,
+      "calotas": 49.8,
+      "pct_calotas": 29.1
+     },
+     "2100": {
+      "GrIS": 84.8,
+      "AIS": 117.0,
+      "glac": 117.6,
+      "esterico": 178.6,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 553.6,
+      "calotas": 201.9,
+      "pct_calotas": 36.5
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 26.4,
+      "AIS": 24.7,
+      "glac": 44.3,
+      "esterico": 65.7,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 260.0,
+      "calotas": 51.0,
+      "pct_calotas": 19.6
+     },
+     "2100": {
+      "GrIS": 89.4,
+      "AIS": 116.5,
+      "glac": 118.8,
+      "esterico": 194.7,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 793.7,
+      "calotas": 205.9,
+      "pct_calotas": 25.9
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 26.9,
+      "AIS": 23.1,
+      "glac": 43.0,
+      "esterico": 60.1,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 155.9,
+      "calotas": 50.1,
+      "pct_calotas": 32.1
+     },
+     "2100": {
+      "GrIS": 91.4,
+      "AIS": 109.4,
+      "glac": 115.5,
+      "esterico": 178.1,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 508.8,
+      "calotas": 200.8,
+      "pct_calotas": 39.5
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 29.1,
+      "AIS": 20.9,
+      "glac": 42.3,
+      "esterico": 55.4,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 156.4,
+      "calotas": 50.0,
+      "pct_calotas": 31.9
+     },
+     "2100": {
+      "GrIS": 98.5,
+      "AIS": 98.8,
+      "glac": 113.5,
+      "esterico": 164.4,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 505.4,
+      "calotas": 197.3,
+      "pct_calotas": 39.0
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 28.9,
+      "AIS": 19.9,
+      "glac": 41.6,
+      "esterico": 60.2,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 137.7,
+      "calotas": 48.9,
+      "pct_calotas": 35.5
+     },
+     "2100": {
+      "GrIS": 98.1,
+      "AIS": 94.3,
+      "glac": 111.7,
+      "esterico": 178.6,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 458.3,
+      "calotas": 192.4,
+      "pct_calotas": 42.0
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 29.0,
+      "AIS": 19.3,
+      "glac": 41.2,
+      "esterico": 53.0,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 153.5,
+      "calotas": 48.3,
+      "pct_calotas": 31.5
+     },
+     "2100": {
+      "GrIS": 98.2,
+      "AIS": 91.4,
+      "glac": 110.5,
+      "esterico": 157.2,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 499.6,
+      "calotas": 189.6,
+      "pct_calotas": 38.0
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 29.8,
+      "AIS": 18.5,
+      "glac": 41.4,
+      "esterico": 53.2,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 164.7,
+      "calotas": 48.3,
+      "pct_calotas": 29.3
+     },
+     "2100": {
+      "GrIS": 101.0,
+      "AIS": 87.7,
+      "glac": 111.0,
+      "esterico": 157.9,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 528.7,
+      "calotas": 188.6,
+      "pct_calotas": 35.7
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 30.2,
+      "AIS": 16.3,
+      "glac": 40.2,
+      "esterico": 60.2,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 119.3,
+      "calotas": 46.4,
+      "pct_calotas": 38.9
+     },
+     "2100": {
+      "GrIS": 102.3,
+      "AIS": 77.0,
+      "glac": 107.7,
+      "esterico": 178.6,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 404.2,
+      "calotas": 179.3,
+      "pct_calotas": 44.4
+     }
+    }
+   },
+   "ssp370": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 24.2,
+      "AIS": 24.2,
+      "glac": 48.6,
+      "esterico": 64.3,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 176.1,
+      "calotas": 48.4,
+      "pct_calotas": 27.5
+     },
+     "2100": {
+      "GrIS": 109.9,
+      "AIS": 114.5,
+      "glac": 149.8,
+      "esterico": 231.7,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 656.2,
+      "calotas": 224.4,
+      "pct_calotas": 34.2
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 24.5,
+      "AIS": 24.2,
+      "glac": 48.6,
+      "esterico": 78.9,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 214.4,
+      "calotas": 48.6,
+      "pct_calotas": 22.7
+     },
+     "2100": {
+      "GrIS": 111.2,
+      "AIS": 114.2,
+      "glac": 149.9,
+      "esterico": 284.4,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 773.3,
+      "calotas": 225.4,
+      "pct_calotas": 29.2
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 25.1,
+      "AIS": 24.2,
+      "glac": 49.2,
+      "esterico": 64.3,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 186.8,
+      "calotas": 49.3,
+      "pct_calotas": 26.4
+     },
+     "2100": {
+      "GrIS": 114.0,
+      "AIS": 114.5,
+      "glac": 151.8,
+      "esterico": 231.7,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 685.9,
+      "calotas": 228.6,
+      "pct_calotas": 33.3
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 26.1,
+      "AIS": 24.8,
+      "glac": 50.2,
+      "esterico": 64.3,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 182.3,
+      "calotas": 50.9,
+      "pct_calotas": 27.9
+     },
+     "2100": {
+      "GrIS": 118.5,
+      "AIS": 117.0,
+      "glac": 155.0,
+      "esterico": 231.7,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 677.8,
+      "calotas": 235.6,
+      "pct_calotas": 34.8
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 27.5,
+      "AIS": 24.7,
+      "glac": 50.8,
+      "esterico": 70.1,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 272.1,
+      "calotas": 52.2,
+      "pct_calotas": 19.2
+     },
+     "2100": {
+      "GrIS": 124.9,
+      "AIS": 116.5,
+      "glac": 156.6,
+      "esterico": 252.6,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 924.9,
+      "calotas": 241.4,
+      "pct_calotas": 26.1
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 28.1,
+      "AIS": 23.1,
+      "glac": 49.3,
+      "esterico": 64.1,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 167.4,
+      "calotas": 51.3,
+      "pct_calotas": 30.6
+     },
+     "2100": {
+      "GrIS": 127.7,
+      "AIS": 109.4,
+      "glac": 152.2,
+      "esterico": 231.1,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 634.8,
+      "calotas": 237.1,
+      "pct_calotas": 37.3
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 30.3,
+      "AIS": 20.9,
+      "glac": 48.5,
+      "esterico": 59.2,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 167.6,
+      "calotas": 51.2,
+      "pct_calotas": 30.6
+     },
+     "2100": {
+      "GrIS": 137.7,
+      "AIS": 98.8,
+      "glac": 149.6,
+      "esterico": 213.3,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 629.6,
+      "calotas": 236.5,
+      "pct_calotas": 37.6
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 30.2,
+      "AIS": 19.9,
+      "glac": 47.7,
+      "esterico": 64.3,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 149.1,
+      "calotas": 50.1,
+      "pct_calotas": 33.6
+     },
+     "2100": {
+      "GrIS": 137.1,
+      "AIS": 94.3,
+      "glac": 147.2,
+      "esterico": 231.7,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 585.9,
+      "calotas": 231.4,
+      "pct_calotas": 39.5
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 30.2,
+      "AIS": 19.3,
+      "glac": 47.2,
+      "esterico": 56.6,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 164.4,
+      "calotas": 49.6,
+      "pct_calotas": 30.2
+     },
+     "2100": {
+      "GrIS": 137.3,
+      "AIS": 91.4,
+      "glac": 145.6,
+      "esterico": 203.9,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 620.5,
+      "calotas": 228.6,
+      "pct_calotas": 36.8
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 31.1,
+      "AIS": 18.5,
+      "glac": 47.4,
+      "esterico": 56.8,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 175.7,
+      "calotas": 49.6,
+      "pct_calotas": 28.2
+     },
+     "2100": {
+      "GrIS": 141.1,
+      "AIS": 87.7,
+      "glac": 146.3,
+      "esterico": 204.8,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 651.0,
+      "calotas": 228.8,
+      "pct_calotas": 35.1
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 31.5,
+      "AIS": 16.3,
+      "glac": 46.0,
+      "esterico": 64.3,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 130.6,
+      "calotas": 47.8,
+      "pct_calotas": 36.6
+     },
+     "2100": {
+      "GrIS": 142.9,
+      "AIS": 77.0,
+      "glac": 142.0,
+      "esterico": 231.7,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 532.2,
+      "calotas": 219.9,
+      "pct_calotas": 41.3
+     }
+    }
+   },
+   "ssp585": {
+    "SANTANA_AP": {
+     "2050": {
+      "GrIS": 26.2,
+      "AIS": 24.2,
+      "glac": 55.8,
+      "esterico": 72.5,
+      "agua_continental": 8.1,
+      "vlm": 6.7,
+      "total": 193.5,
+      "calotas": 50.4,
+      "pct_calotas": 26.1
+     },
+     "2100": {
+      "GrIS": 126.0,
+      "AIS": 120.1,
+      "glac": 170.5,
+      "esterico": 278.6,
+      "agua_continental": 32.4,
+      "vlm": 17.9,
+      "total": 745.4,
+      "calotas": 246.0,
+      "pct_calotas": 33.0
+     }
+    },
+    "BELEM_PA": {
+     "2050": {
+      "GrIS": 26.5,
+      "AIS": 24.2,
+      "glac": 55.8,
+      "esterico": 89.0,
+      "agua_continental": 8.8,
+      "vlm": 29.4,
+      "total": 233.7,
+      "calotas": 50.7,
+      "pct_calotas": 21.7
+     },
+     "2100": {
+      "GrIS": 127.6,
+      "AIS": 119.7,
+      "glac": 170.6,
+      "esterico": 342.1,
+      "agua_continental": 35.1,
+      "vlm": 78.5,
+      "total": 873.5,
+      "calotas": 247.2,
+      "pct_calotas": 28.3
+     }
+    },
+    "MADEIRA_MA": {
+     "2050": {
+      "GrIS": 27.2,
+      "AIS": 24.2,
+      "glac": 56.5,
+      "esterico": 72.5,
+      "agua_continental": 7.5,
+      "vlm": 16.4,
+      "total": 204.3,
+      "calotas": 51.4,
+      "pct_calotas": 25.2
+     },
+     "2100": {
+      "GrIS": 130.8,
+      "AIS": 120.1,
+      "glac": 172.8,
+      "esterico": 278.6,
+      "agua_continental": 30.1,
+      "vlm": 43.7,
+      "total": 776.0,
+      "calotas": 250.8,
+      "pct_calotas": 32.3
+     }
+    },
+    "FORTALEZA_CE": {
+     "2050": {
+      "GrIS": 28.3,
+      "AIS": 24.8,
+      "glac": 57.7,
+      "esterico": 72.5,
+      "agua_continental": 7.8,
+      "vlm": 9.1,
+      "total": 200.1,
+      "calotas": 53.0,
+      "pct_calotas": 26.5
+     },
+     "2100": {
+      "GrIS": 135.9,
+      "AIS": 122.6,
+      "glac": 176.4,
+      "esterico": 278.6,
+      "agua_continental": 31.2,
+      "vlm": 24.3,
+      "total": 769.2,
+      "calotas": 258.6,
+      "pct_calotas": 33.6
+     }
+    },
+    "RECIFE_PE": {
+     "2050": {
+      "GrIS": 29.8,
+      "AIS": 24.7,
+      "glac": 58.3,
+      "esterico": 79.0,
+      "agua_continental": 7.5,
+      "vlm": 91.6,
+      "total": 290.9,
+      "calotas": 54.4,
+      "pct_calotas": 18.7
+     },
+     "2100": {
+      "GrIS": 143.2,
+      "AIS": 122.1,
+      "glac": 178.2,
+      "esterico": 303.8,
+      "agua_continental": 29.9,
+      "vlm": 244.3,
+      "total": 1021.6,
+      "calotas": 265.4,
+      "pct_calotas": 26.0
+     }
+    },
+    "SALVADOR_BA": {
+     "2050": {
+      "GrIS": 30.5,
+      "AIS": 23.1,
+      "glac": 56.7,
+      "esterico": 72.3,
+      "agua_continental": 5.5,
+      "vlm": -2.8,
+      "total": 185.2,
+      "calotas": 53.6,
+      "pct_calotas": 28.9
+     },
+     "2100": {
+      "GrIS": 146.4,
+      "AIS": 114.7,
+      "glac": 173.2,
+      "esterico": 277.9,
+      "agua_continental": 22.0,
+      "vlm": -7.5,
+      "total": 726.6,
+      "calotas": 261.1,
+      "pct_calotas": 35.9
+     }
+    },
+    "ILHA_FISCAL_RJ": {
+     "2050": {
+      "GrIS": 32.8,
+      "AIS": 20.9,
+      "glac": 55.7,
+      "esterico": 66.7,
+      "agua_continental": 5.2,
+      "vlm": 3.5,
+      "total": 184.9,
+      "calotas": 53.7,
+      "pct_calotas": 29.1
+     },
+     "2100": {
+      "GrIS": 157.9,
+      "AIS": 103.5,
+      "glac": 170.3,
+      "esterico": 256.5,
+      "agua_continental": 20.8,
+      "vlm": 9.4,
+      "total": 718.4,
+      "calotas": 261.5,
+      "pct_calotas": 36.4
+     }
+    },
+    "SANTOS_SP": {
+     "2050": {
+      "GrIS": 32.7,
+      "AIS": 19.9,
+      "glac": 54.8,
+      "esterico": 72.5,
+      "agua_continental": 7.8,
+      "vlm": -20.8,
+      "total": 166.9,
+      "calotas": 52.6,
+      "pct_calotas": 31.5
+     },
+     "2100": {
+      "GrIS": 157.2,
+      "AIS": 98.8,
+      "glac": 167.6,
+      "esterico": 278.6,
+      "agua_continental": 31.1,
+      "vlm": -55.5,
+      "total": 677.8,
+      "calotas": 256.0,
+      "pct_calotas": 37.8
+     }
+    },
+    "CANANEIA_SP": {
+     "2050": {
+      "GrIS": 32.7,
+      "AIS": 19.3,
+      "glac": 54.2,
+      "esterico": 63.8,
+      "agua_continental": 9.7,
+      "vlm": 1.3,
+      "total": 181.1,
+      "calotas": 52.1,
+      "pct_calotas": 28.8
+     },
+     "2100": {
+      "GrIS": 157.4,
+      "AIS": 95.8,
+      "glac": 165.7,
+      "esterico": 245.2,
+      "agua_continental": 38.9,
+      "vlm": 3.4,
+      "total": 706.4,
+      "calotas": 253.2,
+      "pct_calotas": 35.8
+     }
+    },
+    "IMBITUBA_SC": {
+     "2050": {
+      "GrIS": 33.7,
+      "AIS": 18.5,
+      "glac": 54.5,
+      "esterico": 64.0,
+      "agua_continental": 9.7,
+      "vlm": 12.2,
+      "total": 192.6,
+      "calotas": 52.2,
+      "pct_calotas": 27.1
+     },
+     "2100": {
+      "GrIS": 161.8,
+      "AIS": 91.9,
+      "glac": 166.4,
+      "esterico": 246.3,
+      "agua_continental": 38.8,
+      "vlm": 32.4,
+      "total": 737.6,
+      "calotas": 253.7,
+      "pct_calotas": 34.4
+     }
+    },
+    "RIO_GRANDE_RS": {
+     "2050": {
+      "GrIS": 34.1,
+      "AIS": 16.3,
+      "glac": 52.9,
+      "esterico": 72.5,
+      "agua_continental": 9.0,
+      "vlm": -36.5,
+      "total": 148.2,
+      "calotas": 50.4,
+      "pct_calotas": 34.0
+     },
+     "2100": {
+      "GrIS": 163.9,
+      "AIS": 80.7,
+      "glac": 161.6,
+      "esterico": 278.6,
+      "agua_continental": 35.9,
+      "vlm": -97.4,
+      "total": 623.4,
+      "calotas": 244.6,
+      "pct_calotas": 39.2
+     }
+    }
+   }
+  }
+ },
+ "validacao_contra_ar6": {
+  "ssp126": {
+   "IMBITUBA_SC": {
+    "2050": {
+     "ar6_p50": 146.0,
+     "ar6_p17": 112.0,
+     "ar6_p83": 192.0,
+     "cadeia_B": 149.6,
+     "dif": 3.6,
+     "dif_pct": 2.5,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 397.0,
+     "ar6_p17": 272.0,
+     "ar6_p83": 566.0,
+     "cadeia_B": 407.8,
+     "dif": 10.8,
+     "dif_pct": 2.7,
+     "dentro_faixa": true
+    }
+   },
+   "RECIFE_PE": {
+    "2050": {
+     "ar6_p50": 140.0,
+     "ar6_p17": 100.0,
+     "ar6_p83": 195.0,
+     "cadeia_B": 243.5,
+     "dif": 103.5,
+     "dif_pct": 73.9,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 384.0,
+     "ar6_p17": 249.0,
+     "ar6_p83": 572.0,
+     "cadeia_B": 662.5,
+     "dif": 278.5,
+     "dif_pct": 72.5,
+     "dentro_faixa": false
+    }
+   },
+   "SALVADOR_BA": {
+    "2050": {
+     "ar6_p50": 144.0,
+     "ar6_p17": 104.0,
+     "ar6_p83": 197.0,
+     "cadeia_B": 140.1,
+     "dif": -3.9,
+     "dif_pct": -2.7,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 401.0,
+     "ar6_p17": 266.0,
+     "ar6_p83": 585.0,
+     "cadeia_B": 383.3,
+     "dif": -17.7,
+     "dif_pct": -4.4,
+     "dentro_faixa": true
+    }
+   },
+   "BELEM_PA": {
+    "2050": {
+     "ar6_p50": 145.0,
+     "ar6_p17": 104.0,
+     "ar6_p83": 201.0,
+     "cadeia_B": 185.2,
+     "dif": 40.2,
+     "dif_pct": 27.7,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 385.0,
+     "ar6_p17": 254.0,
+     "ar6_p83": 566.0,
+     "cadeia_B": 506.5,
+     "dif": 121.5,
+     "dif_pct": 31.6,
+     "dentro_faixa": true
+    }
+   },
+   "CANANEIA_SP": {
+    "2050": {
+     "ar6_p50": 176.0,
+     "ar6_p17": 147.0,
+     "ar6_p83": 220.0,
+     "cadeia_B": 138.5,
+     "dif": -37.5,
+     "dif_pct": -21.3,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 481.0,
+     "ar6_p17": 363.0,
+     "ar6_p83": 647.0,
+     "cadeia_B": 380.0,
+     "dif": -101.0,
+     "dif_pct": -21.0,
+     "dentro_faixa": true
+    }
+   },
+   "ILHA_FISCAL_RJ": {
+    "2050": {
+     "ar6_p50": 141.0,
+     "ar6_p17": 107.0,
+     "ar6_p83": 187.0,
+     "cadeia_B": 141.0,
+     "dif": 0.0,
+     "dif_pct": 0.0,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 386.0,
+     "ar6_p17": 264.0,
+     "ar6_p83": 555.0,
+     "cadeia_B": 382.4,
+     "dif": -3.6,
+     "dif_pct": -0.9,
+     "dentro_faixa": true
+    }
+   }
+  },
+  "ssp245": {
+   "IMBITUBA_SC": {
+    "2050": {
+     "ar6_p50": 164.0,
+     "ar6_p17": 127.0,
+     "ar6_p83": 214.0,
+     "cadeia_B": 164.7,
+     "dif": 0.7,
+     "dif_pct": 0.4,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 534.0,
+     "ar6_p17": 401.0,
+     "ar6_p83": 730.0,
+     "cadeia_B": 528.7,
+     "dif": -5.3,
+     "dif_pct": -1.0,
+     "dentro_faixa": true
+    }
+   },
+   "RECIFE_PE": {
+    "2050": {
+     "ar6_p50": 157.0,
+     "ar6_p17": 116.0,
+     "ar6_p83": 216.0,
+     "cadeia_B": 260.0,
+     "dif": 103.0,
+     "dif_pct": 65.6,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 518.0,
+     "ar6_p17": 368.0,
+     "ar6_p83": 741.0,
+     "cadeia_B": 793.7,
+     "dif": 275.7,
+     "dif_pct": 53.2,
+     "dentro_faixa": false
+    }
+   },
+   "SALVADOR_BA": {
+    "2050": {
+     "ar6_p50": 161.0,
+     "ar6_p17": 120.0,
+     "ar6_p83": 217.0,
+     "cadeia_B": 155.9,
+     "dif": -5.1,
+     "dif_pct": -3.2,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 528.0,
+     "ar6_p17": 382.0,
+     "ar6_p83": 745.0,
+     "cadeia_B": 508.8,
+     "dif": -19.2,
+     "dif_pct": -3.6,
+     "dentro_faixa": true
+    }
+   },
+   "BELEM_PA": {
+    "2050": {
+     "ar6_p50": 161.0,
+     "ar6_p17": 117.0,
+     "ar6_p83": 220.0,
+     "cadeia_B": 202.1,
+     "dif": 41.1,
+     "dif_pct": 25.5,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 517.0,
+     "ar6_p17": 370.0,
+     "ar6_p83": 735.0,
+     "cadeia_B": 640.4,
+     "dif": 123.4,
+     "dif_pct": 23.9,
+     "dentro_faixa": true
+    }
+   },
+   "CANANEIA_SP": {
+    "2050": {
+     "ar6_p50": 194.0,
+     "ar6_p17": 161.0,
+     "ar6_p83": 244.0,
+     "cadeia_B": 153.5,
+     "dif": -40.5,
+     "dif_pct": -20.9,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 617.0,
+     "ar6_p17": 489.0,
+     "ar6_p83": 813.0,
+     "cadeia_B": 499.6,
+     "dif": -117.4,
+     "dif_pct": -19.0,
+     "dentro_faixa": true
+    }
+   },
+   "ILHA_FISCAL_RJ": {
+    "2050": {
+     "ar6_p50": 158.0,
+     "ar6_p17": 124.0,
+     "ar6_p83": 208.0,
+     "cadeia_B": 156.4,
+     "dif": -1.6,
+     "dif_pct": -1.0,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 519.0,
+     "ar6_p17": 389.0,
+     "ar6_p83": 720.0,
+     "cadeia_B": 505.4,
+     "dif": -13.6,
+     "dif_pct": -2.6,
+     "dentro_faixa": true
+    }
+   }
+  },
+  "ssp585": {
+   "IMBITUBA_SC": {
+    "2050": {
+     "ar6_p50": 195.0,
+     "ar6_p17": 158.0,
+     "ar6_p83": 247.0,
+     "cadeia_B": 192.6,
+     "dif": -2.4,
+     "dif_pct": -1.2,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 756.0,
+     "ar6_p17": 598.0,
+     "ar6_p83": 996.0,
+     "cadeia_B": 737.6,
+     "dif": -18.4,
+     "dif_pct": -2.4,
+     "dentro_faixa": true
+    }
+   },
+   "RECIFE_PE": {
+    "2050": {
+     "ar6_p50": 185.0,
+     "ar6_p17": 145.0,
+     "ar6_p83": 243.0,
+     "cadeia_B": 290.9,
+     "dif": 105.9,
+     "dif_pct": 57.2,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 720.0,
+     "ar6_p17": 554.0,
+     "ar6_p83": 989.0,
+     "cadeia_B": 1021.6,
+     "dif": 301.6,
+     "dif_pct": 41.9,
+     "dentro_faixa": false
+    }
+   },
+   "SALVADOR_BA": {
+    "2050": {
+     "ar6_p50": 188.0,
+     "ar6_p17": 150.0,
+     "ar6_p83": 246.0,
+     "cadeia_B": 185.2,
+     "dif": -2.8,
+     "dif_pct": -1.5,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 732.0,
+     "ar6_p17": 571.0,
+     "ar6_p83": 993.0,
+     "cadeia_B": 726.6,
+     "dif": -5.4,
+     "dif_pct": -0.7,
+     "dentro_faixa": true
+    }
+   },
+   "BELEM_PA": {
+    "2050": {
+     "ar6_p50": 186.0,
+     "ar6_p17": 141.0,
+     "ar6_p83": 247.0,
+     "cadeia_B": 233.7,
+     "dif": 47.7,
+     "dif_pct": 25.6,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 722.0,
+     "ar6_p17": 559.0,
+     "ar6_p83": 986.0,
+     "cadeia_B": 873.5,
+     "dif": 151.5,
+     "dif_pct": 21.0,
+     "dentro_faixa": true
+    }
+   },
+   "CANANEIA_SP": {
+    "2050": {
+     "ar6_p50": 225.0,
+     "ar6_p17": 193.0,
+     "ar6_p83": 276.0,
+     "cadeia_B": 181.1,
+     "dif": -43.9,
+     "dif_pct": -19.5,
+     "dentro_faixa": false
+    },
+    "2100": {
+     "ar6_p50": 835.0,
+     "ar6_p17": 683.0,
+     "ar6_p83": 1077.0,
+     "cadeia_B": 706.4,
+     "dif": -128.6,
+     "dif_pct": -15.4,
+     "dentro_faixa": true
+    }
+   },
+   "ILHA_FISCAL_RJ": {
+    "2050": {
+     "ar6_p50": 187.0,
+     "ar6_p17": 152.0,
+     "ar6_p83": 239.0,
+     "cadeia_B": 184.9,
+     "dif": -2.1,
+     "dif_pct": -1.1,
+     "dentro_faixa": true
+    },
+    "2100": {
+     "ar6_p50": 739.0,
+     "ar6_p17": 584.0,
+     "ar6_p83": 987.0,
+     "cadeia_B": 718.4,
+     "dif": -20.6,
+     "dif_pct": -2.8,
+     "dentro_faixa": true
+    }
+   }
+  }
+ },
+ "horizontes": [
+  2050,
+  2100
+ ],
+ "ano_base": 2020
+}
