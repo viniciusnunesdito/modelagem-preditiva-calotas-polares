@@ -146,10 +146,10 @@ Quinze algoritmos preditivos foram submetidos a validação cruzada de origem m�
 | Gradient boosting | 98,1 | 52,5 |
 | Árvores extremas | 98,1 | 52,5 |
 | Floresta aleatória | 94,9 | 52,7 |
-| Processo gaussiano | **91,1** | 50,8 |
+| Processo gaussiano | **91,1** | 83,9 |
 | k-vizinhos (k = 5) | 93,2 | 61,6 |
 | **Média do treino (linha de base trivial)** | **93,8** | **113,8** |
-| Rede neural (MLP) | 1.918,6 | 119,0 |
+| Rede neural (MLP) | 1.918,6 | 2.125,4 |
 | *Algoritmos piores que a linha de base* | *12 de 15* | *2 de 15* |
 | *Ganho do melhor sobre a linha de base* | *3%* | *65%* |
 
@@ -220,7 +220,7 @@ Esses fatores são corretos, mas pouco tangíveis, e exigem atenção à unidade
 | Estação | Nível de 100 anos hoje | Dias/ano acima do nível anual em 2100 | Dias/ano acima do nível centenário em 2100 | Ano em que o nível centenário passa a ocorrer anualmente |
 |---|---|---|---|---|
 | Ilha Fiscal (RJ) | 1.456 mm | 11,3 | 0,3 | 2110 |
-| Cananéia (SP) | 1.775 mm | 4,2 | 0,1 | 2116 |
+| Cananéia (SP) | 1.775 mm | 4,9 | 0,1 | 2116 |
 
 Fonte: Elaborado pelos autores (2026).
 
@@ -279,7 +279,7 @@ COOPER, J. A. G.; PILKEY, O. H. Sea-level rise and shoreline retreat: time to ab
 
 EDWARDS, T. L. et al. Projected land ice contributions to twenty-first-century sea level rise. **Nature**, v. 593, p. 74-82, 2021. DOI: https://doi.org/10.1038/s41586-021-03302-y.
 
-FREDERIKSE, T. et al. The causes of sea-level rise since 1900. **Nature**, v. 584, p. 393-397, 2020. DOI: https://doi.org/10.1038/s41586-020-2591-4.
+FREDERIKSE, T. et al. The causes of sea-level rise since 1900. **Nature**, v. 584, p. 393-397, 2020. DOI: https://doi.org/10.1038/s41586-020-2591-3.
 
 GARNER, G. G. et al. **IPCC AR6 Sea Level Projections**. Zenodo, 2021. DOI: https://doi.org/10.5281/zenodo.6382554.
 
@@ -305,7 +305,7 @@ PBMC. **Impacto, vulnerabilidade e adaptação das cidades costeiras brasileiras
 
 RAHMSTORF, S. A semi-empirical approach to projecting future sea-level rise. **Science**, v. 315, n. 5810, p. 368-370, 2007. DOI: https://doi.org/10.1126/science.1135456.
 
-ROFFMAN, J.; GOMEZ, N.; YOUSEFI, M.; HAN, H. K.; NOWICKI, S. Spatial and temporal variability of 21st century sea level changes. **Geophysical Journal International**, v. 235, n. 1, p. 342-352, 2023. DOI: https://doi.org/10.1093/gji/ggad265.
+ROFFMAN, J.; GOMEZ, N.; YOUSEFI, M.; HAN, H. K.; NOWICKI, S. Spatial and temporal variability of 21st century sea level changes. **Geophysical Journal International**, v. 235, n. 1, p. 342-352, 2023. DOI: https://doi.org/10.1093/gji/ggad170.
 
 SLANGEN, A. B. A. et al. Projecting twenty-first century regional sea-level changes. **Climatic Change**, v. 124, p. 317-332, 2014. DOI: https://doi.org/10.1007/s10584-014-1080-9.
 

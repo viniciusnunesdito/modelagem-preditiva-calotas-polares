@@ -304,7 +304,7 @@ O caso de Recife é o mais relevante em termos práticos. Duas estações GNSS, 
 
 A Figura 8 e a Tabela 8 traduzem a elevação projetada em dinâmica costeira. Na Ilha Fiscal, com 51 anos de dados horários, o nível que hoje tem período de retorno de 100 anos (1.456 mm acima do nível médio atual) passaria a ter período de retorno de 10,4 anos já em 2050 no cenário intermediário, e de 0,12 ano em 2100. O fator de multiplicação da frequência de excedência é de 806 no cenário SSP2-4.5 e de 8.665 no SSP5-8.5; em Cananéia, 184 e 1.381.
 
-Esses fatores exigem atenção à unidade: a taxa é definida sobre valores horários, de modo que um período de retorno de 0,12 ano corresponde a cerca de oito **horas** de excedência por ano, e não a oito eventos independentes. Convertido para a métrica operacional de dias de alagamento, contada hora a hora no registro histórico deslocado pela elevação projetada, o resultado em 2100 no cenário intermediário é de 11,3 dias por ano acima do nível hoje anual e 0,3 dia por ano acima do nível hoje centenário na Ilha Fiscal, e de 4,2 e 0,1 dia por ano em Cananéia. O nível hoje centenário passa a ocorrer anualmente em 2110 na Ilha Fiscal e em 2116 em Cananéia.
+Esses fatores exigem atenção à unidade: a taxa é definida sobre valores horários, de modo que um período de retorno de 0,12 ano corresponde a cerca de oito **horas** de excedência por ano, e não a oito eventos independentes. Convertido para a métrica operacional de dias de alagamento, contada hora a hora no registro histórico deslocado pela elevação projetada, o resultado em 2100 no cenário intermediário é de 11,3 dias por ano acima do nível hoje anual e 0,3 dia por ano acima do nível hoje centenário na Ilha Fiscal, e de 4,9 e 0,1 dia por ano em Cananéia. O nível hoje centenário passa a ocorrer anualmente em 2110 na Ilha Fiscal e em 2116 em Cananéia.
 
 A magnitude da amplificação depende da **largura da distribuição de níveis extremos**: onde a maré astronômica domina e a variabilidade de ressaca é pequena, a distância entre o nível anual e o centenário é curta, e uma elevação modesta desloca a distribuição por inteiro. Entre as seis estações, essa largura varia de 78 mm em Recife a 929 mm em Imbituba, e o fator de amplificação varia na razão inversa, com correlação entre os logaritmos de r = −0,986.
 
@@ -362,7 +362,7 @@ EDWARDS, T. L. et al. Projected land ice contributions to twenty-first-century s
 
 FOX-KEMPER, B. et al. Ocean, cryosphere and sea level change. In: IPCC. **Climate Change 2021**: The Physical Science Basis. Cambridge: Cambridge University Press, 2021. p. 1211-1362.
 
-FREDERIKSE, T. et al. The causes of sea-level rise since 1900. **Nature**, v. 584, p. 393-397, 2020. DOI: https://doi.org/10.1038/s41586-020-2591-4.
+FREDERIKSE, T. et al. The causes of sea-level rise since 1900. **Nature**, v. 584, p. 393-397, 2020. DOI: https://doi.org/10.1038/s41586-020-2591-3.
 
 GARNER, G. G. et al. **IPCC AR6 Sea Level Projections**. Zenodo, 2021. DOI: https://doi.org/10.5281/zenodo.6382554.
 
@@ -392,7 +392,7 @@ PBMC. **Impacto, vulnerabilidade e adaptação das cidades costeiras brasileiras
 
 RAHMSTORF, S. A semi-empirical approach to projecting future sea-level rise. **Science**, v. 315, n. 5810, p. 368-370, 2007. DOI: https://doi.org/10.1126/science.1135456.
 
-ROFFMAN, J.; GOMEZ, N.; YOUSEFI, M.; HAN, H. K.; NOWICKI, S. Spatial and temporal variability of 21st century sea level changes. **Geophysical Journal International**, v. 235, n. 1, p. 342-352, 2023. DOI: https://doi.org/10.1093/gji/ggad265.
+ROFFMAN, J.; GOMEZ, N.; YOUSEFI, M.; HAN, H. K.; NOWICKI, S. Spatial and temporal variability of 21st century sea level changes. **Geophysical Journal International**, v. 235, n. 1, p. 342-352, 2023. DOI: https://doi.org/10.1093/gji/ggad170.
 
 SLANGEN, A. B. A. et al. Projecting twenty-first century regional sea-level changes. **Climatic Change**, v. 124, p. 317-332, 2014. DOI: https://doi.org/10.1007/s10584-014-1080-9.
 
