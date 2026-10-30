@@ -2,7 +2,7 @@
 
 Repositório completo da pesquisa: dados, código, resultados, figuras e artigo.
 
-Curso de Ciência da Computação — Universidade de Franca (UNIFRAN), Franca (SP).
+Curso de Ciência da Computação, 8º semestre — Universidade de Franca (UNIFRAN), Franca (SP).
 Disciplina: Tendências da Computação — Prof. Dr. Renato Gonçalves Rocha.
 
 Integrantes: Luiz Tonny Moura Santos; Vinícius Nunes Benedito; Kauan Henrique Teixeira; Pedro Henrique Pereira Boldrin; Mateus da Silva Vieira; Miguel Otávio Ferreira Martins; João Pedro Fernandes.
