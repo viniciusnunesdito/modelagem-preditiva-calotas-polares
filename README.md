@@ -1,7 +1,11 @@
 # Modelagem preditiva dos impactos do derretimento das calotas polares sobre a dinâmica costeira brasileira
 
 Repositório completo da pesquisa: dados, código, resultados, figuras e artigo.
+
+Curso de Ciência da Computação — Universidade de Franca (UNIFRAN), Franca (SP).
 Disciplina: Tendências da Computação — Prof. Dr. Renato Gonçalves Rocha.
+
+Integrantes: Luiz Tonny Moura Santos; Vinícius Nunes Benedito; Kauan Henrique Teixeira; Pedro Henrique Pereira Boldrin; Mateus da Silva Vieira; [6º integrante]; [7º integrante].
 
 ---
 
@@ -10,7 +14,7 @@ Disciplina: Tendências da Computação — Prof. Dr. Renato Gonçalves Rocha.
 | Arquivo | Descrição |
 |---|---|
 | `06_artigo/ARTIGO_Modelagem_Preditiva_Calotas_Polares.docx` (e `.pdf`) | **Artigo científico**, 26 páginas, 6 figuras, 4 tabelas. Formatação do modelo institucional: A4, margens 3/3/2/2 cm, Arial 12, espaçamento 1,5, texto justificado com recuo de 1,25 cm, seções numeradas, ABNT. |
-| `06_artigo/RELATORIO_CIENTIFICO_COMPLETO.docx` (e `.pdf`) | **Versão estendida**, 30 páginas, 8 figuras, 8 tabelas. Contém a fundamentação teórica completa, as tabelas de validação integrais e as duas figuras adicionais. Serve como documentação técnica e como fonte para eventual remanejamento de conteúdo. |
+| `06_artigo/RELATORIO_CIENTIFICO_COMPLETO.docx` (e `.pdf`) | **Versão estendida**, 31 páginas, 8 figuras, 8 tabelas. Contém a fundamentação teórica completa, as tabelas de validação integrais e as duas figuras adicionais. Serve como documentação técnica e como fonte para eventual remanejamento de conteúdo. |
 | `06_artigo/*.md` | Versões em Markdown, para edição rápida do texto. |
 | `04_figuras/` | 8 figuras em PNG 300 dpi e PDF vetorial. |
 | `05_resultados/` | Todos os resultados numéricos em JSON, mais os registros de execução (`_log_*.txt`) e o consolidado `numeros_do_artigo.json`. |
@@ -123,7 +127,7 @@ O material em `00_materiais_originais/` foi integralmente lido e aproveitado. O 
 
 ## 6. Pontos que exigem decisão ou verificação
 
-1. **Autoria e afiliação.** Os campos de nome, curso e instituição estão como lacunas no artigo e precisam ser preenchidos, assim como a tabela de divisão de responsabilidades no Apêndice A.
+1. **Autoria e afiliação.** Curso, instituição e cinco dos sete nomes já estão preenchidos no artigo e no relatório. Faltam o 6º e o 7º integrantes, o autor correspondente com e-mail, e a tabela de divisão de responsabilidades no Apêndice A.
 2. **Extensão.** Ver a observação da seção 1.
 3. **Referências.** Autor, título, periódico, volume, páginas e DOI de todas as entradas foram conferidos contra Crossref/DataCite. Dois DOIs estavam incorretos e foram corrigidos: Frederikse et al. (2020), de `10.1038/s41586-020-2591-4` para `...-2591-3`, e Roffman et al. (2023), de `10.1093/gji/ggad265` para `10.1093/gji/ggad170`. Recomenda-se, ainda assim, conferência final contra os originais antes da submissão.
 4. **Dados não obtidos.** A série GRACE/GRACE-FO da Groenlândia exige credenciais Earthdata e não foi baixada; a lacuna é coberta pelo IMBIE (1992–2020) e pela reconstrução de Frederikse (1900–2018), suficientes para todas as análises realizadas. A série antártica do GRACE foi obtida, mas não entra em nenhum resultado (ver seção 3).
