@@ -183,10 +183,22 @@ a1.set_xlim(0.62, 1.40); a1.set_ylim(-35.5, 5.5)
 a1.legend(loc='lower left', ncol=1)
 
 ct = TR['contraste_campo_proximo']
-nomes = ['Mar de\nAmundsen', 'Mar de\nBellingshausen', 'Baia de\nBaffin', 'Nuuk\n(Groenlândia)',
-         'Oceano Indico\nequatorial', 'Costa\nbrasileira']
-gr = [c['GrIS'] for c in ct[:5]] + [TR['estatisticas_transecto']['GrIS']['media']]
-ai = [c['AIS'] for c in ct[:5]] + [TR['estatisticas_transecto']['AIS']['media']]
+# Seleciona os pontos de contraste PELO NOME, nunca por posicao: a lista tem sete entradas
+# e esta figura mostra cinco delas, de modo que fatiar (ct[:5]) emparelhava rotulo e dado
+# errados -- a barra rotulada 'Oceano Indico equatorial' exibia o valor de Nuuk (-7,49),
+# invertendo justamente o contraste campo proximo / campo distante que a figura demonstra.
+ESCOLHA = [('Mar de Amundsen (Antartica Ocidental)', 'Mar de\nAmundsen'),
+           ('Mar de Bellingshausen', 'Mar de\nBellingshausen'),
+           ('Baia de Baffin (oeste da Groenlandia)', 'Baia de\nBaffin'),
+           ('Nuuk (Groenlandia)', 'Nuuk\n(Groenlândia)'),
+           ('Oceano Indico equatorial (campo distante)', 'Oceano Índico\nequatorial')]
+por_nome = {c['nome']: c for c in ct}
+faltando = [k for k, _ in ESCOLHA if k not in por_nome]
+if faltando:
+    raise SystemExit('ponto de contraste ausente: %s' % faltando)
+nomes = [rot for _, rot in ESCOLHA] + ['Costa\nbrasileira']
+gr = [por_nome[k]['GrIS'] for k, _ in ESCOLHA] + [TR['estatisticas_transecto']['GrIS']['media']]
+ai = [por_nome[k]['AIS'] for k, _ in ESCOLHA] + [TR['estatisticas_transecto']['AIS']['media']]
 y = np.arange(len(nomes))
 a2.barh(y - 0.19, gr, height=0.34, color=C[0], label='Groenlândia', zorder=3)
 a2.barh(y + 0.19, ai, height=0.34, color=C[1], label='Antártica', zorder=3)
