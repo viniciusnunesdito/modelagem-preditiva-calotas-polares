@@ -5,7 +5,7 @@ Repositório completo da pesquisa: dados, código, resultados, figuras e artigo.
 Curso de Ciência da Computação, 8º semestre — Universidade de Franca (UNIFRAN), Franca (SP).
 Disciplina: Tendências da Computação — Prof. Dr. Renato Gonçalves Rocha.
 
-Integrantes: Luiz Tonny Moura Santos; Vinícius Nunes Benedito; Kauan Henrique Teixeira; Pedro Henrique Pereira Boldrin; Mateus da Silva Vieira; Miguel Otávio Ferreira Martins; João Pedro Fernandes.
+Integrantes, em ordem alfabética: João Pedro Fernandes; Kauan Henrique Teixeira; Luiz Tonny Moura Santos; Mateus da Silva Vieira; Miguel Otávio Ferreira Martins; Pedro Henrique Pereira Boldrin; Vinícius Nunes Benedito.
 
 ---
 
@@ -128,7 +128,7 @@ O material em `00_materiais_originais/` foi integralmente lido e aproveitado. O 
 
 ## 6. Pontos que exigem decisão ou verificação
 
-1. **Autoria e afiliação.** Os sete integrantes, o curso e a instituição estão preenchidos no artigo, no relatório e no portfólio. Faltam apenas o autor correspondente com e-mail e a tabela de divisão de responsabilidades no Apêndice A.
+1. **Autoria e afiliação.** Integrantes, curso, instituição e autor correspondente estão preenchidos no artigo, no relatório e no portfólio. Falta apenas a tabela de divisão de responsabilidades no Apêndice A.
 2. **Extensão.** Ver a observação da seção 1.
 3. **Referências.** Autor, título, periódico, volume, páginas e DOI de todas as entradas foram conferidos contra Crossref/DataCite. Dois DOIs estavam incorretos e foram corrigidos: Frederikse et al. (2020), de `10.1038/s41586-020-2591-4` para `...-2591-3`, e Roffman et al. (2023), de `10.1093/gji/ggad265` para `10.1093/gji/ggad170`. Recomenda-se, ainda assim, conferência final contra os originais antes da submissão.
 4. **Dados não obtidos.** A série GRACE/GRACE-FO da Groenlândia exige credenciais Earthdata e não foi baixada; a lacuna é coberta pelo IMBIE (1992–2020) e pela reconstrução de Frederikse (1900–2018), suficientes para todas as análises realizadas. A série antártica do GRACE foi obtida, mas não entra em nenhum resultado (ver seção 3).
