@@ -61,6 +61,11 @@ def ols(x, y, hac=True):
         mod = sm.OLS(y, sm.add_constant(x0)).fit(cov_type='HAC', cov_kwds={'maxlags': L, 'use_correction': True})
         out['se_hac'] = float(mod.bse[1]); out['defasagem_hac'] = L
         out['p_valor_hac'] = float(mod.pvalues[1])
+        # Quantil normal (1,96) e nao de Student: a inferencia HAC de Newey-West e
+        # assintotica, e usar z e a convencao na literatura. O IC classico acima usa o
+        # quantil t porque ali a hipotese e de residuos i.i.d. normais com n-2 graus de
+        # liberdade. A diferenca e pequena para os n desta analise (n=51 -> t=2,01) e os
+        # dois intervalos nao sao, portanto, diretamente comparaveis digito a digito.
         out['ic95_hac'] = [float(beta[1] - 1.96 * mod.bse[1]), float(beta[1] + 1.96 * mod.bse[1])]
         out['fator_inflacao_se'] = float(mod.bse[1] / se_cl) if se_cl > 0 else np.nan
     tc = stats.t.ppf(0.975, n - 2)

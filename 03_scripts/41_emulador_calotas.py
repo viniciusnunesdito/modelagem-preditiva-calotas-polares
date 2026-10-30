@@ -181,8 +181,14 @@ for p, (col, rot) in ALVOS.items():
     # a Antartica projeta taxa de 9 mm/ano a 4,4 K de aquecimento, uma ordem de grandeza
     # acima de qualquer estimativa publicada. Adota-se portanto: entre as combinacoes
     # cujo RMSE esta a menos de TOL do melhor, escolhe-se a de menor numero de parametros
-    # e, em empate, a de menor janela e menor expoente/curvatura. A forma resultante, M1,
-    # e exatamente a forma semi-empirica linear de Rahmstorf (2007).
+    # e, em empate, a de menor janela e menor expoente/curvatura. Para os tres componentes
+    # de massa a forma resultante e M1, exatamente a forma semi-empirica linear de
+    # Rahmstorf (2007). Para o termo esterico nenhuma combinacao M1 entra na faixa de TOL
+    # e a escolhida e M3, cujo expoente, porem, converge para o limite inferior q = 1:
+    # ela se reduz na pratica a mesma forma linear. Note-se que o expoente fica assim
+    # fixado pela restricao, e nao pela observacao -- o bootstrap da etapa V4 devolve para
+    # q intervalo cobrindo todo o intervalo permitido, e o mesmo vale para T0 nos ajustes
+    # da Groenlandia e das geleiras, que convergem para o extremo inferior (-3,0 K).
     TOL = 1.05
     melhor_rmse = min(v for v in grade.values() if np.isfinite(v))
     cand = [(k, v) for k, v in grade.items() if np.isfinite(v) and v <= melhor_rmse * TOL]

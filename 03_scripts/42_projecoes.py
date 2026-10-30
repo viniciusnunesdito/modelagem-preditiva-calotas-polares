@@ -59,7 +59,12 @@ ht = np.array(EM['temperatura']['anos'], float)
 Tobs = np.array(EM['temperatura']['T_K'], float)
 ANO0 = 2020                     # ancora das projecoes, igual a do IPCC AR6
 ANOS = np.arange(1900, 2151, 1.0)
-T_ANC = float(np.mean(Tobs[(ht >= 2011) & (ht <= 2030 - 1)]))   # media observada 2011-2024
+# Media observada de 2011 ate o fim da serie HadCRUT5 disponivel (o limite superior de
+# 2029 e apenas um teto folgado, nao uma data de corte). Com a serie atual isso cobre
+# 2011-2025; o ultimo ano e provisorio e tem incerteza mais larga que os anteriores,
+# mas entra com peso 1/15 e valor proximo ao de 2024, de modo que o efeito na ancora e
+# desprezivel.
+T_ANC = float(np.mean(Tobs[(ht >= 2011) & (ht <= 2030 - 1)]))
 
 
 def traj(cen, qual='melhor'):

@@ -862,5 +862,135 @@
     "bytes": 69710,
     "sha256": "402c9645889a978a93e748fce44f87e876424651dbad4f51859bf09d9389ef25",
     "acessado_em": "2026-10-29T12:48:28"
+  },
+  {
+    "arquivo": "frederikse2020/global_basin_timeseries.xlsx",
+    "url": "https://zenodo.org/api/records/3862995/files/global_basin_timeseries.xlsx/content",
+    "descricao": "Series globais e por bacia do nivel do mar e de cada processo contribuinte, 1900-2018",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 271196,
+    "sha256": "27964ba544cb92742919ed99483c83219ed8eeb3c3e748d7b8bb683ab763cc05",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/region_info.xlsx",
+    "url": "https://zenodo.org/api/records/3862995/files/region_info.xlsx/content",
+    "descricao": "Lista de maregrafos usados e estimativas de movimento vertical do terreno (VLM) por regiao",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 60194,
+    "sha256": "1983cd03b5fb38c8c725e5d978383d8de23df6d31692fca6ac431e86b85a0b7b",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/GrIS.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/GrIS.nc/content",
+    "descricao": "Padrao espacial do nivel relativo do mar devido a perda de massa da Groenlandia (impressao digital)",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 24849871,
+    "sha256": "5932bb2e776df888684daa2e136a675a921c7f99f87e8144cf2efd6d2f10db6a",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/AIS.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/AIS.nc/content",
+    "descricao": "Padrao espacial do nivel relativo do mar devido a perda de massa da Antartica (impressao digital)",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 22456092,
+    "sha256": "5efb4069ccad2dd40e608cb6fa2148ee25b3a75f8b4e89dad609bff56ecc3a0b",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/glac.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/glac.nc/content",
+    "descricao": "Padrao espacial do nivel relativo do mar devido as geleiras de montanha",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 33170590,
+    "sha256": "f3594fb0e1fb9568c50725f8beefcbcdc0315f2dd70499692a59a1c77fef8dee",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/tws.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/tws.nc/content",
+    "descricao": "Padrao espacial do nivel relativo do mar devido ao armazenamento de agua continental",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 25496893,
+    "sha256": "6c8d3e9910f4407dda607270109b8c63c9d7e078a27e74e5a9024a9705983e41",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/total.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/total.nc/content",
+    "descricao": "Padrao espacial combinado de todos os processos baristaticos",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 46911247,
+    "sha256": "692833bb154236c840a20b55ca925c6f47ba85ea423b276ec4b467ec93e3066f",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/steric.nc",
+    "url": "https://zenodo.org/api/records/3862995/files/steric.nc/content",
+    "descricao": "Media e desvio padrao das anomalias estericas (termo e halosterica), 1957-2018",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 12819425,
+    "sha256": "9f54a344f40c08ed42e23270b7651993166a380d6183d96314741c86704dd504",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "frederikse2020/README",
+    "url": "https://zenodo.org/api/records/3862995/files/README/content",
+    "descricao": "Documentacao do conjunto de dados",
+    "fonte": "Frederikse et al. (2020), Nature 584:393-397, DOI 10.5281/zenodo.3862995",
+    "bytes": 2197,
+    "sha256": "048dd9c0c3c9d11e9f27f88e41f08b04cc4917e8fa1432321246a0446e8d6cd9",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "ipcc_ar6/location_list.lst",
+    "url": "obtido manualmente da distribuicao IPCC AR6 Sea Level Projections",
+    "descricao": "Lista de 66.190 localidades da ferramenta de projecoes do AR6 (nome, identificador, latitude, longitude). Nao e lido por nenhum script: permanece no repositorio apenas como referencia de consulta.",
+    "fonte": "Garner et al. (2021), IPCC AR6 Sea Level Projections, DOI 10.5281/zenodo.6382554; servido pelo NASA Sea Level Projection Tool",
+    "bytes": 2659137,
+    "sha256": "431bf1a682b5938290565fb4c1969e56cfbb7c4b1fb08bc7459d9b2dc758d88d",
+    "acessado_em": "2026-10-29",
+    "observacao": "registro retroativo: soma SHA-256 recalculada a partir do arquivo versionado. O arquivo nao foi registrado na coleta original porque 00_util_download.get() retornava sem gravar proveniencia quando o destino ja existia em cache (corrigido)."
+  },
+  {
+    "arquivo": "psmsl/inventario_global.json",
+    "url": "derivado de psmsl/filelist_rlr_monthly.txt por 03_scripts/01_baixar_psmsl.py",
+    "descricao": "Inventario global do PSMSL em JSON, derivado do filelist RLR mensal",
+    "fonte": "Derivado neste trabalho",
+    "bytes": 343183,
+    "sha256": "3fe6c427d9401ba363dc32eebb3e3a03b078e6dcf06c6ece6ed4aa58ac476c44",
+    "acessado_em": "2026-10-29",
+    "observacao": "arquivo derivado, nao baixado: soma SHA-256 recalculada a partir do arquivo versionado"
+  },
+  {
+    "arquivo": "psmsl/inventario_brasil.json",
+    "url": "derivado de psmsl/filelist_rlr_monthly.txt por 03_scripts/01_baixar_psmsl.py",
+    "descricao": "Subconjunto brasileiro do inventario PSMSL (12 estacoes)",
+    "fonte": "Derivado neste trabalho",
+    "bytes": 2480,
+    "sha256": "3561a3dd8e5663b6da2b25a334999f2bfea24efa5f650c4f86d0485229408854",
+    "acessado_em": "2026-10-29",
+    "observacao": "arquivo derivado, nao baixado: soma SHA-256 recalculada a partir do arquivo versionado"
+  },
+  {
+    "arquivo": "uhslc/inventario_brasil.json",
+    "url": "derivado de uhslc/meta.geojson por 03_scripts/04_baixar_uhslc.py",
+    "descricao": "Subconjunto brasileiro do inventario UHSLC (23 estacoes)",
+    "fonte": "Derivado neste trabalho",
+    "bytes": 4789,
+    "sha256": "1d66eec116e107206c1836611df0cd3e5689d13be296eef0cd0646ea5466547a",
+    "acessado_em": "2026-10-29",
+    "observacao": "arquivo derivado, nao baixado: soma SHA-256 recalculada a partir do arquivo versionado"
   }
 ]

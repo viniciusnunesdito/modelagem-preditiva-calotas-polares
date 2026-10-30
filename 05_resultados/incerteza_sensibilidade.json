@@ -1,0 +1,60 @@
+{
+ "semente": 20261030,
+ "n_monte_carlo": 200000,
+ "componentes": {
+  "GrIS": {
+   "rotulo": "Groenlandia",
+   "a_satelite": 0.9647,
+   "inc_a_satelite_1sigma": 0.5017,
+   "a_serie_longa_pontual": 0.13205,
+   "a_serie_longa_ic95_bootstrap": [
+    0.12259,
+    0.43093
+   ],
+   "percentil_do_pontual_no_bootstrap": 23.4,
+   "razao_pontual_publicada": 7.31,
+   "razao_mediana_mc": 5.02,
+   "razao_ic95_mc": [
+    -0.1,
+    13.6
+   ],
+   "prob_razao_maior_que_1": 0.931,
+   "a_satelite_sigmas_de_zero": 1.92,
+   "a_satelite_distinguivel_de_zero_95pct": false,
+   "a_ar6": 0.6631,
+   "dif_satelite_menos_ar6": 0.3016,
+   "dif_em_sigmas": 0.6,
+   "p_bilateral_vs_ar6": 0.548,
+   "compativel_com_ar6_95pct": true,
+   "inc_1sigma_se_erros_independentes": 0.2244,
+   "sigmas_de_zero_se_erros_independentes": 4.3
+  },
+  "AIS": {
+   "rotulo": "Antartica",
+   "a_satelite": 0.198,
+   "inc_a_satelite_1sigma": 0.6595,
+   "a_serie_longa_pontual": 0.2184,
+   "a_serie_longa_ic95_bootstrap": [
+    0.16543,
+    0.26695
+   ],
+   "percentil_do_pontual_no_bootstrap": 48.4,
+   "razao_pontual_publicada": 0.91,
+   "razao_mediana_mc": 0.92,
+   "razao_ic95_mc": [
+    -5.1,
+    7.02
+   ],
+   "prob_razao_maior_que_1": 0.489,
+   "a_satelite_sigmas_de_zero": 0.3,
+   "a_satelite_distinguivel_de_zero_95pct": false,
+   "a_ar6": 0.6631,
+   "dif_satelite_menos_ar6": -0.4651,
+   "dif_em_sigmas": -0.71,
+   "p_bilateral_vs_ar6": 0.481,
+   "compativel_com_ar6_95pct": true,
+   "inc_1sigma_se_erros_independentes": 0.2949,
+   "sigmas_de_zero_se_erros_independentes": 0.67
+  }
+ }
+}
