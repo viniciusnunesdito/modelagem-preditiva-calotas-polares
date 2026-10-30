@@ -1,8 +1,8 @@
 # MODELAGEM PREDITIVA DOS IMPACTOS DO DERRETIMENTO DAS CALOTAS POLARES SOBRE A DINÂMICA COSTEIRA BRASILEIRA
 
 Luiz Tonny Moura Santos¹; Vinícius Nunes Benedito¹; Kauan Henrique Teixeira¹;
-Pedro Henrique Pereira Boldrin¹; Mateus da Silva Vieira¹; [Nome completo do 6º integrante]¹;
-[Nome completo do 7º integrante]¹; Prof. Dr. Renato Gonçalves Rocha²
+Pedro Henrique Pereira Boldrin¹; Mateus da Silva Vieira¹; Miguel Otávio Ferreira Martins¹;
+João Pedro Fernandes¹; Prof. Dr. Renato Gonçalves Rocha²
 
 ¹ Curso de Ciência da Computação, Universidade de Franca (UNIFRAN), Franca, São Paulo, Brasil.
 ² Professor Orientador, Universidade de Franca (UNIFRAN), Franca, São Paulo, Brasil.
