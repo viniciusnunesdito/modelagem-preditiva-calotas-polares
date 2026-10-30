@@ -20,6 +20,7 @@ Integrantes: Luiz Tonny Moura Santos; Vinícius Nunes Benedito; Kauan Henrique T
 | `05_resultados/` | Todos os resultados numéricos em JSON, mais os registros de execução (`_log_*.txt`) e o consolidado `numeros_do_artigo.json`. |
 | `07_log_pesquisa/proveniencia_dados.json` | Cobre os 109 arquivos de `01_dados_brutos`. |
 | `07_log_pesquisa/proveniencia_dados.json` | Para cada arquivo baixado: URL, descrição, fonte, tamanho, data de acesso e soma SHA-256. |
+| `08_portfolio/` | **Portfólio do projeto**, 11 páginas em 16:9, em PDF e em HTML autossuficiente. O HTML lê as figuras de `04_figuras/` e abre em qualquer navegador; o PDF foi gerado a partir dele. |
 
 ### Observação sobre a extensão
 
